@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1633897820,verilog,,/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sources_1/new/Address_Counter.v,,blk_mem_gen_0,,,../../../../PCM_Serializer_2Channel.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sim_1/new/Block_Memory_TB.v,1633897598,verilog,,,,Block_Memory_TB,,,../../../../PCM_Serializer_2Channel.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sim_1/new/Serializer_TB.v,1633898035,verilog,,,,Serializer_TB,,,../../../../PCM_Serializer_2Channel.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sources_1/new/Address_Counter.v,1633650533,verilog,,/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sources_1/new/PCM_Clock_Gen.v,,Address_Counter,,,../../../../PCM_Serializer_2Channel.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sources_1/new/PCM_Clock_Gen.v,1633648699,verilog,,/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sources_1/new/Serial_FIFO.v,,PCM_Clock_Gen,,,../../../../PCM_Serializer_2Channel.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sources_1/new/Serial_FIFO.v,1633649216,verilog,,/home/cameron/zschool/SeniorDesign/PCM_Serializer_2Channel/PCM_Serializer_2Channel.srcs/sim_1/new/Serializer_TB.v,,Serial_FIFO,,,../../../../PCM_Serializer_2Channel.gen/sources_1/ip/clk_wiz_0,,,,,

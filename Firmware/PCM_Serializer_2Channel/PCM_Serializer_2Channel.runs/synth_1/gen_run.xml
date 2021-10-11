@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1633978911">
+  <File Type="VDS-TIMINGSUMMARY" Name="PCM_Transmitter_ROM_2Chan_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="PCM_Transmitter_ROM_2Chan.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="PCM_Transmitter_ROM_2Chan_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="PCM_Transmitter_ROM_2Chan_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="PCM_Transmitter_ROM_2Chan_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="PCM_Transmitter_ROM_2Chan.vds"/>
+  <File Type="REPORTS-TCL" Name="PCM_Transmitter_ROM_2Chan_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="PCM_Transmitter_ROM_2Chan_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="PCM_Transmitter_ROM_2Chan.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Address_Counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PCM_Clock_Gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Serial_FIFO.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PCM_Transmitter_ROM_2Chan.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../COE_File_Gen/coe/Sine_1k_24bit.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PCM_Transmitter_ROM_2Chan"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Zybo_Contraint_Files/2Channel_SDA_Piout.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Zybo_Contraint_Files/2Channel_SDA_Piout.xdc"/>
+        <Attr Name="ImportTime" Val="1633466012"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Zybo_Contraint_Files/2Channel_SDA_Piout.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

@@ -1,0 +1,274 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Mon Oct 11 14:02:54 2021
+| Host         : cameron-xps running 64-bit Ubuntu 18.04.5 LTS
+| Command      : report_control_sets -verbose -file PCM_Transmitter_ROM_2Chan_control_sets_placed.rpt
+| Design       : PCM_Transmitter_ROM_2Chan
+| Device       : xc7z010
+------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   196 |
+|    Minimum number of control sets                        |   196 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |  1352 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   196 |
+| >= 0 to < 4        |   192 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            8 |
+| No           | No                    | Yes                    |             168 |          140 |
+| No           | Yes                   | No                     |              64 |           64 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------+---------------+-------------------------------------+------------------+----------------+--------------+
+|               Clock Signal              | Enable Signal |           Set/Reset Signal          | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------------+---------------+-------------------------------------+------------------+----------------+--------------+
+|  FIFO_A/Data_Out_reg[40]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[40]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[54]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[54]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[55]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[55]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[56]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[56]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~Clk_Wiz/inst/clk_out1                  |               |                                     |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[36]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[36]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[38]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[38]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[39]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[39]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[3]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[53]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[41]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[41]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[42]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[42]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[43]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[43]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[44]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[44]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[28]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[28]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[27]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[27]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[26]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[26]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[25]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[25]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[24]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[24]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[23]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[23]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[22]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[22]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[48]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[52]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[36]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[30]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[21]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[37]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[45]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[45]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[46]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[47]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[47]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[20]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[20]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[48]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[49]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[49]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[4]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[50]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[50]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[51]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[51]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[52]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[53]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[45]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[45]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[9]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[35]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[35]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[34]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[34]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[33]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[33]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[32]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[32]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[31]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[31]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[30]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[30]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[2]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[52]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[52]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[21]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[21]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[37]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[37]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[8]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[46]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[46]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[47]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[47]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[48]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[48]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[49]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[49]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[4]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[4]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[50]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[50]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[51]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[51]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[53]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[53]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[54]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[54]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[55]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[55]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[56]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[56]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[10]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[1]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[19]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[19]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[18]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[18]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[17]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[17]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[16]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[16]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[29]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[29]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[15]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[15]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[14]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[13]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[12]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[11]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[46]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[0]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[0]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[57]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[57]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[58]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[58]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[59]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[59]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[5]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[60]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[60]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[61]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[61]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[62]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[62]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[63]_LDC_i_1_n_0    |               | FIFO_A/Data_Out_reg[63]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[6]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+|  FIFO_A/Data_Out_reg[7]_LDC_i_1_n_0     |               | FIFO_A/Data_Out_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[1]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[25]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[25]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[24]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[24]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[23]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[23]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[22]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[22]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[21]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[20]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[20]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[1]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[26]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[19]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[19]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[18]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[18]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[17]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[17]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[16]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[16]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[29]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[29]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[61]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[41]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[36]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[37]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[38]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[38]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[39]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[39]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[3]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[3]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[40]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[40]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[41]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[15]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[42]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[42]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[43]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[43]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[44]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[44]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[28]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[28]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[27]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[27]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[26]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[34]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[62]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[63]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[63]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[6]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[7]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[7]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[8]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[8]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[9]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[9]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[35]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[35]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[62]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[34]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[33]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[33]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[32]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[32]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[31]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[31]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[30]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[2]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[2]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[6]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[57]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[14]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[13]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[13]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[12]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[12]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[11]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[11]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[10]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[10]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[0]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[57]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[14]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[58]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[58]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[59]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[59]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[5]_LDC_i_1_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[5]_LDC_i_2_n_0  |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[60]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[60]_LDC_i_2_n_0 |                1 |              1 |         1.00 |
+| ~BCK_reg_i_1_n_0                        |               | FIFO_A/Data_Out_reg[61]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  Clk_Wiz/inst/clk_out1                  |               |                                     |                6 |              7 |         1.17 |
+|  Clk_Wiz/inst/clk_out1_clk_wiz_0_en_clk |               |                                     |                1 |              8 |         8.00 |
+|  Clk_Wiz/inst/clk_out1                  |               | Rst_IBUF                            |                3 |              9 |         3.00 |
+|  Ready_BUFG                             |               | Rst_IBUF                            |               10 |             32 |         3.20 |
++-----------------------------------------+---------------+-------------------------------------+------------------+----------------+--------------+
+
+
