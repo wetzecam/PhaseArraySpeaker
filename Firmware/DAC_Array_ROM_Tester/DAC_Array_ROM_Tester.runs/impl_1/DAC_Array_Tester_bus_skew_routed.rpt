@@ -1,0 +1,15 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Sat Oct 16 17:10:56 2021
+| Host         : cameron-xps running 64-bit Ubuntu 18.04.5 LTS
+| Command      : report_bus_skew -warn_on_violation -file DAC_Array_Tester_bus_skew_routed.rpt -pb DAC_Array_Tester_bus_skew_routed.pb -rpx DAC_Array_Tester_bus_skew_routed.rpx
+| Design       : DAC_Array_Tester
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

@@ -1,0 +1,2 @@
+Sine_ROM.v,verilog,xil_defaultlib,../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/Sine_ROM/sim/Sine_ROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

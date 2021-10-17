@@ -1,0 +1,4 @@
+Running: xsim.dir/PCM_Transmitter_16_behav/xsimk -simmode gui -wdb PCM_Transmitter_16_behav.wdb -simrunnum 0 -socket 59267
+Design successfully loaded
+Design Loading Memory Usage: 45652 KB (Peak: 45708 KB)
+Design Loading CPU Usage: 0 ms

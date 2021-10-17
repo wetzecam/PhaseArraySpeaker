@@ -1,0 +1,20 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2021.1/bin/unwrapped/lnx64.o/xelab -wto e4e96e662c2d49438fd933be4ae47b25 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PCM_Transmitter_16_behav xil_defaultlib.PCM_Transmitter_16 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.SRL16E_default
+Compiling module xil_defaultlib.SR_Clock_Div_4
+Compiling module xil_defaultlib.SR_Clock_Div_256
+Compiling module xil_defaultlib.FIFO_Latch_Clock
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.Serial_Clock_Divider
+Compiling module xil_defaultlib.Serial_FIFO
+Compiling module xil_defaultlib.PCM_Transmitter_16
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PCM_Transmitter_16_behav

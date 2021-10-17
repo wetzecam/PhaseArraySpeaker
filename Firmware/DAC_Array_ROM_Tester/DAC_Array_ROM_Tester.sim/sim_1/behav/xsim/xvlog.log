@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/FIFO_Latch_Clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_Latch_Clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/SR_Clock_Div_256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Div_256
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/SR_Clock_Div_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Div_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/Serial_Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Serial_Clock_Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/Serial_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Serial_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/PCM_Transmitter_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCM_Transmitter_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/sim/PCM_Transmitter_16_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCM_Transmitter_16_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Dirac_ROM/sim/Dirac_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dirac_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Triangle_ROM/sim/Triangle_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Triangle_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Saw_ROM/sim/Saw_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Saw_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Sine_ROM/sim/Sine_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sine_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+WARNING: [VRFC 10-1103] net type must be explicitly specified for 'clk_out1' when default_nettype is none [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:72]
+WARNING: [VRFC 10-1103] net type must be explicitly specified for 'reset' when default_nettype is none [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:74]
+WARNING: [VRFC 10-3594] non-net port 'reset' cannot be of mode input [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:74]
+WARNING: [VRFC 10-1103] net type must be explicitly specified for 'locked' when default_nettype is none [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:75]
+WARNING: [VRFC 10-1103] net type must be explicitly specified for 'clk_in1' when default_nettype is none [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:76]
+WARNING: [VRFC 10-3594] non-net port 'clk_in1' cannot be of mode input [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:76]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'locked' is not permitted [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:182]
+ERROR: [VRFC 10-2865] module 'clk_wiz_0_clk_wiz' ignored due to previous errors [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v:68]

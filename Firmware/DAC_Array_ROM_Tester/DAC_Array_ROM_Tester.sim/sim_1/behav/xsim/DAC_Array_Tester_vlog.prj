@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/FIFO_Latch_Clock.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/SR_Clock_Div_256.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/SR_Clock_Div_4.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/Serial_Clock_Divider.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/Serial_FIFO.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/PCM_Transmitter_16.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_1/sim/PCM_Transmitter_16_0.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/Dirac_ROM/sim/Dirac_ROM.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/Triangle_ROM/sim/Triangle_ROM.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/Saw_ROM/sim/Saw_ROM.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/Sine_ROM/sim/Sine_ROM.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_clk_wiz.v" \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.v" \
+"../../../../DAC_Array_ROM_Tester.srcs/sources_1/imports/new/Address_Counter.v" \
+"../../../../DAC_Array_ROM_Tester.srcs/sources_1/new/DAC_Array_Tester.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,1063 @@
+
+*** Running vivado
+    with args -log DAC_Array_Tester.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source DAC_Array_Tester.tcl -notrace
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source DAC_Array_Tester.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.ip_user_files'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2021.1/data/ip'.
+Command: link_design -top DAC_Array_Tester -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-454] Reading design checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.dcp' for cell 'Clock_Wizard'
+INFO: [Project 1-454] Reading design checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Dirac_ROM/Dirac_ROM.dcp' for cell 'DiracROM'
+INFO: [Project 1-454] Reading design checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/PCM_Transmitter_16_0_2/PCM_Transmitter_16_0.dcp' for cell 'PCM_TX'
+INFO: [Project 1-454] Reading design checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Saw_ROM/Saw_ROM.dcp' for cell 'SawROM'
+INFO: [Project 1-454] Reading design checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Sine_ROM/Sine_ROM.dcp' for cell 'SineROM'
+INFO: [Project 1-454] Reading design checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/Triangle_ROM/Triangle_ROM.dcp' for cell 'TriangleROM'
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2490.797 ; gain = 0.000 ; free physical = 18173 ; free virtual = 24474
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_board.xdc] for cell 'Clock_Wizard/inst'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_board.xdc] for cell 'Clock_Wizard/inst'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc] for cell 'Clock_Wizard/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2687.434 ; gain = 140.844 ; free physical = 17700 ; free virtual = 24000
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc] for cell 'Clock_Wizard/inst'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.srcs/constrs_1/new/DAC_Array_Tester.xdc]
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.srcs/constrs_1/new/DAC_Array_Tester.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2687.434 ; gain = 0.000 ; free physical = 17700 ; free virtual = 24001
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2687.434 ; gain = 196.871 ; free physical = 17700 ; free virtual = 24001
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.67 . Memory (MB): peak = 2751.465 ; gain = 64.031 ; free physical = 17689 ; free virtual = 23989
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 139403859
+
+Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2751.465 ; gain = 0.000 ; free physical = 17688 ; free virtual = 23989
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_2__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_2__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_2__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_2__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_2__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_2__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_2__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_2__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_2__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_2__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_2__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_2__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_2__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[3] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_2__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_2__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_2__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_2__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_2__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_2__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_2__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[4] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_2__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_2__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_2__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_2__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_2__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_2__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_2__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[5] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_2__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_2__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_2__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_2__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_2__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_2__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_2__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[6] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_2__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_2__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_2__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_2__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_2__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_2__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_2__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[7] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_2__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_2__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_2__1
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_D_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_2__2
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_E_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_2__3
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_F_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_2__4
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_G_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_2__5
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_H_R[8] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_2__6
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_B_R[9] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[17]_LDC_i_1__0
+WARNING: [Opt 31-155] Driverless net PCM_TX/inst/Clock_Divier/Tx_C_R[9] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: PCM_TX/inst/Clock_Divier/Data_Out_reg[17]_LDC_i_1__1
+INFO: [Common 17-14] Message 'Opt 31-155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 139403859
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Retarget, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 139403859
+
+Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1ffe479aa
+
+Time (s): cpu = 00:00:00.40 ; elapsed = 00:00:00.31 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17515 ; free virtual = 23816
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 2044 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 11804ae3f
+
+Time (s): cpu = 00:00:00.41 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 1 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 17414c735
+
+Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.34 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+INFO: [Opt 31-389] Phase Shift Register Optimization created 12 cells and removed 24 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 19f48d238
+
+Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.34 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              1  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |            2044  |                                              0  |
+|  BUFG optimization            |               0  |               1  |                                              0  |
+|  Shift Register Optimization  |              12  |              24  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+Ending Logic Optimization Task | Checksum: 1f79db34a
+
+Time (s): cpu = 00:00:00.46 ; elapsed = 00:00:00.35 . Memory (MB): peak = 2900.262 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 4 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 8
+Ending PowerOpt Patch Enables Task | Checksum: 1f79db34a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17511 ; free virtual = 23812
+Ending Power Optimization Task | Checksum: 1f79db34a
+
+Time (s): cpu = 00:00:00.76 ; elapsed = 00:00:00.48 . Memory (MB): peak = 3153.152 ; gain = 252.891 ; free physical = 17516 ; free virtual = 23816
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1f79db34a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+Ending Netlist Obfuscation Task | Checksum: 1f79db34a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17516 ; free virtual = 23816
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17511 ; free virtual = 23813
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/DAC_Array_Tester_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file DAC_Array_Tester_drc_opted.rpt -pb DAC_Array_Tester_drc_opted.pb -rpx DAC_Array_Tester_drc_opted.rpx
+Command: report_drc -file DAC_Array_Tester_drc_opted.rpt -pb DAC_Array_Tester_drc_opted.pb -rpx DAC_Array_Tester_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/DAC_Array_Tester_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1840 rule limit reached: 20 violations have been found.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[10] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[5] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[6] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[9] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[10] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[5] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[6] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[7] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[8] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[9] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[10] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[5] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[6] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[9] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[10] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[9] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 21 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17444 ; free virtual = 23746
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 154ca0400
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17444 ; free virtual = 23746
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17444 ; free virtual = 23746
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 154dcd2d2
+
+Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:00.10 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17471 ; free virtual = 23772
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1d84e9b91
+
+Time (s): cpu = 00:00:00.72 ; elapsed = 00:00:00.20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17483 ; free virtual = 23785
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1d84e9b91
+
+Time (s): cpu = 00:00:00.73 ; elapsed = 00:00:00.20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17483 ; free virtual = 23785
+Phase 1 Placer Initialization | Checksum: 1d84e9b91
+
+Time (s): cpu = 00:00:00.74 ; elapsed = 00:00:00.20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17483 ; free virtual = 23785
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 19be3c1c0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.32 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 23b48a2c2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.34 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23781
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 23b48a2c2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.34 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23781
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 71 LUTNM shape to break, 0 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 47, two critical 24, total 71, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 71 nets or LUTs. Breaked 71 LUTs, combined 0 existing LUT and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-527] Pass 1: Identified 8 candidate cells for BRAM register optimization
+INFO: [Physopt 32-665] Processed cell SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 16 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 16 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 8 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 8 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 8 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 16 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell TriangleROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 16 registers were pushed out.
+INFO: [Physopt 32-665] Processed cell TriangleROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram. 8 registers were pushed out.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 8 nets or cells. Created 96 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17480 ; free virtual = 23781
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17480 ; free virtual = 23781
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |           71  |              0  |                    71  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |           96  |              0  |                     8  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |          167  |              0  |                    79  |           0  |           9  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.1 Physical Synthesis In Placer | Checksum: 1577551f6
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17480 ; free virtual = 23782
+Phase 2.4 Global Placement Core | Checksum: 1589fcac7
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17480 ; free virtual = 23781
+Phase 2 Global Placement | Checksum: 1589fcac7
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17480 ; free virtual = 23781
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1481188aa
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17480 ; free virtual = 23781
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1845b6dcf
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23781
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 181322149
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23781
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: da153ece
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23781
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: d737e5a9
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:05 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17478 ; free virtual = 23779
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 124299480
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:05 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23780
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: e8000324
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:05 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23780
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: e8000324
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:05 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23780
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: e3e223bb
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23781
+Phase 3 Detail Placement | Checksum: e3e223bb
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23781
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 11e68e2e9
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-6.256 | TNS=-915.035 |
+Phase 1 Physical Synthesis Initialization | Checksum: b4603c24
+
+Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17478 ; free virtual = 23780
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 1059b88d5
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17478 ; free virtual = 23780
+Phase 4.1.1.1 BUFG Insertion | Checksum: 11e68e2e9
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17479 ; free virtual = 23780
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-5.500. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1385a464c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+Phase 4.1 Post Commit Optimization | Checksum: 1385a464c
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1385a464c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                1x1|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1385a464c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+Phase 4.3 Placer Reporting | Checksum: 1385a464c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 18d6849c2
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+Ending Placer Task | Checksum: c73695e0
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17477 ; free virtual = 23778
+INFO: [Common 17-83] Releasing license: Implementation
+91 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:21 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17482 ; free virtual = 23784
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17475 ; free virtual = 23779
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/DAC_Array_Tester_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file DAC_Array_Tester_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17470 ; free virtual = 23772
+INFO: [runtcl-4] Executing : report_utilization -file DAC_Array_Tester_utilization_placed.rpt -pb DAC_Array_Tester_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file DAC_Array_Tester_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.10 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17478 ; free virtual = 23780
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 0.17s |  WALL: 0.11s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17451 ; free virtual = 23753
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.500 | TNS=-879.803 |
+Phase 1 Physical Synthesis Initialization | Checksum: 185b6a792
+
+Time (s): cpu = 00:00:00.42 ; elapsed = 00:00:00.11 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17451 ; free virtual = 23753
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.500 | TNS=-879.803 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 185b6a792
+
+Time (s): cpu = 00:00:00.51 ; elapsed = 00:00:00.13 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17450 ; free virtual = 23752
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.500 | TNS=-879.803 |
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-571] Net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14] was not replicated.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14].  Did not re-place instance PCM_TX/inst/Clock_Divier/DIV_Latch/SRL16E_inst_14_lopt_merged
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/p_2_in[53].  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out[53]_C_i_1
+INFO: [Physopt 32-572] Net PCM_TX/inst/FIFO_A/p_2_in[53] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/p_2_in[53]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/nReset_11.  Did not re-place instance PCM_TX/inst/Clock_Divier/Data_Out_reg[52]_LDC_i_2
+INFO: [Physopt 32-81] Processed net PCM_TX/inst/Clock_Divier/nReset_11. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net PCM_TX/inst/Clock_Divier/nReset_11. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.465 | TNS=-879.070 |
+INFO: [Physopt 32-663] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[47]_P_n_0.  Re-placed instance PCM_TX/inst/FIFO_A/Data_Out_reg[47]_P
+INFO: [Physopt 32-735] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[47]_P_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.398 | TNS=-879.022 |
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[28]_P_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[28]_P
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[28]_P_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/p_2_in[28].  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out[28]_C_i_1
+INFO: [Physopt 32-81] Processed net PCM_TX/inst/FIFO_A/p_2_in[28]. Replicated 1 times.
+INFO: [Physopt 32-735] Processed net PCM_TX/inst/FIFO_A/p_2_in[28]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.387 | TNS=-879.006 |
+INFO: [Physopt 32-663] Processed net douta[20]_alias.  Re-placed instance PCM_TX_i_60_psbram
+INFO: [Physopt 32-735] Processed net douta[20]_alias. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.379 | TNS=-878.959 |
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN.  Did not re-place instance PCM_TX/inst/Clock_Divier/Data_Out_reg[52]_LDC_i_2_replica
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[52]_LDC_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[47]_P_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[47]_P
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[47]_P_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net douta[15]_alias_1.  Re-placed instance PCM_TX_i_65_psbram_1
+INFO: [Physopt 32-735] Processed net douta[15]_alias_1. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.379 | TNS=-878.945 |
+INFO: [Physopt 32-663] Processed net douta[15]_alias_2.  Re-placed instance PCM_TX_i_65_psbram_2
+INFO: [Physopt 32-735] Processed net douta[15]_alias_2. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.379 | TNS=-878.895 |
+INFO: [Physopt 32-663] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[52]_P_n_0.  Re-placed instance PCM_TX/inst/FIFO_A/Data_Out_reg[52]_P
+INFO: [Physopt 32-735] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[52]_P_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.379 | TNS=-878.747 |
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14].  Did not re-place instance PCM_TX/inst/Clock_Divier/DIV_Latch/SRL16E_inst_14_lopt_merged
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/p_2_in[53].  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out[53]_C_i_1
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/p_2_in[53]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN.  Did not re-place instance PCM_TX/inst/Clock_Divier/Data_Out_reg[52]_LDC_i_2_replica
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[52]_LDC_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.379 | TNS=-878.747 |
+Phase 3 Critical Path Optimization | Checksum: 185b6a792
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:01 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17446 ; free virtual = 23748
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.379 | TNS=-878.747 |
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-571] Net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14] was not replicated.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14].  Did not re-place instance PCM_TX/inst/Clock_Divier/DIV_Latch/SRL16E_inst_14_lopt_merged
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/p_2_in[53].  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out[53]_C_i_1
+INFO: [Physopt 32-572] Net PCM_TX/inst/FIFO_A/p_2_in[53] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/p_2_in[53]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN.  Did not re-place instance PCM_TX/inst/Clock_Divier/Data_Out_reg[52]_LDC_i_2_replica
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[52]_LDC_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[53]_C_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14].  Did not re-place instance PCM_TX/inst/Clock_Divier/DIV_Latch/SRL16E_inst_14_lopt_merged
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/DIV_Latch/feed_forward[14]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/p_2_in[53].  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out[53]_C_i_1
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/p_2_in[53]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN.  Did not re-place instance PCM_TX/inst/Clock_Divier/Data_Out_reg[52]_LDC_i_2_replica
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/Clock_Divier/nReset_11_repN. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[52]_LDC_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-662] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0.  Did not re-place instance PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P
+INFO: [Physopt 32-702] Processed net PCM_TX/inst/FIFO_A/Data_Out_reg[16]_P_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.379 | TNS=-878.747 |
+Phase 4 Critical Path Optimization | Checksum: 185b6a792
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17444 ; free virtual = 23746
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17444 ; free virtual = 23746
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-5.379 | TNS=-878.747 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.121  |          1.056  |            2  |              0  |                     7  |           0  |           2  |  00:00:01  |
+|  Total          |          0.121  |          1.056  |            2  |              0  |                     7  |           0  |           3  |  00:00:01  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17444 ; free virtual = 23746
+Ending Physical Synthesis Task | Checksum: 245f948ba
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17444 ; free virtual = 23746
+INFO: [Common 17-83] Releasing license: Implementation
+184 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17440 ; free virtual = 23744
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/DAC_Array_Tester_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 938ce35e ConstDB: 0 ShapeSum: eb1d2a89 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 6d182f48
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17381 ; free virtual = 23684
+Post Restoration Checksum: NetGraph: 2da56902 NumContArr: 3f72c646 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 6d182f48
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17382 ; free virtual = 23685
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 6d182f48
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17349 ; free virtual = 23652
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 6d182f48
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17349 ; free virtual = 23652
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: a5fd7189
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17342 ; free virtual = 23645
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.344 | TNS=-864.533| WHS=-0.190 | THS=-6.197 |
+
+Phase 2 Router Initialization | Checksum: 5bf036be
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17341 ; free virtual = 23644
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.14147 %
+  Global Horizontal Routing Utilization  = 0.141774 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 625
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 577
+  Number of Partially Routed Nets     = 48
+  Number of Node Overlaps             = 87
+
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 5bf036be
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17342 ; free virtual = 23645
+Phase 3 Initial Routing | Checksum: 100b5da29
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17341 ; free virtual = 23644
+INFO: [Route 35-580] Design has 5 pins with tight setup and hold constraints.
+
+The top 5 pins with tight setup and hold constraints:
+
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|                      MCK |                      BCK |                                                                    PCM_TX/inst/FIFO_A/Data_Out_reg[9]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[10]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[29]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[19]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[46]_C/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+
+File with complete list of pins: tight_setup_hold_pins.txt
+
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 67
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.873 | TNS=-917.743| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1babbc6fa
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17342 ; free virtual = 23644
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.264 | TNS=-917.977| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 16ace4bef
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17341 ; free virtual = 23644
+Phase 4 Rip-up And Reroute | Checksum: 16ace4bef
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17341 ; free virtual = 23644
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 16ace4bef
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17341 ; free virtual = 23644
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.873 | TNS=-917.743| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1869dcf24
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17340 ; free virtual = 23643
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1869dcf24
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17340 ; free virtual = 23643
+Phase 5 Delay and Skew Optimization | Checksum: 1869dcf24
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17340 ; free virtual = 23643
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: cb5017c5
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17340 ; free virtual = 23643
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.873 | TNS=-916.399| WHS=0.091  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: cb5017c5
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17341 ; free virtual = 23643
+Phase 6 Post Hold Fix | Checksum: cb5017c5
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17340 ; free virtual = 23643
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.35107 %
+  Global Horizontal Routing Utilization  = 0.315028 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 33.3333%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 28.8288%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 23.5294%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 33.8235%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 126ba9cfb
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17341 ; free virtual = 23643
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 126ba9cfb
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17339 ; free virtual = 23642
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1359182f6
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17339 ; free virtual = 23642
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.873 | TNS=-916.399| WHS=0.091  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1359182f6
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17339 ; free virtual = 23642
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17372 ; free virtual = 23675
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+203 Infos, 122 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17372 ; free virtual = 23675
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3153.152 ; gain = 0.000 ; free physical = 17368 ; free virtual = 23673
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/DAC_Array_Tester_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file DAC_Array_Tester_drc_routed.rpt -pb DAC_Array_Tester_drc_routed.pb -rpx DAC_Array_Tester_drc_routed.rpx
+Command: report_drc -file DAC_Array_Tester_drc_routed.rpt -pb DAC_Array_Tester_drc_routed.pb -rpx DAC_Array_Tester_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/DAC_Array_Tester_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file DAC_Array_Tester_methodology_drc_routed.rpt -pb DAC_Array_Tester_methodology_drc_routed.pb -rpx DAC_Array_Tester_methodology_drc_routed.rpx
+Command: report_methodology -file DAC_Array_Tester_methodology_drc_routed.rpt -pb DAC_Array_Tester_methodology_drc_routed.pb -rpx DAC_Array_Tester_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/DAC_Array_Tester_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file DAC_Array_Tester_power_routed.rpt -pb DAC_Array_Tester_power_summary_routed.pb -rpx DAC_Array_Tester_power_routed.rpx
+Command: report_power -file DAC_Array_Tester_power_routed.rpt -pb DAC_Array_Tester_power_summary_routed.pb -rpx DAC_Array_Tester_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+215 Infos, 122 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file DAC_Array_Tester_route_status.rpt -pb DAC_Array_Tester_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file DAC_Array_Tester_timing_summary_routed.rpt -pb DAC_Array_Tester_timing_summary_routed.pb -rpx DAC_Array_Tester_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file DAC_Array_Tester_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file DAC_Array_Tester_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file DAC_Array_Tester_bus_skew_routed.rpt -pb DAC_Array_Tester_bus_skew_routed.pb -rpx DAC_Array_Tester_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: write_bitstream -force DAC_Array_Tester.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1840 rule limit reached: 20 violations have been found.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_384 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[8]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_385 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[9]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_386 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_387 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_388 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_389 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_390 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_391 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_392 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_393 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[17]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_394 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[18]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_395 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[19]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_396 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[20]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_397 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[21]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_398 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[22]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_399 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[23]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_400 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[24]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_401 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[25]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_402 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[26]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_403 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[27]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_404 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[28]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_405 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[29]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_406 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[30]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_407 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[31]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_408 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[40]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[40]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_409 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[41]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[41]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_410 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[42]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[42]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_411 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[43]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[43]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_412 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[44]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[44]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_413 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[45]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[45]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_414 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[46]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[46]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_415 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[47]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[47]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_416 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[48]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[48]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_417 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[49]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[49]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_418 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[50]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[50]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_419 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[51]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[51]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_420 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[52]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[52]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_421 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[53]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[53]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_422 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[54]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[54]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_423 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[55]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[55]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_424 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[56]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[56]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_425 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[57]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[57]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_426 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[58]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[58]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_427 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[59]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[59]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_428 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[60]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[60]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_429 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[61]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[61]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_430 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[62]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[62]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net PCM_TX/inst/Clock_Divier/nReset_431 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divier/Data_Out_reg[63]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divier/Data_Out_reg[63]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[10] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[5] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[6] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[9] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[10] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[5] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[6] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[7] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[8] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[9] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[10] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[5] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[6] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[9] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[10] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[9] (net: SineROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC ZPS7-1] PS7 block required: The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 70 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./DAC_Array_Tester.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [#UNDEF] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/cameron/PhaseArraySpeaker/Firmware/DAC_Array_ROM_Tester/DAC_Array_ROM_Tester.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Sat Oct 16 17:11:08 2021. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2021.1/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+13 Infos, 70 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 3379.836 ; gain = 198.293 ; free physical = 17339 ; free virtual = 23646
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 16 17:11:08 2021...

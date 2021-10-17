@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/FIFO_Latch_Clock.v,1634415993,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_256.v,,FIFO_Latch_Clock,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/PCM_Transmitter_16.v,1634416381,verilog,,,,PCM_Transmitter_16,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_256.v,1634414699,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_4.v,,SR_Clock_Div_256,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_4.v,1634414660,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Divider.v,,SR_Clock_Div_4,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Divider.v,1634416427,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_FIFO.v,,Serial_Clock_Divider,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_FIFO.v,1634007552,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/PCM_Transmitter_16.v,,Serial_FIFO,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Oct 16 15:48:22 2021
+# Process ID: 21178
+# Current directory: /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.runs/impl_1
+# Command line: vivado -log PCM_Transmitter_16.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PCM_Transmitter_16.tcl -notrace
+# Log file: /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.runs/impl_1/PCM_Transmitter_16.vdi
+# Journal file: /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source PCM_Transmitter_16.tcl -notrace

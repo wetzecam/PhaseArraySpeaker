@@ -1,0 +1,2 @@
+Dirac_ROM.v,verilog,xil_defaultlib,../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/Dirac_ROM/sim/Dirac_ROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

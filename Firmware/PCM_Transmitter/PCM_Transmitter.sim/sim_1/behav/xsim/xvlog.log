@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/FIFO_Latch_Clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_Latch_Clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Div_256
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Div_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Serial_Clock_Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Serial_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/PCM_Transmitter_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCM_Transmitter_16

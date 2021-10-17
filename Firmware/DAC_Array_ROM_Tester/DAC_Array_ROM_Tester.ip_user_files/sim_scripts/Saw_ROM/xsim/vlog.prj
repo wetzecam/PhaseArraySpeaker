@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../DAC_Array_ROM_Tester.gen/sources_1/ip/Saw_ROM/sim/Saw_ROM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

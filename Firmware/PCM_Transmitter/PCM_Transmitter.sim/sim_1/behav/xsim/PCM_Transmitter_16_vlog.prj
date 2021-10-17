@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PCM_Transmitter.srcs/sources_1/new/FIFO_Latch_Clock.v" \
+"../../../../PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_256.v" \
+"../../../../PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_4.v" \
+"../../../../PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Divider.v" \
+"../../../../PCM_Transmitter.srcs/sources_1/new/Serial_FIFO.v" \
+"../../../../PCM_Transmitter.srcs/sources_1/new/PCM_Transmitter_16.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
