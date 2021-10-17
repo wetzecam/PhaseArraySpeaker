@@ -1,0 +1,256 @@
+
+*** Running vivado
+    with args -log PCM_Transmitter_16_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCM_Transmitter_16_0.tcl
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source PCM_Transmitter_16_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.ip_user_files'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top PCM_Transmitter_16_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24721
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2497.828 ; gain = 0.000 ; free physical = 14587 ; free virtual = 21369
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PCM_Transmitter_16_0' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/synth/PCM_Transmitter_16_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'PCM_Transmitter_16' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Serial_Clock_Divider' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/Serial_Clock_Divider.v:24]
+INFO: [Synth 8-6157] synthesizing module 'SR_Clock_Div_4' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/SR_Clock_Div_4.v:24]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (1#1) [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6155] done synthesizing module 'SR_Clock_Div_4' (2#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/SR_Clock_Div_4.v:24]
+INFO: [Synth 8-6157] synthesizing module 'SR_Clock_Div_256' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/SR_Clock_Div_256.v:24]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E__parameterized0' [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E__parameterized0' (2#1) [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6155] done synthesizing module 'SR_Clock_Div_256' (3#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/SR_Clock_Div_256.v:24]
+INFO: [Synth 8-6157] synthesizing module 'FIFO_Latch_Clock' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/FIFO_Latch_Clock.v:24]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E__parameterized1' [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E__parameterized1' (3#1) [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100961]
+INFO: [Synth 8-6155] done synthesizing module 'FIFO_Latch_Clock' (4#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/FIFO_Latch_Clock.v:24]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (5#1) [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'Serial_Clock_Divider' (6#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/Serial_Clock_Divider.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Serial_FIFO' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/Serial_FIFO.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Serial_FIFO' (7#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/Serial_FIFO.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'PCM_Transmitter_16' (8#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'PCM_Transmitter_16_0' (9#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/synth/PCM_Transmitter_16_0.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2497.828 ; gain = 0.000 ; free physical = 14351 ; free virtual = 21134
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2497.828 ; gain = 0.000 ; free physical = 15086 ; free virtual = 21868
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2497.828 ; gain = 0.000 ; free physical = 15086 ; free virtual = 21868
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2497.828 ; gain = 0.000 ; free physical = 15887 ; free virtual = 22669
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2561.625 ; gain = 0.000 ; free physical = 15861 ; free virtual = 22643
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2561.625 ; gain = 0.000 ; free physical = 15859 ; free virtual = 22641
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15834 ; free virtual = 22617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15834 ; free virtual = 22617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15837 ; free virtual = 22619
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15830 ; free virtual = 22613
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15841 ; free virtual = 22628
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15914 ; free virtual = 22701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15901 ; free virtual = 22688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15900 ; free virtual = 22687
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15850 ; free virtual = 22637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15851 ; free virtual = 22638
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15850 ; free virtual = 22637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15850 ; free virtual = 22637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15896 ; free virtual = 22683
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15895 ; free virtual = 22682
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------------+------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name          | RTL Name                     | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------------+------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|PCM_Transmitter_16_0 | inst/FIFO_A/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|PCM_Transmitter_16_0 | inst/FIFO_B/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|PCM_Transmitter_16_0 | inst/FIFO_C/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|PCM_Transmitter_16_0 | inst/FIFO_D/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|PCM_Transmitter_16_0 | inst/FIFO_E/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|PCM_Transmitter_16_0 | inst/FIFO_F/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|PCM_Transmitter_16_0 | inst/FIFO_G/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|PCM_Transmitter_16_0 | inst/FIFO_H/Data_Out_reg[39] | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++---------------------+------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |LUT1   |     3|
+|3     |LUT2   |    17|
+|4     |LUT3   |  1144|
+|5     |SRL16E |    33|
+|6     |FDCE   |   391|
+|7     |FDPE   |   384|
+|8     |FDRE   |     8|
+|9     |LDC    |   384|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15896 ; free virtual = 22683
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2561.625 ; gain = 0.000 ; free physical = 15945 ; free virtual = 22732
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2561.625 ; gain = 63.797 ; free physical = 15945 ; free virtual = 22732
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2561.625 ; gain = 0.000 ; free physical = 16033 ; free virtual = 22820
+INFO: [Netlist 29-17] Analyzing 384 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 8 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2561.625 ; gain = 0.000 ; free physical = 15926 ; free virtual = 22713
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 384 instances were transformed.
+  LDC => LDCE: 384 instances
+
+Synth Design complete, checksum: 4054b05f
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:23 . Memory (MB): peak = 2561.625 ; gain = 64.031 ; free physical = 16073 ; free virtual = 22860
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.runs/PCM_Transmitter_16_0_synth_1/PCM_Transmitter_16_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP PCM_Transmitter_16_0, cache-ID = e9d61f714f96a555
+INFO: [Coretcl 2-1174] Renamed 13 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.runs/PCM_Transmitter_16_0_synth_1/PCM_Transmitter_16_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PCM_Transmitter_16_0_utilization_synth.rpt -pb PCM_Transmitter_16_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 17 15:48:03 2021...

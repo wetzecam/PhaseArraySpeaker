@@ -1,0 +1,629 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Sun Oct 17 17:54:52 2021
+| Host         : cameron-xps running 64-bit Ubuntu 18.04.5 LTS
+| Command      : report_drc -file DAC_Array_Tester_drc_routed.rpt -pb DAC_Array_Tester_drc_routed.pb -rpx DAC_Array_Tester_drc_routed.rpx
+| Design       : DAC_Array_Tester
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 118
++-----------+----------+----------------------------+------------+
+| Rule      | Severity | Description                | Violations |
++-----------+----------+----------------------------+------------+
+| CHECK-3   | Warning  | Report rule limit reached  | 1          |
+| PDRC-153  | Warning  | Gated clock check          | 96         |
+| REQP-1840 | Warning  | RAMB18 async control check | 20         |
+| ZPS7-1    | Warning  | PS7 block required         | 1          |
++-----------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1840 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_384 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[8]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_385 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[9]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_386 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[10]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_387 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[11]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_388 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[12]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_389 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[13]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_390 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[14]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[14]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_391 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[15]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_392 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[16]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_393 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[17]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_394 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[18]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_395 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[19]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_396 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[20]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[20]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_397 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[21]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_398 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[22]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_399 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[23]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_400 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[24]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[24]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_401 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[25]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[25]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_402 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[26]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_403 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[27]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_404 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[28]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[28]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_405 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[29]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_406 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[30]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_407 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[31]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_408 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[40]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[40]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_409 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[41]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[41]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_410 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[42]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[42]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_411 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[43]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[43]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#29 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_412 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[44]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[44]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#30 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_413 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[45]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[45]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#31 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_414 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[46]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[46]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#32 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_415 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[47]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[47]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#33 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_416 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[48]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[48]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#34 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_417 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[49]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[49]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#35 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_418 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[50]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[50]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#36 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_419 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[51]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[51]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#37 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_420 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[52]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[52]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#38 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_421 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[53]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[53]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#39 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_422 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[54]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[54]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#40 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_423 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[55]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[55]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#41 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_424 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[56]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[56]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#42 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_425 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[57]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[57]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#43 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_426 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[58]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[58]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#44 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_427 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[59]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[59]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#45 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_428 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[60]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[60]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#46 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_429 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[61]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[61]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#47 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_430 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[62]_LDC_i_1/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[62]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#48 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_431 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[63]_LDC_i_1_rewire/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[63]_LDC_i_1_rewire. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#49 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_432 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[8]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[8]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#50 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_433 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[9]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[9]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#51 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_434 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[10]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[10]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#52 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_435 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[11]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[11]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#53 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_436 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[12]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[12]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#54 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_437 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[13]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[13]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#55 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_438 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[14]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[14]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#56 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_439 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[15]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[15]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#57 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_440 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[16]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[16]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#58 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_441 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[17]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[17]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#59 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_442 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[18]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[18]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#60 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_443 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[19]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[19]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#61 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_444 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[20]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[20]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#62 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_445 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[21]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[21]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#63 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_446 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[22]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[22]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#64 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_447 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[23]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[23]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#65 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_448 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[24]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[24]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#66 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_449 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[25]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[25]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#67 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_450 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[26]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[26]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#68 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_451 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[27]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[27]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#69 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_452 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[28]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[28]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#70 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_453 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[29]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[29]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#71 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_454 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[30]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[30]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#72 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_455 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[31]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[31]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#73 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_456 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[40]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[40]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#74 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_457 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[41]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[41]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#75 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_458 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[42]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[42]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#76 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_459 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[43]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[43]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#77 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_460 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[44]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[44]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#78 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_461 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[45]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[45]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#79 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_462 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[46]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[46]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#80 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_463 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[47]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[47]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#81 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_464 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[48]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[48]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#82 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_465 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[49]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[49]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#83 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_466 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[50]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[50]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#84 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_467 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[51]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[51]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#85 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_468 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[52]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[52]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#86 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_469 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[53]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[53]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#87 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_470 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[54]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[54]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#88 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_471 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[55]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[55]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#89 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_472 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[56]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[56]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#90 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_473 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[57]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[57]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#91 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_474 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[58]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[58]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#92 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_475 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[59]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[59]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#93 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_476 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[60]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[60]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#94 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_477 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[61]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[61]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#95 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_478 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[62]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[62]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#96 Warning
+Gated clock check  
+Net PCM_TX/inst/Clock_Divider/nReset_479 is a gated clock net sourced by a combinational pin PCM_TX/inst/Clock_Divider/Data_Out_reg[63]_LDC_i_1__0/O, cell PCM_TX/inst/Clock_Divider/Data_Out_reg[63]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+REQP-1840#1 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[10] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#2 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[5] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#3 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[6] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#4 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#5 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#6 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[9] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#7 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[10] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#8 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[5] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#9 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[6] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#10 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[7] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#11 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[8] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#12 Warning
+RAMB18 async control check  
+The RAMB18E1 DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[9] (net: DiracROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#13 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[10] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#14 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[5] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[0]) which is driven by a register (Address_Logic/Addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#15 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[6] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[1]) which is driven by a register (Address_Logic/Addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#16 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[2]) which is driven by a register (Address_Logic/Addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#17 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[3]) which is driven by a register (Address_Logic/Addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#18 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRARDADDR[9] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#19 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[10] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[5]) which is driven by a register (Address_Logic/Addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#20 Warning
+RAMB18 async control check  
+The RAMB18E1 SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram has an input control pin SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.WIDE_PRIM18.ram/ADDRBWRADDR[9] (net: SawROM/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/addra[4]) which is driven by a register (Address_Logic/Addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

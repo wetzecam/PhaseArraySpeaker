@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct 17 15:41:00 2021
+# Process ID: 20342
+# Current directory: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.runs/impl_1
+# Command line: vivado -log DAC_Array_Tester.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DAC_Array_Tester.tcl -notrace
+# Log file: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.runs/impl_1/DAC_Array_Tester.vdi
+# Journal file: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_PLUS_DAC_Experiment/Signal_Buffer_PLUS_DAC_Experiment.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source DAC_Array_Tester.tcl -notrace

@@ -1,0 +1,372 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
+| Date         : Sun Oct 17 17:52:49 2021
+| Host         : cameron-xps running 64-bit Ubuntu 18.04.5 LTS
+| Command      : report_control_sets -verbose -file DAC_Array_Tester_control_sets_placed.rpt
+| Design       : DAC_Array_Tester
+| Device       : xc7z010
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   294 |
+|    Minimum number of control sets                        |   294 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |  2026 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   294 |
+| >= 0 to < 4        |   286 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             150 |           56 |
+| No           | No                    | Yes                    |             239 |          207 |
+| No           | Yes                   | No                     |             144 |          112 |
+| Yes          | No                    | No                     |               1 |            1 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------+--------------------------+--------------------------------------+------------------+----------------+--------------+
+|                 Clock Signal                 |       Enable Signal      |           Set/Reset Signal           | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------------------+--------------------------+--------------------------------------+------------------+----------------+--------------+
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_94  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_472 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_471 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_479 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_474 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_48  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_467 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_49  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_50  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_5   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_470 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_53  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_59  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_6   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_61  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_62  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_63  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_64  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_32  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_462 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_438 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_455 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_456 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_458 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_459 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_457 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_460 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_461 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_65  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_463 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_464 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_46  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_465 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_466 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_468 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_469 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_452 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_406 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_396 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_399 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_384 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_4   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_40  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_401 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_400 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_404 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_403 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_392 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_407 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_405 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_408 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_409 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_41  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_411 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_398 |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_439        |                          | PCM_TX/inst/Clock_Divider/nReset_88  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_11  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_69  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_71  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_21  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_22  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_23  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_24  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_3   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_7   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_454 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_13  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_385 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_387 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_388 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_391 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_390 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_393 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_394 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_27  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_75  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_85  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_80  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_89  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_90  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_92  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_91  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_10  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_410 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_1   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_26  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_29  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_449 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_18  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_52  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_446 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_477 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_402 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_19  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_395        |                          | PCM_TX/inst/Clock_Divider/nReset_36  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_397        |                          | PCM_TX/inst/Clock_Divider/nReset_34  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_30  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_395 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_397 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_14  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_15  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_17  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_427 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_2   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_20  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_12  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_66  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_67  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_68  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_70  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_73  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_440 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_433 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_434 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_432 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_435 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_436 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_437 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_44  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_424 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_430 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_444 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_442 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_445 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_448 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_447 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_45  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_451 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_453 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_25  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_55  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_420 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_54  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_28  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_450 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_84  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_87  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_418 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_412 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_33  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_34  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_35  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_36  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_38  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_386 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_389 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_39  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_474        |                          | PCM_TX/inst/Clock_Divider/nReset_53  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_466        |                          | PCM_TX/inst/Clock_Divider/nReset_61  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_468        |                          | PCM_TX/inst/Clock_Divider/nReset_59  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_469        |                          | PCM_TX/inst/Clock_Divider/nReset_58  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_452        |                          | PCM_TX/inst/Clock_Divider/nReset_75  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_470        |                          | PCM_TX/inst/Clock_Divider/nReset_57  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_472        |                          | PCM_TX/inst/Clock_Divider/nReset_55  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_471        |                          | PCM_TX/inst/Clock_Divider/nReset_56  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_479        |                          | PCM_TX/inst/Clock_Divider/nReset_48  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_465        |                          | PCM_TX/inst/Clock_Divider/nReset_62  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_467        |                          | PCM_TX/inst/Clock_Divider/nReset_60  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_385        |                          | PCM_TX/inst/Clock_Divider/nReset_46  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_387        |                          | PCM_TX/inst/Clock_Divider/nReset_44  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_388        |                          | PCM_TX/inst/Clock_Divider/nReset_43  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_391        |                          | PCM_TX/inst/Clock_Divider/nReset_40  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_390        |                          | PCM_TX/inst/Clock_Divider/nReset_41  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_393        |                          | PCM_TX/inst/Clock_Divider/nReset_38  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_394        |                          | PCM_TX/inst/Clock_Divider/nReset_37  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_456        |                          | PCM_TX/inst/Clock_Divider/nReset_71  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_413 |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_448        |                          | PCM_TX/inst/Clock_Divider/nReset_79  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_447        |                          | PCM_TX/inst/Clock_Divider/nReset_80  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_451        |                          | PCM_TX/inst/Clock_Divider/nReset_76  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_453        |                          | PCM_TX/inst/Clock_Divider/nReset_74  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_454        |                          | PCM_TX/inst/Clock_Divider/nReset_73  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_438        |                          | PCM_TX/inst/Clock_Divider/nReset_89  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_455        |                          | PCM_TX/inst/Clock_Divider/nReset_72  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_392        |                          | PCM_TX/inst/Clock_Divider/nReset_39  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_458        |                          | PCM_TX/inst/Clock_Divider/nReset_69  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_459        |                          | PCM_TX/inst/Clock_Divider/nReset_68  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_457        |                          | PCM_TX/inst/Clock_Divider/nReset_70  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_460        |                          | PCM_TX/inst/Clock_Divider/nReset_67  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_461        |                          | PCM_TX/inst/Clock_Divider/nReset_66  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_462        |                          | PCM_TX/inst/Clock_Divider/nReset_65  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_463        |                          | PCM_TX/inst/Clock_Divider/nReset_64  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_464        |                          | PCM_TX/inst/Clock_Divider/nReset_63  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_429        |                          | PCM_TX/inst/Clock_Divider/nReset_2   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_414        |                          | PCM_TX/inst/Clock_Divider/nReset_17  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_421        |                          | PCM_TX/inst/Clock_Divider/nReset_10  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_419        |                          | PCM_TX/inst/Clock_Divider/nReset_12  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_417        |                          | PCM_TX/inst/Clock_Divider/nReset_14  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_422        |                          | PCM_TX/inst/Clock_Divider/nReset_9   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_423        |                          | PCM_TX/inst/Clock_Divider/nReset_8   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_425        |                          | PCM_TX/inst/Clock_Divider/nReset_6   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_426        |                          | PCM_TX/inst/Clock_Divider/nReset_5   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_416        |                          | PCM_TX/inst/Clock_Divider/nReset_15  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_428        |                          | PCM_TX/inst/Clock_Divider/nReset_3   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_431        |                          | PCM_TX/inst/Clock_Divider/nReset_0   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_441        |                          | PCM_TX/inst/Clock_Divider/nReset_86  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_473        |                          | PCM_TX/inst/Clock_Divider/nReset_54  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_475        |                          | PCM_TX/inst/Clock_Divider/nReset_52  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_476        |                          | PCM_TX/inst/Clock_Divider/nReset_51  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_478        |                          | PCM_TX/inst/Clock_Divider/nReset_49  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_443        |                          | PCM_TX/inst/Clock_Divider/nReset_84  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_407        |                          | PCM_TX/inst/Clock_Divider/nReset_24  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_396        |                          | PCM_TX/inst/Clock_Divider/nReset_35  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_399        |                          | PCM_TX/inst/Clock_Divider/nReset_32  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_384        |                          | PCM_TX/inst/Clock_Divider/nReset_47  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_401        |                          | PCM_TX/inst/Clock_Divider/nReset_30  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_400        |                          | PCM_TX/inst/Clock_Divider/nReset_31  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_404        |                          | PCM_TX/inst/Clock_Divider/nReset_27  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_403        |                          | PCM_TX/inst/Clock_Divider/nReset_28  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_406        |                          | PCM_TX/inst/Clock_Divider/nReset_25  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_445        |                          | PCM_TX/inst/Clock_Divider/nReset_82  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_405        |                          | PCM_TX/inst/Clock_Divider/nReset_26  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_408        |                          | PCM_TX/inst/Clock_Divider/nReset_23  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_409        |                          | PCM_TX/inst/Clock_Divider/nReset_22  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_411        |                          | PCM_TX/inst/Clock_Divider/nReset_20  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_398        |                          | PCM_TX/inst/Clock_Divider/nReset_33  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_412        |                          | PCM_TX/inst/Clock_Divider/nReset_19  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_413        |                          | PCM_TX/inst/Clock_Divider/nReset_18  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_415        |                          | PCM_TX/inst/Clock_Divider/nReset_16  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_76  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_476 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_478 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_51  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_56  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_57  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_58  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_60  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_72  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_74  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_475 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_77  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_79  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_8   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_78  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_81  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_82  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_83  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_442        |                          | PCM_TX/inst/Clock_Divider/nReset_85  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_423 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_415 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_416 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_414 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_421 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_419 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_42  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_417 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_422 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_86  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_425 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_426 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_429 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_43  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_428 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_431 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_441 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_473 |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_433        |                          | PCM_TX/inst/Clock_Divider/nReset_94  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_9   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_427        |                          | PCM_TX/inst/Clock_Divider/nReset_4   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_420        |                          | PCM_TX/inst/Clock_Divider/nReset_11  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_450        |                          | PCM_TX/inst/Clock_Divider/nReset_77  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_418        |                          | PCM_TX/inst/Clock_Divider/nReset_13  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_386        |                          | PCM_TX/inst/Clock_Divider/nReset_45  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_389        |                          | PCM_TX/inst/Clock_Divider/nReset_42  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_430        |                          | PCM_TX/inst/Clock_Divider/nReset_1   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_402        |                          | PCM_TX/inst/Clock_Divider/nReset_29  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_434        |                          | PCM_TX/inst/Clock_Divider/nReset_93  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_432        |                          | PCM_TX/inst/Clock_Divider/nReset_95  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_435        |                          | PCM_TX/inst/Clock_Divider/nReset_92  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_436        |                          | PCM_TX/inst/Clock_Divider/nReset_91  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_437        |                          | PCM_TX/inst/Clock_Divider/nReset_90  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_424        |                          | PCM_TX/inst/Clock_Divider/nReset_7   |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_440        |                          | PCM_TX/inst/Clock_Divider/nReset_87  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_444        |                          | PCM_TX/inst/Clock_Divider/nReset_83  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_16  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_93  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_88  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_0   |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_37  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_443 |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_439 |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_477        |                          | PCM_TX/inst/Clock_Divider/nReset_50  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/nReset_31  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_410        |                          | PCM_TX/inst/Clock_Divider/nReset_21  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_449        |                          | PCM_TX/inst/Clock_Divider/nReset_78  |                1 |              1 |         1.00 |
+|  PCM_TX/inst/Clock_Divider/nReset_446        |                          | PCM_TX/inst/Clock_Divider/nReset_81  |                1 |              1 |         1.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          |                                      |                2 |              4 |         2.00 |
+|  Clock_Wizard/inst/clk_out1_clk_wiz_0_en_clk |                          | nReset_IBUF                          |                1 |              8 |         8.00 |
+| ~PCM_TX/inst/Clock_Divider/BCK_out           |                          | PCM_TX/inst/Clock_Divider/Reset      |                2 |              9 |         4.50 |
+|  Clock_Wizard/inst/clk_out1                  | Clock_Wizard/inst/locked |                                      |                5 |             14 |         2.80 |
+| ~PCM_TX/inst/Clock_Divider/LRCK              |                          | nReset_IBUF                          |               14 |             32 |         2.29 |
+|  PCM_TX/inst/Clock_Divider/LRCK              |                          | nReset_IBUF                          |               16 |             48 |         3.00 |
+|  PCM_TX/inst/Clock_Divider/LRCK              |                          |                                      |                9 |             52 |         5.78 |
+|  Clock_Wizard/inst/clk_out1                  |                          |                                      |               45 |            120 |         2.67 |
++----------------------------------------------+--------------------------+--------------------------------------+------------------+----------------+--------------+
+
+

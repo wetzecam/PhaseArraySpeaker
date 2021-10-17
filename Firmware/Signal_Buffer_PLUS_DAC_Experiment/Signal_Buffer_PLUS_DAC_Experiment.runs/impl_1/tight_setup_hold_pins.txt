@@ -1,0 +1,39 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[24]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[24]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[18]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[59]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[25]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[48]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[41]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[41]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[25]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_B/Data_Out_reg[15]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[10]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_B/Data_Out_reg[18]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[19]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[62]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[16]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_B/Data_Out_reg[46]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_B/Data_Out_reg[11]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_A/Data_Out_reg[43]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_B/Data_Out_reg[57]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_B/Data_Out_reg[14]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_B/Data_Out_reg[58]_P/D|
+|                      MCK |                      BCK |                                                                    PCM_TX/inst/FIFO_B/Data_Out_reg[9]_C/D|
+|                      MCK |                     LRCK |                                          SigBuff/BUFFER_D_reg[22][18]_srl23___SigBuff_BUFFER_D_reg_r_21/D|
+|                      MCK |                     LRCK |                                   SigBuff/BUFFER_D_reg[22][11]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                           SigBuff/BUFFER_D_reg[22][7]_srl23___SigBuff_BUFFER_D_reg_r_21/D|
+|                      MCK |                     LRCK |                                           SigBuff/BUFFER_D_reg[22][9]_srl23___SigBuff_BUFFER_D_reg_r_21/D|
+|                      MCK |                     LRCK |                                   SigBuff/BUFFER_D_reg[22][19]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                   SigBuff/BUFFER_D_reg[22][20]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                           SigBuff/BUFFER_D_reg[22][8]_srl23___SigBuff_BUFFER_D_reg_r_21/D|
+|                      MCK |                     LRCK |                                    SigBuff/BUFFER_D_reg[22][4]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                   SigBuff/BUFFER_D_reg[22][17]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                   SigBuff/BUFFER_D_reg[22][21]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                   SigBuff/BUFFER_D_reg[22][10]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                    SigBuff/BUFFER_D_reg[22][2]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
+|                      MCK |                     LRCK |                                    SigBuff/BUFFER_D_reg[22][3]_srl23___SigBuff_BUFFER_D_reg_r_21_srlopt/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
