@@ -1,0 +1,33 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_E/Data_Out_reg[19]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_G/Data_Out_reg[23]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_C/Data_Out_reg[58]_C/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_C/Data_Out_reg[61]_P/D|
+|                      MCK |                      BCK |                                                                   PCM_TX/inst/FIFO_E/Data_Out_reg[29]_C/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][11]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][6]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][17]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][9]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][5]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][4]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][2]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][14]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][3]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][7]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][15]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][8]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][20]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][18]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][19]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][23]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][16]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][21]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][13]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][22]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][1]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][10]/D|
+|                      MCK |                     LRCK |                                                                              SigBuff/BUFFER_D_reg[0][0]/D|
+|                      MCK |                     LRCK |                                                                             SigBuff/BUFFER_D_reg[0][12]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
