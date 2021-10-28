@@ -1,7 +1,7 @@
 close all;
 %% Defining Physical Constants
 c = 343;           % m/s
-ft = 6*10^2;         % f test 1 kHz
+ft = 1*10^3;         % f test 1 kHz
 omega = 2*pi*ft;
 k = omega/c;
 
@@ -17,8 +17,17 @@ Sy = zeros(1,16);
 Sz = ones(1,16);
 
 %% Defining Spatial Field for Calc/Plot
-[X,Y] = meshgrid(-5.5:0.05:5.5,-1:0.05:10);
+[X,Y] = meshgrid(-5.5:0.5:5.5,-1:0.5:10);
 R = X.^2 + Y.^2;
+
+%% Defining Phase Controls
+dN = 4;   % (integer) Time Delay Channel -- Channel
+Phi = 0;    %
+Delays = zeros(size(Sx));
+for i = 1:length(Sx)
+    Phi = Phi + dN*dt;
+    Delays(i) = Phi;
+end
 
 
 %% Calculating Displacement Fields (relative to sources)
@@ -34,7 +43,7 @@ for i = 1:length(Sx)
 end
 for i = 1:(length(Sx)-1)
    for j = (i+1):(length(Sx))
-       ISquared = ISquared + 2.*(cos(k.*(DispFields(:,:,i)-DispFields(:,:,j)))./(DispFields(:,:,i).*DispFields(:,:,j)));
+       ISquared = ISquared + 2.*(cos(omega*((Delays(i)-Delays(j)))+k.*(DispFields(:,:,i)-DispFields(:,:,j)))./(DispFields(:,:,i).*DispFields(:,:,j)));
    end
 end
 ISquared = db((ISquared));
@@ -50,16 +59,6 @@ Amp = Amp.*Amp;
 Sz = max(Amp,[],'all').*Sz;
 
 %% Plots
-subplot(1,2,1)
-surface(X,Y,Amp, 'EdgeColor','none')
-xlim([-5.5,5.5])
-ylim([-1,10])
-hold on
-scatter3(Sx,Sy,Sz,...
-    'MarkerEdgeColor','k',...
-    'MarkerFaceColor','r')
-
-subplot(1,2,2)
 surface(X,Y,ISquared, 'EdgeColor','none')
 xlim([-5.5,5.5])
 ylim([-1,10])
