@@ -1,0 +1,219 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Oct 19 15:13:45 2021
+# Process ID: 6231
+# Current directory: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.runs/synth_1
+# Command line: vivado -log Parallel_Signal_Tap.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Parallel_Signal_Tap.tcl
+# Log file: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.runs/synth_1/Parallel_Signal_Tap.vds
+# Journal file: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Parallel_Signal_Tap.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.ip_user_files'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top Parallel_Signal_Tap -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6253
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2512.828 ; gain = 0.000 ; free physical = 13864 ; free virtual = 23505
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Parallel_Signal_Tap' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Parallel_Signal_Tap.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Tap_Logic' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Signal_Tap_Logic.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Tap_Logic' (1#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Signal_Tap_Logic.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Demux_RAM_Parallel_Output' [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Demux_RAM_Parallel_Output.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Demux_RAM_Parallel_Output' (2#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Demux_RAM_Parallel_Output.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Parallel_Signal_Tap' (3#1) [/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Parallel_Signal_Tap.v:24]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2512.828 ; gain = 0.000 ; free physical = 13531 ; free virtual = 23172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2512.828 ; gain = 0.000 ; free physical = 13526 ; free virtual = 23168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 13526 ; free virtual = 23168
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 13490 ; free virtual = 23133
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 16    
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 17    
+	  19 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14123 ; free virtual = 23768
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++--------------------+--------------+---------------+----------------+
+|Module Name         | RTL Object   | Depth x Width | Implemented As | 
++--------------------+--------------+---------------+----------------+
+|Parallel_Signal_Tap | Tapper/State | 32x5          | LUT            | 
++--------------------+--------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14122 ; free virtual = 23767
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     5|
+|4     |LUT2   |    10|
+|5     |LUT3   |     7|
+|6     |LUT4   |    15|
+|7     |LUT5   |    35|
+|8     |LUT6   |    19|
+|9     |MUXF7  |     3|
+|10    |FDRE   |   401|
+|11    |FDSE   |     1|
+|12    |IBUF   |    31|
+|13    |OBUF   |   392|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------+--------------------------+------+
+|      |Instance       |Module                    |Cells |
++------+---------------+--------------------------+------+
+|1     |top            |                          |   924|
+|2     |  Parallel_RAM |Demux_RAM_Parallel_Output |   384|
+|3     |  Tapper       |Signal_Tap_Logic          |   116|
++------+---------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14120 ; free virtual = 23765
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.598 ; gain = 7.770 ; free physical = 14123 ; free virtual = 23768
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2520.605 ; gain = 7.770 ; free physical = 14123 ; free virtual = 23768
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2520.605 ; gain = 0.000 ; free physical = 14205 ; free virtual = 23850
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2576.625 ; gain = 0.000 ; free physical = 14131 ; free virtual = 23776
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 3cee6a1e
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2576.625 ; gain = 64.031 ; free physical = 14282 ; free virtual = 23927
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.runs/synth_1/Parallel_Signal_Tap.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Parallel_Signal_Tap_utilization_synth.rpt -pb Parallel_Signal_Tap_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 19 15:14:03 2021...

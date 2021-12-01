@@ -122,7 +122,6 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   set_param chipscope.maxJobs 3
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z010clg400-1
@@ -145,12 +144,12 @@ OPTRACE "set parameters" START { }
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/DAC_Array_Tester.dcp
-  read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
   read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16_0.xci
   read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Dirac_ROM/Dirac_ROM.xci
   read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Triangle_ROM/Triangle_ROM.xci
   read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Sine_ROM/Sine_ROM.xci
   read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Saw_ROM/Saw_ROM.xci
+  read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
 OPTRACE "read constraints: implementation" START { }
   read_xdc /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/constrs_1/imports/new/DAC_Array_Tester.xdc
 OPTRACE "read constraints: implementation" END { }

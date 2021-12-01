@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (lin64) Build 3247384 Thu Jun 10 19:36:07 MDT 2021
-| Date         : Tue Oct 19 17:26:23 2021
+| Date         : Tue Oct 26 10:13:34 2021
 | Host         : cameron-xps running 64-bit Ubuntu 18.04.5 LTS
 | Command      : report_drc -file DAC_Array_Tester_drc_opted.rpt -pb DAC_Array_Tester_drc_opted.pb -rpx DAC_Array_Tester_drc_opted.rpx
 | Design       : DAC_Array_Tester

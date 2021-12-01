@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../../../../../../opt/Xilinx/Saw_ROM/sim/Saw_ROM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

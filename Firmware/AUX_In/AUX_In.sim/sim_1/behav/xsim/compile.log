@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/new/ADC_Initializer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC_Initializer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/new/I2S_Latch_Pulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I2S_Latch_Pulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/PCM_Serial_Clock_Div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCM_Serial_Clock_Div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Divider_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Divider_256
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sim_1/imports/new/Clock_Div_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clock_Div_TB

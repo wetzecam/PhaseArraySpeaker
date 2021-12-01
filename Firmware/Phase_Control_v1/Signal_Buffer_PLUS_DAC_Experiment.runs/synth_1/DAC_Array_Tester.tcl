@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param xicom.use_bs_reader 1
-set_param chipscope.maxJobs 3
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z010clg400-1
 
@@ -108,12 +106,6 @@ read_verilog -library xil_defaultlib {
   /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/new/Up_Down_Counter.v
   /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/new/DAC_Array_Tester.v
 }
-read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
-set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
-set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc]
-set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
-
 read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16_0.xci
 
 read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Dirac_ROM/Dirac_ROM.xci
@@ -128,6 +120,12 @@ set_property used_in_implementation false [get_files -all /home/cameron/PhaseArr
 read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Saw_ROM/Saw_ROM.xci
 set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/Saw_ROM/Saw_ROM_ooc.xdc]
 
+read_ip -quiet /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
+set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc]
+set_property used_in_implementation false [get_files -all /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
+
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -140,8 +138,6 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/constrs_1/imports/new/DAC_Array_Tester.xdc
 set_property used_in_implementation false [get_files /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/constrs_1/imports/new/DAC_Array_Tester.xdc]
 
-read_xdc dont_touch.xdc
-set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

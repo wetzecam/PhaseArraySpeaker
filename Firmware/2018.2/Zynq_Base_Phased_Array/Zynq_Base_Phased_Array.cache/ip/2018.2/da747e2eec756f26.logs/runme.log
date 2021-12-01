@@ -1,0 +1,356 @@
+
+*** Running vivado
+    with args -log Zynq_Base_Phased_Array_pmod_bridge_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Zynq_Base_Phased_Array_pmod_bridge_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Zynq_Base_Phased_Array_pmod_bridge_0_0.tcl -notrace
+Command: synth_design -top Zynq_Base_Phased_Array_pmod_bridge_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 31425 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1336.812 ; gain = 83.766 ; free physical = 12809 ; free virtual = 20600
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Zynq_Base_Phased_Array_pmod_bridge_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ip/Zynq_Base_Phased_Array_pmod_bridge_0_0/synth/Zynq_Base_Phased_Array_pmod_bridge_0_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'pmod_concat' [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:12]
+	Parameter Top_Row_Interface bound to: None - type: string 
+	Parameter Bottom_Row_Interface bound to: None - type: string 
+WARNING: [Synth 8-3848] Net in_top_bus_I in module/entity pmod_concat does not have driver. [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:84]
+WARNING: [Synth 8-3848] Net in_top_uart_gpio_bus_I in module/entity pmod_concat does not have driver. [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:87]
+WARNING: [Synth 8-3848] Net in_top_i2c_gpio_bus_I in module/entity pmod_concat does not have driver. [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:90]
+WARNING: [Synth 8-3848] Net in_bottom_bus_I in module/entity pmod_concat does not have driver. [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:94]
+WARNING: [Synth 8-3848] Net in_bottom_uart_gpio_bus_I in module/entity pmod_concat does not have driver. [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:97]
+WARNING: [Synth 8-3848] Net in_bottom_i2c_gpio_bus_I in module/entity pmod_concat does not have driver. [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'pmod_concat' (1#1) [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/ff0e/src/pmod_concat.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'Zynq_Base_Phased_Array_pmod_bridge_0_0' (2#1) [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ip/Zynq_Base_Phased_Array_pmod_bridge_0_0/synth/Zynq_Base_Phased_Array_pmod_bridge_0_0.v:56]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_T[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1379.438 ; gain = 126.391 ; free physical = 12690 ; free virtual = 20495
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1379.438 ; gain = 126.391 ; free physical = 12659 ; free virtual = 20465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1379.438 ; gain = 126.391 ; free physical = 12659 ; free virtual = 20465
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+WARNING: [Designutils 20-1758] instance inst wraps a black box. Constraint reading is skipped for elaborated designs in this case. Skipping constraint file '/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ip/Zynq_Base_Phased_Array_pmod_bridge_0_0/src/pmod_concat_ooc.xdc'.
+WARNING: [Designutils 20-1758] instance inst wraps a black box. Constraint reading is skipped for elaborated designs in this case. Skipping constraint file '/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ip/Zynq_Base_Phased_Array_pmod_bridge_0_0/Zynq_Base_Phased_Array_pmod_bridge_0_0_board.xdc'.
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/Zynq_Base_Phased_Array_pmod_bridge_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/Zynq_Base_Phased_Array_pmod_bridge_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1642.086 ; gain = 0.000 ; free physical = 11943 ; free virtual = 19750
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1642.086 ; gain = 389.039 ; free physical = 11911 ; free virtual = 19718
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1642.086 ; gain = 389.039 ; free physical = 11911 ; free virtual = 19718
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/Zynq_Base_Phased_Array_pmod_bridge_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1642.086 ; gain = 389.039 ; free physical = 11916 ; free virtual = 19723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1642.086 ; gain = 389.039 ; free physical = 11942 ; free virtual = 19750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_T[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 1642.086 ; gain = 389.039 ; free physical = 11959 ; free virtual = 19768
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11658 ; free virtual = 19475
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11658 ; free virtual = 19475
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:38 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11658 ; free virtual = 19475
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11603 ; free virtual = 19420
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11603 ; free virtual = 19420
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11603 ; free virtual = 19419
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11603 ; free virtual = 19419
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11603 ; free virtual = 19420
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11603 ; free virtual = 19420
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |     0|
+|2     |  inst   |pmod_concat |     0|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1653.070 ; gain = 400.023 ; free physical = 11602 ; free virtual = 19419
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1654.070 ; gain = 138.375 ; free physical = 11652 ; free virtual = 19468
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1654.078 ; gain = 401.023 ; free physical = 11659 ; free virtual = 19475
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 1673.070 ; gain = 431.711 ; free physical = 11618 ; free virtual = 19434
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/Zynq_Base_Phased_Array_pmod_bridge_0_0_synth_1/Zynq_Base_Phased_Array_pmod_bridge_0_0.dcp' has been generated.

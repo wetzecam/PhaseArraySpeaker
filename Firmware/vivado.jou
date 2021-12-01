@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Oct 16 15:51:10 2021
+# Process ID: 21667
+# Current directory: /home/cameron/PhaseArraySpeaker/Firmware
+# Command line: vivado
+# Log file: /home/cameron/PhaseArraySpeaker/Firmware/vivado.log
+# Journal file: /home/cameron/PhaseArraySpeaker/Firmware/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.xpr
+update_compile_order -fileset sources_1

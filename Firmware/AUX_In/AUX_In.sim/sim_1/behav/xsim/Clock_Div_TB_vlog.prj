@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../AUX_In.gen/sources_1/ip/clk_wiz_0" \
+"../../../../AUX_In.srcs/sources_1/new/ADC_Initializer.v" \
+"../../../../AUX_In.srcs/sources_1/new/I2S_Latch_Pulse.v" \
+"../../../../AUX_In.srcs/sources_1/imports/new/PCM_Serial_Clock_Div.v" \
+"../../../../AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_2.v" \
+"../../../../AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_256.v" \
+"../../../../AUX_In.srcs/sim_1/imports/new/Clock_Div_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

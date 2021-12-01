@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Zynq_Base_Phased_Array_wrapper.bit" key="Zynq_Base_Phased_Array_wrapper_hw_platform_0-bitFile"/>
+	<item value="" key="Zynq_Base_Phased_Array_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Auto Detect" key="Zynq_Base_Phased_Array_wrapper_hw_platform_0-device"/>
+	<item value="Zynq_Base_Phased_Array_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="Local" key="Zynq_Base_Phased_Array_wrapper_hw_platform_0-target"/>
+	<item value="false" key="Zynq_Base_Phased_Array_wrapper_hw_platform_0-partial_bit"/>
+</section>

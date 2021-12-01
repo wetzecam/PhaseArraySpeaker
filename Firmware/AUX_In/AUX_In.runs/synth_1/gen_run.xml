@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1635289270">
+  <File Type="VDS-TIMINGSUMMARY" Name="DAC_Array_Tester_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="DAC_Array_Tester.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="DAC_Array_Tester_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="DAC_Array_Tester_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="DAC_Array_Tester_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="DAC_Array_Tester.vds"/>
+  <File Type="REPORTS-TCL" Name="DAC_Array_Tester_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="DAC_Array_Tester_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="DAC_Array_Tester.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16_0.xci"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Saw_ROM/Saw_ROM.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Saw_ROM/Saw_ROM.xci"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Sine_ROM/Sine_ROM.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/ip/Sine_ROM/Sine_ROM.xci"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ADC_Initializer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Address_Counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/imports/new/Address_Counter.v"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Demux_RAM_Parallel_Output.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/new/Demux_RAM_Parallel_Output.v"/>
+        <Attr Name="ImportTime" Val="1634683796"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/I2S_Latch_Pulse.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/I2S_Rx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Parallel_Signal_Tap.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/new/Parallel_Signal_Tap.v"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Sigal_Buffer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/new/Sigal_Buffer.v"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Signal_Tap_Logic.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/new/Signal_Tap_Logic.v"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Up_Down_Counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/new/Up_Down_Counter.v"/>
+        <Attr Name="ImportTime" Val="1634681830"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/DAC_Array_Tester.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/new/DAC_Array_Tester.v"/>
+        <Attr Name="ImportTime" Val="1634680088"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/PCM_Serial_Clock_Div.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Serial_Clocking/Serial_Clocking.srcs/sources_1/new/PCM_Serial_Clock_Div.v"/>
+        <Attr Name="ImportTime" Val="1634335909"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SR_Clock_Divider_2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Serial_Clocking/Serial_Clocking.srcs/sources_1/new/SR_Clock_Divider_2.v"/>
+        <Attr Name="ImportTime" Val="1634334417"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SR_Clock_Divider_256.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Serial_Clocking/Serial_Clocking.srcs/sources_1/new/SR_Clock_Divider_256.v"/>
+        <Attr Name="ImportTime" Val="1634336952"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/PCM_Clock_Top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Serial_Clocking/Serial_Clocking.srcs/sources_1/new/PCM_Clock_Top.v"/>
+        <Attr Name="ImportTime" Val="1634336491"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/coe/Sine_1k_24bit.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/coe/Sine_1k_24bit.coe"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/coe/Saw_1k_24bit.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/coe/Saw_1k_24bit.coe"/>
+        <Attr Name="ImportTime" Val="1634677010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="DAC_Array_Tester"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/DAC_Array_Tester.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/constrs_1/imports/new/DAC_Array_Tester.xdc"/>
+        <Attr Name="ImportTime" Val="1634680240"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

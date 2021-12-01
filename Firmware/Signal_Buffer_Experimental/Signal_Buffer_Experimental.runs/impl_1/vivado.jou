@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct 17 15:28:38 2021
+# Process ID: 13323
+# Current directory: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_Experimental/Signal_Buffer_Experimental.runs/impl_1
+# Command line: vivado -log Sigal_Buffer.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Sigal_Buffer.tcl -notrace
+# Log file: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_Experimental/Signal_Buffer_Experimental.runs/impl_1/Sigal_Buffer.vdi
+# Journal file: /home/cameron/PhaseArraySpeaker/Firmware/Signal_Buffer_Experimental/Signal_Buffer_Experimental.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Sigal_Buffer.tcl -notrace

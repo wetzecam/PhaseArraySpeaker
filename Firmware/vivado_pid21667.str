@@ -1,0 +1,126 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:07 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 21667
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Oct 16 15:51:23 CDT 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Ubuntu
+OS Version: 5.4.0-87-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: 0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	/opt/Xilinx/Vivado/2021.1/tps/lnx64/jre11.0.2
+Java executable: 	/opt/Xilinx/Vivado/2021.1/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	cameron
+User home directory: /home/cameron
+User working directory: /home/cameron/PhaseArraySpeaker/Firmware
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2021.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: /home/cameron/.Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: /home/cameron/.Xilinx/Vivado/2021.1/
+Vivado layouts directory: /home/cameron/.Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	/opt/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/cameron/PhaseArraySpeaker/Firmware/vivado.log
+Vivado journal file: 	/home/cameron/PhaseArraySpeaker/Firmware/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-21667-cameron-xps
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: /opt/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2021.1
+XILINX_VITIS: 
+XILINX_VIVADO: /opt/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,773 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.xpr", 1); // r
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: /home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 110 MB (+113372kb) [00:00:09]
+// [Engine Memory]: 1,827 MB (+1764014kb) [00:00:09]
+// [GUI Memory]: 120 MB (+4667kb) [00:00:09]
+// [Engine Memory]: 1,926 MB (+8528kb) [00:00:10]
+// [GUI Memory]: 137 MB (+11133kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  3047 ms.
+// Tcl Message: open_project /home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,860 MB. GUI used memory: 83 MB. Current time: 10/16/21, 3:51:27 PM CDT
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.ip_user_files'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2021.1/data/ip'. 
+// Tcl Message: INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'. 
+// Project name: Serial_Clocking; location: /home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bz
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Clock_Top (PCM_Clock_Top.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Clock_Top (PCM_Clock_Top.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// [GUI Memory]: 150 MB (+5805kb) [00:00:24]
+// WARNING: HEventQueue.dispatchEvent() is taking  1683 ms.

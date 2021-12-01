@@ -1,0 +1,289 @@
+
+*** Running vivado
+    with args -log Zynq_Base_Phased_Array_Static_Signal_Source_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Zynq_Base_Phased_Array_Static_Signal_Source_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Zynq_Base_Phased_Array_Static_Signal_Source_0_0.tcl -notrace
+Command: synth_design -top Zynq_Base_Phased_Array_Static_Signal_Source_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24456 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1309.547 ; gain = 81.766 ; free physical = 14071 ; free virtual = 23647
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Zynq_Base_Phased_Array_Static_Signal_Source_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ip/Zynq_Base_Phased_Array_Static_Signal_Source_0_0/synth/Zynq_Base_Phased_Array_Static_Signal_Source_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'Static_Signal_Source' [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Address_Counter' [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/imports/new/Address_Counter.v:24]
+WARNING: [Synth 8-5788] Register Addr_reg in module Address_Counter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/imports/new/Address_Counter.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'Address_Counter' (1#1) [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/imports/new/Address_Counter.v:24]
+WARNING: [Synth 8-689] width (6) of port connection 'Addr' does not match port width (32) of module 'Address_Counter' [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:48]
+INFO: [Synth 8-226] default block is never used [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:57]
+WARNING: [Synth 8-567] referenced signal 'Sig_Sel' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:56]
+WARNING: [Synth 8-567] referenced signal 'Sine_Data' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:56]
+WARNING: [Synth 8-567] referenced signal 'Saw_Data' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:56]
+WARNING: [Synth 8-567] referenced signal 'Triangle_Data' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:56]
+WARNING: [Synth 8-567] referenced signal 'Dirac_Data' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'Static_Signal_Source' (2#1) [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ipshared/85d6/new/DAC_Array_Tester.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Zynq_Base_Phased_Array_Static_Signal_Source_0_0' (3#1) [/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.srcs/sources_1/bd/Zynq_Base_Phased_Array/ip/Zynq_Base_Phased_Array_Static_Signal_Source_0_0/synth/Zynq_Base_Phased_Array_Static_Signal_Source_0_0.v:57]
+WARNING: [Synth 8-3331] design Address_Counter has unconnected port MCK
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.172 ; gain = 126.391 ; free physical = 13981 ; free virtual = 23558
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.172 ; gain = 126.391 ; free physical = 14042 ; free virtual = 23625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1354.172 ; gain = 126.391 ; free physical = 14042 ; free virtual = 23625
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1667.812 ; gain = 1.000 ; free physical = 12524 ; free virtual = 22136
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 12488 ; free virtual = 22113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 12488 ; free virtual = 22113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 12488 ; free virtual = 22112
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "Addr" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 12476 ; free virtual = 22100
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Address_Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module Static_Signal_Source 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "inst/Address_Logic/Addr" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design Zynq_Base_Phased_Array_Static_Signal_Source_0_0 has unconnected port MCK_int
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:51 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 12467 ; free virtual = 22095
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:01:04 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13038 ; free virtual = 22665
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:01:04 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13045 ; free virtual = 22673
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:01:04 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13056 ; free virtual = 22684
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13035 ; free virtual = 22663
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13035 ; free virtual = 22663
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13035 ; free virtual = 22662
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13034 ; free virtual = 22661
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13033 ; free virtual = 22660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13032 ; free virtual = 22660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT4   |     4|
+|3     |LUT5   |    36|
+|4     |LUT6   |    32|
+|5     |FDCE   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+---------------------+------+
+|      |Instance          |Module               |Cells |
++------+------------------+---------------------+------+
+|1     |top               |                     |   112|
+|2     |  inst            |Static_Signal_Source |   112|
+|3     |    Address_Logic |Address_Counter      |    80|
++------+------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13032 ; free virtual = 22659
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1667.812 ; gain = 126.391 ; free physical = 13083 ; free virtual = 22711
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:01:05 . Memory (MB): peak = 1667.812 ; gain = 440.031 ; free physical = 13082 ; free virtual = 22710
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:01:06 . Memory (MB): peak = 1667.812 ; gain = 451.719 ; free physical = 13659 ; free virtual = 23285
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/Zynq_Base_Phased_Array_Static_Signal_Source_0_0_synth_1/Zynq_Base_Phased_Array_Static_Signal_Source_0_0.dcp' has been generated.

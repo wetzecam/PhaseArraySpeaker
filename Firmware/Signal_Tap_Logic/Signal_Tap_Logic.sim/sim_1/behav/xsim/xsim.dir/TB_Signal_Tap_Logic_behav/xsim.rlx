@@ -1,0 +1,12 @@
+
+{ 
+    crc :  16517796026096261258  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto eb18a95509d54f8eb4512571ac9c1320 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_Signal_Tap_Logic_behav xil_defaultlib.TB_Signal_Tap_Logic xil_defaultlib.glbl" , 
+    buildDate : "Jun 10 2021" , 
+    buildTime : "19:45:28" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/TB_Signal_Tap_Logic_behav/xsimk\"   \"xsim.dir/TB_Signal_Tap_Logic_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/TB_Signal_Tap_Logic_behav/obj/xsim_1.lnx64.o\" -L\"/opt/Xilinx/Vivado/2021.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

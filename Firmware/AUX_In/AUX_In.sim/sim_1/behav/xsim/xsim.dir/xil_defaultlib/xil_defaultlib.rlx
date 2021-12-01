@@ -1,0 +1,11 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sim_1/imports/new/Clock_Div_TB.v,1635277517,verilog,,,,Clock_Div_TB,,,../../../../AUX_In.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/PCM_Serial_Clock_Div.v,1634335909,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_2.v,,PCM_Serial_Clock_Div,,,../../../../AUX_In.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_2.v,1634334417,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_256.v,,SR_Clock_Divider_2,,,../../../../AUX_In.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/SR_Clock_Divider_256.v,1634336952,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sim_1/imports/new/Clock_Div_TB.v,,SR_Clock_Divider_256,,,../../../../AUX_In.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/new/ADC_Initializer.v,1635286649,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/new/I2S_Latch_Pulse.v,,ADC_Initializer,,,../../../../AUX_In.gen/sources_1/ip/clk_wiz_0,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/new/I2S_Latch_Pulse.v,1635264229,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/AUX_In/AUX_In.srcs/sources_1/imports/new/PCM_Serial_Clock_Div.v,,I2S_Latch_Pulse,,,../../../../AUX_In.gen/sources_1/ip/clk_wiz_0,,,,,

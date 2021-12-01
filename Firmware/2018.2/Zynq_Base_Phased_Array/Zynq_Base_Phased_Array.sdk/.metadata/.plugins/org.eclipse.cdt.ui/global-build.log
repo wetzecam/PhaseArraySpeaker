@@ -1,0 +1,1325 @@
+17:28:49 **** Build of project CODEC_Initializer_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling iic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+17:28:55 **** Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CODEC_Initializer.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Initializer_bsp/ps7_cortexa9_0/lib -o "CODEC_Initializer.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Initializer.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Initializer.elf  |tee "CODEC_Initializer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	CODEC_Initializer.elf
+Finished building: CODEC_Initializer.elf.size
+ 
+17:28:56 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:32:02 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:34:33 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:36:21 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:38:19 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:38:31 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building target: CODEC_Initializer.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Initializer_bsp/ps7_cortexa9_0/lib -o "CODEC_Initializer.elf"  ./src/iic/iic.o  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Initializer.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Initializer.elf  |tee "CODEC_Initializer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19352	   1144	  22568	  43064	   a838	CODEC_Initializer.elf
+Finished building: CODEC_Initializer.elf.size
+ 
+17:38:39 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+17:39:07 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+../src/iic/iic.c:62:9: error: unknown type name 'u8'
+ typedef u8 memAddress_t; //Change to u16, if EEPROM uses 16-bit register address
+         ^~
+../src/iic/iic.c:64:8: error: unknown type name 'u8'
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+        ^~
+../src/iic/iic.c:66:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount);
+                                ^~~~
+../src/iic/iic.c:67:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount);
+                                   ^~~~
+../src/iic/iic.c:68:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *InstancePtr, int Event);
+                           ^~~~
+../src/iic/iic.c:70:8: error: unknown type name 'macAddress_t'
+ static macAddress_t *pgMac;
+        ^~~~~~~~~~~~
+../src/iic/iic.c:71:8: error: unknown type name 'XStatus'
+ static XStatus *pgfMacStatus;
+        ^~~~~~~
+../src/iic/iic.c:76:1: error: unknown type name 'XStatus'
+ XStatus fnInitIic(XIic *psIic)
+ ^~~~~~~
+../src/iic/iic.c:76:19: error: unknown type name 'XIic'
+ XStatus fnInitIic(XIic *psIic)
+                   ^~~~
+../src/iic/iic.c:95:1: error: unknown type name 'XStatus'
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+ ^~~~~~~
+../src/iic/iic.c:95:24: error: unknown type name 'XIic'
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                        ^~~~
+../src/iic/iic.c:95:37: error: unknown type name 'macAddress_t'; did you mean 'memAddress_t'?
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+src/iic/subdir.mk:18: recipe for target 'src/iic/iic.o' failed
+                                     ^~~~~~~~~~~~
+                                     memAddress_t
+../src/iic/iic.c:95:57: error: unknown type name 'XStatus'
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                                                         ^~~~~~~
+../src/iic/iic.c:141:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount)
+                                ^~~~
+../src/iic/iic.c:155:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount)
+                                   ^~~~
+../src/iic/iic.c:176:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *psIic, int Event)
+                           ^~~~
+../src/iic/iic.c:71:17: warning: 'pgfMacStatus' defined but not used [-Wunused-variable]
+ static XStatus *pgfMacStatus;
+                 ^~~~~~~~~~~~
+../src/iic/iic.c:70:22: warning: 'pgMac' defined but not used [-Wunused-variable]
+ static macAddress_t *pgMac;
+                      ^~~~~
+../src/iic/iic.c:64:11: warning: 'rgbWriteBuf' defined but not used [-Wunused-variable]
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+           ^~~~~~~~~~~
+make: *** [src/iic/iic.o] Error 1
+17:39:35 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+../src/iic/iic.c:66:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount);
+                                ^~~~
+../src/iic/iic.c:67:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount);
+                                   ^~~~
+../src/iic/iic.c:68:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *InstancePtr, int Event);
+                           ^~~~
+../src/iic/iic.c:70:8: error: unknown type name 'macAddress_t'
+ static macAddress_t *pgMac;
+        ^~~~~~~~~~~~
+../src/iic/iic.c:76:19: error: unknown type name 'XIic'
+ XStatus fnInitIic(XIic *psIic)
+                   ^~~~
+../src/iic/iic.c:95:24: error: unknown type name 'XIic'
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                        ^~~~
+../src/iic/iic.c:95:37: error: unknown type name 'macAddress_t'; did you mean 'memAddress_t'?
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                                     ^~~~~~~~~~~~
+                                     memAddress_t
+../src/iic/iic.c:141:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount)
+                                ^~~~
+../src/iic/iic.c:155:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount)
+                                   ^~~~
+../src/iic/iic.c:176:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *psIic, int Event)
+src/iic/subdir.mk:18: recipe for target 'src/iic/iic.o' failed
+                           ^~~~
+../src/iic/iic.c:71:17: warning: 'pgfMacStatus' defined but not used [-Wunused-variable]
+ static XStatus *pgfMacStatus;
+                 ^~~~~~~~~~~~
+../src/iic/iic.c:70:22: warning: 'pgMac' defined but not used [-Wunused-variable]
+ static macAddress_t *pgMac;
+                      ^~~~~
+../src/iic/iic.c:64:11: warning: 'rgbWriteBuf' defined but not used [-Wunused-variable]
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+           ^~~~~~~~~~~
+make: *** [src/iic/iic.o] Error 1
+17:47:30 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+../src/iic/iic.c:66:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount);
+                                ^~~~
+../src/iic/iic.c:67:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount);
+                                   ^~~~
+../src/iic/iic.c:68:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *InstancePtr, int Event);
+                           ^~~~
+../src/iic/iic.c:70:8: error: unknown type name 'macAddress_t'
+ static macAddress_t *pgMac;
+        ^~~~~~~~~~~~
+../src/iic/iic.c:76:19: error: unknown type name 'XIic'
+ XStatus fnInitIic(XIic *psIic)
+                   ^~~~
+../src/iic/iic.c:95:24: error: unknown type name 'XIic'
+src/iic/subdir.mk:18: recipe for target 'src/iic/iic.o' failed
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                        ^~~~
+../src/iic/iic.c:95:37: error: unknown type name 'macAddress_t'; did you mean 'memAddress_t'?
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                                     ^~~~~~~~~~~~
+                                     memAddress_t
+../src/iic/iic.c:141:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount)
+                                ^~~~
+../src/iic/iic.c:155:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount)
+                                   ^~~~
+../src/iic/iic.c:176:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *psIic, int Event)
+                           ^~~~
+../src/iic/iic.c:71:17: warning: 'pgfMacStatus' defined but not used [-Wunused-variable]
+ static XStatus *pgfMacStatus;
+                 ^~~~~~~~~~~~
+../src/iic/iic.c:70:22: warning: 'pgMac' defined but not used [-Wunused-variable]
+ static macAddress_t *pgMac;
+                      ^~~~~
+../src/iic/iic.c:64:11: warning: 'rgbWriteBuf' defined but not used [-Wunused-variable]
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+           ^~~~~~~~~~~
+make: *** [src/iic/iic.o] Error 1
+17:47:42 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+../src/iic/iic.c:66:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount);
+                                ^~~~
+../src/iic/iic.c:67:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount);
+                                   ^~~~
+../src/iic/iic.c:68:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *InstancePtr, int Event);
+                           ^~~~
+../src/iic/iic.c:70:8: error: unknown type name 'macAddress_t'
+ static macAddress_t *pgMac;
+        ^~~~~~~~~~~~
+../src/iic/iic.c:76:19: error: unknown type name 'XIic'
+ XStatus fnInitIic(XIic *psIic)
+                   ^~~~
+../src/iic/iic.c:95:24: error: unknown type name 'XIic'
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                        ^~~~
+../src/iic/iic.c:95:37: error: unknown type name 'macAddress_t'; did you mean 'memAddress_t'?
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+src/iic/subdir.mk:18: recipe for target 'src/iic/iic.o' failed
+                                     ^~~~~~~~~~~~
+                                     memAddress_t
+../src/iic/iic.c:141:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount)
+                                ^~~~
+../src/iic/iic.c:155:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount)
+                                   ^~~~
+../src/iic/iic.c:176:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *psIic, int Event)
+                           ^~~~
+../src/iic/iic.c:71:17: warning: 'pgfMacStatus' defined but not used [-Wunused-variable]
+ static XStatus *pgfMacStatus;
+                 ^~~~~~~~~~~~
+../src/iic/iic.c:70:22: warning: 'pgMac' defined but not used [-Wunused-variable]
+ static macAddress_t *pgMac;
+                      ^~~~~
+../src/iic/iic.c:64:11: warning: 'rgbWriteBuf' defined but not used [-Wunused-variable]
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+           ^~~~~~~~~~~
+make: *** [src/iic/iic.o] Error 1
+17:51:28 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+../src/iic/iic.c:66:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount);
+                                ^~~~
+../src/iic/iic.c:67:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount);
+                                   ^~~~
+../src/iic/iic.c:68:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *InstancePtr, int Event);
+                           ^~~~
+../src/iic/iic.c:70:8: error: unknown type name 'macAddress_t'
+ static macAddress_t *pgMac;
+        ^~~~~~~~~~~~
+../src/iic/iic.c:76:19: error: unknown type name 'XIic'
+ XStatus fnInitIic(XIic *psIic)
+                   ^~~~
+../src/iic/iic.c:95:24: error: unknown type name 'XIic'
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                        ^~~~
+../src/iic/iic.c:95:37: error: unknown type name 'macAddress_t'; did you mean 'memAddress_t'?
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                                     ^~~~~~~~~~~~
+                                     memAddress_t
+../src/iic/iic.c:141:32: error: unknown type name 'XIic'
+src/iic/subdir.mk:18: recipe for target 'src/iic/iic.o' failed
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount)
+                                ^~~~
+../src/iic/iic.c:155:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount)
+                                   ^~~~
+../src/iic/iic.c:176:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *psIic, int Event)
+                           ^~~~
+../src/iic/iic.c:71:17: warning: 'pgfMacStatus' defined but not used [-Wunused-variable]
+ static XStatus *pgfMacStatus;
+                 ^~~~~~~~~~~~
+../src/iic/iic.c:70:22: warning: 'pgMac' defined but not used [-Wunused-variable]
+ static macAddress_t *pgMac;
+                      ^~~~~
+../src/iic/iic.c:64:11: warning: 'rgbWriteBuf' defined but not used [-Wunused-variable]
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+           ^~~~~~~~~~~
+make: *** [src/iic/iic.o] Error 1
+17:51:39 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+../src/iic/iic.c:66:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount);
+                                ^~~~
+../src/iic/iic.c:67:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount);
+                                   ^~~~
+../src/iic/iic.c:68:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *InstancePtr, int Event);
+                           ^~~~
+../src/iic/iic.c:70:8: error: unknown type name 'macAddress_t'
+ static macAddress_t *pgMac;
+        ^~~~~~~~~~~~
+../src/iic/iic.c:76:19: error: unknown type name 'XIic'
+ XStatus fnInitIic(XIic *psIic)
+                   ^~~~
+../src/iic/iic.c:95:24: error: unknown type name 'XIic'
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                        ^~~~
+../src/iic/iic.c:95:37: error: unknown type name 'macAddress_t'; did you mean 'memAddress_t'?
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                                     ^~~~~~~~~~~~
+                                     memAddress_t
+../src/iic/iic.c:141:32: error: unknown type name 'XIic'
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount)
+                                ^~~~
+../src/iic/iic.c:155:35: error: unknown type name 'XIic'
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount)
+                                   ^~~~
+../src/iic/iic.c:176:27: error: unknown type name 'XIic'
+ static void StatusHandler(XIic *psIic, int Event)
+src/iic/subdir.mk:18: recipe for target 'src/iic/iic.o' failed
+                           ^~~~
+../src/iic/iic.c:71:17: warning: 'pgfMacStatus' defined but not used [-Wunused-variable]
+ static XStatus *pgfMacStatus;
+                 ^~~~~~~~~~~~
+../src/iic/iic.c:70:22: warning: 'pgMac' defined but not used [-Wunused-variable]
+ static macAddress_t *pgMac;
+                      ^~~~~
+../src/iic/iic.c:64:11: warning: 'rgbWriteBuf' defined but not used [-Wunused-variable]
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+           ^~~~~~~~~~~
+make: *** [src/iic/iic.o] Error 1
+17:55:23 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+../src/iic/iic.c:70:8: error: unknown type name 'macAddress_t'
+ static macAddress_t *pgMac;
+        ^~~~~~~~~~~~
+../src/iic/iic.c:95:37: error: unknown type name 'macAddress_t'; did you mean 'memAddress_t'?
+ XStatus fnReadMACAsync(XIic *psIic, macAddress_t *pMac, XStatus *pfMacStatus)
+                                     ^~~~~~~~~~~~
+                                     memAddress_t
+../src/iic/iic.c: In function 'StatusHandler':
+../src/iic/iic.c:184:5: warning: implicit declaration of function 'fnReadMACAsync' [-Wimplicit-function-declaration]
+     fnReadMACAsync(psIic, pgMac, pgfMacStatus);
+     ^~~~~~~~~~~~~~
+At top level:
+../src/iic/iic.c:176:13: warning: 'StatusHandler' defined but not used [-Wunused-function]
+ static void StatusHandler(XIic *psIic, int Event)
+             ^~~~~~~~~~~~~
+../src/iic/iic.c:155:13: warning: 'ReadMACReceiveHandler' defined but not used [-Wunused-function]
+ static void ReadMACReceiveHandler(XIic *psIic, int ByteCount)
+             ^~~~~~~~~~~~~~~~~~~~~
+../src/iic/iic.c:141:13: warning: 'ReadMACSendHandler' defined but not used [-Wunused-function]
+ static void ReadMACSendHandler(XIic *psIic, int ByteCount)
+             ^~~~~~~~~~~~~~~~~~
+../src/iic/iic.c:64:11: warning: 'rgbWriteBuf' defined but not used [-Wunused-variable]
+ static u8 rgbWriteBuf[sizeof(memAddress_t)];
+           ^~~~~~~~~~~
+make: *** [src/iic/iic.o] Error 1
+src/iic/subdir.mk:18: recipe for target 'src/iic/iic.o' failed
+17:57:06 **** Clean-only build of configuration Debug for project CODEC_Initializer ****
+make clean 
+rm -rf  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/helloworld.o ./src/platform.o  ./src/intc/intc.d  ./src/iic/iic.d  ./src/audio/audio.d  ./src/helloworld.d ./src/platform.d  CODEC_Initializer.elf.size  CODEC_Initializer.elf
+ 
+17:57:06 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:70:10: fatal error: ../dma/dma.h: No such file or directory
+ #include "../dma/dma.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+17:57:23 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:70:10: fatal error: ../dma/dma.h: No such file or directory
+ #include "../dma/dma.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+17:57:50 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:71:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+compilation terminated.
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+17:58:43 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:71:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+compilation terminated.
+make: *** [src/audio/audio.o] Error 1
+17:59:52 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:71:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+18:00:03 **** Clean-only build of configuration Debug for project CODEC_Initializer ****
+make clean 
+rm -rf  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/helloworld.o ./src/platform.o  ./src/intc/intc.d  ./src/iic/iic.d  ./src/audio/audio.d  ./src/helloworld.d ./src/platform.d  CODEC_Initializer.elf.size  CODEC_Initializer.elf
+ 
+18:00:03 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:71:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+18:00:13 **** Clean-only build of configuration Debug for project CODEC_Initializer ****
+make clean 
+rm -rf  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/helloworld.o ./src/platform.o  ./src/intc/intc.d  ./src/iic/iic.d  ./src/audio/audio.d  ./src/helloworld.d ./src/platform.d  CODEC_Initializer.elf.size  CODEC_Initializer.elf
+ 
+18:00:13 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:71:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+compilation terminated.
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+18:00:17 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:78:26: error: 'XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_PS7_SCUC_0_S_AXI_BASEADDR'?
+ #define AUDIO_CTL_ADDR   XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR
+                          ^
+../src/audio/audio.h:78:26: note: in definition of macro 'AUDIO_CTL_ADDR'
+ #define AUDIO_CTL_ADDR   XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.h:205:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples);
+                    ^~~~~~~
+../src/audio/audio.h:206:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples);
+                  ^~~~~~~
+../src/audio/audio.c:62:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+compilation terminated.
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+18:01:18 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:78:26: error: 'XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR' undeclared here (not in a function); did you mean 'XPAR_PS7_SCUC_0_S_AXI_BASEADDR'?
+ #define AUDIO_CTL_ADDR   XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR
+                          ^
+../src/audio/audio.h:78:26: note: in definition of macro 'AUDIO_CTL_ADDR'
+ #define AUDIO_CTL_ADDR   XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+../src/audio/audio.c:62:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/audio/audio.o] Error 1
+18:04:23 **** Auto Build of project CODEC_Initializer_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling iic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+18:04:30 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c:62:10: fatal error: ../demo.h: No such file or directory
+ #include "../demo.h"
+          ^~~~~~~~~~~
+compilation terminated.
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+18:04:45 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+../src/audio/audio.c:416:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples)
+                  ^~~~~~~
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+18:05:35 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+Finished building: ../src/audio/audio.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CODEC_Initializer.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Initializer_bsp/ps7_cortexa9_0/lib -o "CODEC_Initializer.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Initializer.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Initializer.elf  |tee "CODEC_Initializer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35416	   2768	  22632	  60816	   ed90	CODEC_Initializer.elf
+Finished building: CODEC_Initializer.elf.size
+ 
+18:05:41 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:10:32 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c:95:8: error: unknown type name 'XAxiDma'
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+        ^~~~~~~
+../src/main.c:97:8: error: unknown type name 'XGpio'
+ static XGpio sUserIO;
+        ^~~~~
+../src/main.c:123:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:123:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function); did you mean 'Xil_InterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  Xil_InterruptHandler
+../src/main.c:125:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+../src/main.c:125:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function); did you mean 'fnS2MMInterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  fnS2MMInterruptHandler
+../src/main.c:127:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:127:67: error: 'fnUserIOIsr' undeclared here (not in a function); did you mean 'sUserIO'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+                                                                   sUserIO
+../src/main.c: In function 'main':
+../src/main.c:188:14: warning: implicit declaration of function 'fnInitUserIO'; did you mean 'fnInitIic'? [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+              fnInitIic
+../src/main.c:196:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/main.c:255:53: error: 'NR_AUDIO_SAMPLES' undeclared (first use in this function)
+    Xil_DCacheInvalidateRange((u32) MEM_BASE_ADDR, 5*NR_AUDIO_SAMPLES);
+                                                     ^~~~~~~~~~~~~~~~
+../src/main.c:255:53: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:255:52: error: invalid operands to binary * (have 'int' and 'const ivt_t * {aka const struct <anonymous> *}')
+    Xil_DCacheInvalidateRange((u32) MEM_BASE_ADDR, 5*NR_AUDIO_SAMPLES);
+                                                    ^
+../src/main.c:255:51: warning: passing argument 2 of 'Xil_DCacheInvalidateRange' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_DCacheInvalidateRange((u32) MEM_BASE_ADDR, 5*NR_AUDIO_SAMPLES);
+                                                   ^
+In file included from ../src/main.h:43:0,
+                 from ../src/main.c:48:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xil_cache.h:105:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ void Xil_DCacheInvalidateRange(INTPTR adr, u32 len);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:272:47: error: invalid operands to binary * (have 'int' and 'const ivt_t * {aka const struct <anonymous> *}')
+    Xil_DCacheFlushRange((u32) MEM_BASE_ADDR, 5*NR_AUDIO_SAMPLES);
+                                               ^
+../src/main.c:272:46: warning: passing argument 2 of 'Xil_DCacheFlushRange' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_DCacheFlushRange((u32) MEM_BASE_ADDR, 5*NR_AUDIO_SAMPLES);
+                                              ^
+In file included from ../src/main.h:43:0,
+                 from ../src/main.c:48:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xil_cache.h:107:6: note: expected 'u32 {aka long unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ void Xil_DCacheFlushRange(INTPTR adr, u32 len);
+      ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:300:7: warning: implicit declaration of function 'fnAudioRecord'; did you mean 'fnAudioReadFromReg'? [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+       fnAudioReadFromReg
+../src/main.c:320:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:396:5: error: redefinition of 'main'
+ int main()
+     ^~~~
+../src/main.c:159:5: note: previous definition of 'main' was here
+ int main(void)
+     ^~~~
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+18:11:06 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c:95:8: error: unknown type name 'XAxiDma'
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+        ^~~~~~~
+../src/main.c:97:8: error: unknown type name 'XGpio'
+ static XGpio sUserIO;
+        ^~~~~
+../src/main.c:123:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:123:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function); did you mean 'Xil_InterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  Xil_InterruptHandler
+../src/main.c:125:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+../src/main.c:125:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function); did you mean 'fnS2MMInterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  fnS2MMInterruptHandler
+../src/main.c:127:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:127:67: error: 'fnUserIOIsr' undeclared here (not in a function); did you mean 'sUserIO'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+                                                                   sUserIO
+../src/main.c: In function 'main':
+../src/main.c:188:14: warning: implicit declaration of function 'fnInitUserIO'; did you mean 'fnInitIic'? [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+              fnInitIic
+../src/main.c:196:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/main.c:290:7: warning: implicit declaration of function 'fnAudioRecord'; did you mean 'fnAudioReadFromReg'? [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+       fnAudioReadFromReg
+../src/main.c:290:29: error: 'NR_AUDIO_SAMPLES' undeclared (first use in this function)
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+                             ^~~~~~~~~~~~~~~~
+../src/main.c:290:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:310:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:386:5: error: redefinition of 'main'
+ int main()
+     ^~~~
+../src/main.c:159:5: note: previous definition of 'main' was here
+ int main(void)
+     ^~~~
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+18:11:44 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c:95:8: error: unknown type name 'XAxiDma'
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+        ^~~~~~~
+../src/main.c:97:8: error: unknown type name 'XGpio'
+ static XGpio sUserIO;
+        ^~~~~
+../src/main.c:123:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:123:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function); did you mean 'Xil_InterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  Xil_InterruptHandler
+../src/main.c:125:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+../src/main.c:125:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function); did you mean 'fnS2MMInterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  fnS2MMInterruptHandler
+../src/main.c:127:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:127:67: error: 'fnUserIOIsr' undeclared here (not in a function); did you mean 'sUserIO'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+                                                                   sUserIO
+../src/main.c: In function 'main':
+../src/main.c:188:14: warning: implicit declaration of function 'fnInitUserIO'; did you mean 'fnInitIic'? [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+              fnInitIic
+../src/main.c:196:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:287:13: error: expected declaration specifiers or '...' before string constant
+  xil_printf("\r\n--- Exiting main() --- \r\n");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:290:2: error: expected identifier or '(' before 'return'
+  return XST_SUCCESS;
+  ^~~~~~
+../src/main.c:292:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+../src/main.c:295:5: error: redefinition of 'main'
+ int main()
+     ^~~~
+../src/main.c:159:5: note: previous definition of 'main' was here
+ int main(void)
+     ^~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+18:11:55 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c:95:8: error: unknown type name 'XAxiDma'
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+        ^~~~~~~
+../src/main.c:97:8: error: unknown type name 'XGpio'
+ static XGpio sUserIO;
+        ^~~~~
+../src/main.c:123:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:123:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function); did you mean 'Xil_InterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  Xil_InterruptHandler
+../src/main.c:125:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+../src/main.c:125:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function); did you mean 'fnS2MMInterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  fnS2MMInterruptHandler
+../src/main.c:127:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:127:67: error: 'fnUserIOIsr' undeclared here (not in a function); did you mean 'sUserIO'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+                                                                   sUserIO
+../src/main.c: In function 'main':
+../src/main.c:188:14: warning: implicit declaration of function 'fnInitUserIO'; did you mean 'fnInitIic'? [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+              fnInitIic
+../src/main.c:196:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:287:13: error: expected declaration specifiers or '...' before string constant
+  xil_printf("\r\n--- Exiting main() --- \r\n");
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:290:2: error: expected identifier or '(' before 'return'
+  return XST_SUCCESS;
+  ^~~~~~
+../src/main.c:292:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/main.o] Error 1
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+18:13:27 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c:95:8: error: unknown type name 'XAxiDma'
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+        ^~~~~~~
+../src/main.c:97:8: error: unknown type name 'XGpio'
+ static XGpio sUserIO;
+        ^~~~~
+../src/main.c:123:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:123:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function); did you mean 'Xil_InterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  Xil_InterruptHandler
+../src/main.c:125:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR
+../src/main.c:125:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function); did you mean 'fnS2MMInterruptHandler'?
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+                                                                  fnS2MMInterruptHandler
+../src/main.c:127:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function); did you mean 'XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   XPAR_FABRIC_AXI_IIC_0_IIC2INTC_IRPT_INTR
+../src/main.c:127:67: error: 'fnUserIOIsr' undeclared here (not in a function); did you mean 'sUserIO'?
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+                                                                   sUserIO
+make: *** [src/main.o] Error 1
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+18:13:48 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c:95:8: error: unknown type name 'XAxiDma'
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+        ^~~~~~~
+../src/main.c:97:8: error: unknown type name 'XGpio'
+ static XGpio sUserIO;
+        ^~~~~
+../src/main.c:97:14: warning: 'sUserIO' defined but not used [-Wunused-variable]
+ static XGpio sUserIO;
+              ^~~~~~~
+../src/main.c:95:16: warning: 'sAxiDma' defined but not used [-Wunused-variable]
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+                ^~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+18:13:55 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: CODEC_Initializer.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Initializer_bsp/ps7_cortexa9_0/lib -o "CODEC_Initializer.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Initializer.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Initializer.elf  |tee "CODEC_Initializer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36152	   2768	  22728	  61648	   f0d0	CODEC_Initializer.elf
+Finished building: CODEC_Initializer.elf.size
+ 
+18:14:00 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:14:47 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:17:01 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: CODEC_Initializer.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Initializer_bsp/ps7_cortexa9_0/lib -o "CODEC_Initializer.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Initializer.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Initializer.elf  |tee "CODEC_Initializer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35980	   2768	  22728	  61476	   f024	CODEC_Initializer.elf
+Finished building: CODEC_Initializer.elf.size
+ 
+18:21:26 **** Auto Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: CODEC_Initializer.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Initializer_bsp/ps7_cortexa9_0/lib -o "CODEC_Initializer.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Initializer.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Initializer.elf  |tee "CODEC_Initializer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35980	   2768	  22728	  61476	   f024	CODEC_Initializer.elf
+Finished building: CODEC_Initializer.elf.size
+ 
+18:21:30 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+18:21:32 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+19:32:31 **** Incremental Build of configuration Debug for project CODEC_Initializer ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Initializer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:72:0:
+../../CODEC_Initializer_bsp/ps7_cortexa9_0/include/xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: CODEC_Initializer.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Initializer_bsp/ps7_cortexa9_0/lib -o "CODEC_Initializer.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Initializer.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Initializer.elf  |tee "CODEC_Initializer.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35980	   2768	  22728	  61476	   f024	CODEC_Initializer.elf
+Finished building: CODEC_Initializer.elf.size
+ 

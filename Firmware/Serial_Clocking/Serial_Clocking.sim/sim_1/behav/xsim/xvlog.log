@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.srcs/sources_1/new/PCM_Serial_Clock_Div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCM_Serial_Clock_Div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.srcs/sources_1/new/SR_Clock_Divider_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Divider_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.srcs/sources_1/new/SR_Clock_Divider_256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SR_Clock_Divider_256
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.srcs/sim_1/new/Clock_Div_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Clock_Div_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

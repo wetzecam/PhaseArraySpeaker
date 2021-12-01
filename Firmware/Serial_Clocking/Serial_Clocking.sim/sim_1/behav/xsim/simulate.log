@@ -1,0 +1,2 @@
+Time resolution is 1 ps
+$finish called at time : 262 ns : File "/home/cameron/PhaseArraySpeaker/Firmware/Serial_Clocking/Serial_Clocking.srcs/sim_1/new/Clock_Div_TB.v" Line 43

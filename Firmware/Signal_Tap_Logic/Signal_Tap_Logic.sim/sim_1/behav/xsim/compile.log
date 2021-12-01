@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Demux_RAM_Parallel_Output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demux_RAM_Parallel_Output
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Signal_Tap_Logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Signal_Tap_Logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sim_1/new/TB_Signal_Tap_Logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_Signal_Tap_Logic

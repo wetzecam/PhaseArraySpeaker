@@ -1,0 +1,15 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2021.1/bin/unwrapped/lnx64.o/xelab -wto eb18a95509d54f8eb4512571ac9c1320 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TB_Signal_Tap_Logic_behav xil_defaultlib.TB_Signal_Tap_Logic xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Signal_Tap_Logic
+Compiling module xil_defaultlib.Demux_RAM_Parallel_Output
+Compiling module xil_defaultlib.TB_Signal_Tap_Logic
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TB_Signal_Tap_Logic_behav

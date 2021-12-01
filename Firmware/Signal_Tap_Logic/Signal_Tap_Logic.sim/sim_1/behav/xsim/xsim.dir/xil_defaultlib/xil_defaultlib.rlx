@@ -1,0 +1,8 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sim_1/new/TB_Signal_Tap_Logic.v,1634672664,verilog,,,,TB_Signal_Tap_Logic,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Demux_RAM_Parallel_Output.v,1634672252,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Signal_Tap_Logic.v,,Demux_RAM_Parallel_Output,,,,,,,,
+/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sources_1/new/Signal_Tap_Logic.v,1634673941,verilog,,/home/cameron/PhaseArraySpeaker/Firmware/Signal_Tap_Logic/Signal_Tap_Logic.srcs/sim_1/new/TB_Signal_Tap_Logic.v,,Signal_Tap_Logic,,,,,,,,

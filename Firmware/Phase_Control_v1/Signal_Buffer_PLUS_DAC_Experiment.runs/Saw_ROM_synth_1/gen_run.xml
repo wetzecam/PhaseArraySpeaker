@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="Saw_ROM_synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1634677325">
-  <File Type="VDS-TIMINGSUMMARY" Name="Saw_ROM_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="Saw_ROM.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="Saw_ROM_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="Saw_ROM_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="Saw_ROM_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="Saw_ROM.vds"/>
-  <File Type="REPORTS-TCL" Name="Saw_ROM_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="Saw_ROM_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="Saw_ROM.tcl"/>
+  <File Type="REPORTS-TCL" Name="Saw_ROM_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Saw_ROM.vds"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Saw_ROM">
     <File Path="$PSRCDIR/sources_1/ip/Saw_ROM/Saw_ROM.xci">
       <FileInfo>

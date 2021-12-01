@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1634336976">
+  <File Type="RBD_FILE" Name="PCM_Clock_Top.rbd"/>
+  <File Type="NPI_FILE" Name="PCM_Clock_Top.npi"/>
+  <File Type="RNPI_FILE" Name="PCM_Clock_Top.rnpi"/>
+  <File Type="CFI_FILE" Name="PCM_Clock_Top.cfi"/>
+  <File Type="RCFI_FILE" Name="PCM_Clock_Top.rcfi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PCM_Clock_Top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="PCM_Clock_Top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PCM_Clock_Top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="PCM_Clock_Top_methodology_drc_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PCM_Clock_Top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PCM_Clock_Top_postroute_physopt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="PCM_Clock_Top_physopt.dcp"/>
+  <File Type="PLACE-IO" Name="PCM_Clock_Top_io_placed.rpt"/>
+  <File Type="OPT-DRC" Name="PCM_Clock_Top_drc_opted.rpt"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="PCM_Clock_Top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="PCM_Clock_Top.sysdef"/>
+  <File Type="BITSTR-MMI" Name="PCM_Clock_Top.mmi"/>
+  <File Type="BITSTR-BMM" Name="PCM_Clock_Top_bd.bmm"/>
+  <File Type="PLACE-UTIL-PB" Name="PCM_Clock_Top_utilization_placed.pb"/>
+  <File Type="BG-BGN" Name="PCM_Clock_Top.bgn"/>
+  <File Type="OPT-DCP" Name="PCM_Clock_Top_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="PCM_Clock_Top.hwdef"/>
+  <File Type="BG-BIT" Name="PCM_Clock_Top.bit"/>
+  <File Type="ROUTE-BUS-SKEW" Name="PCM_Clock_Top_bus_skew_routed.rpt"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="PA-TCL" Name="PCM_Clock_Top.tcl"/>
+  <File Type="REPORTS-TCL" Name="PCM_Clock_Top_reports.tcl"/>
+  <File Type="PLACE-UTIL" Name="PCM_Clock_Top_utilization_placed.rpt"/>
+  <File Type="BG-DRC" Name="PCM_Clock_Top.drc"/>
+  <File Type="PLACE-CTRL" Name="PCM_Clock_Top_control_sets_placed.rpt"/>
+  <File Type="PDI-FILE" Name="PCM_Clock_Top.pdi"/>
+  <File Type="RDI-RDI" Name="PCM_Clock_Top.vdi"/>
+  <File Type="BG-BIN" Name="PCM_Clock_Top.bin"/>
+  <File Type="PLACE-DCP" Name="PCM_Clock_Top_placed.dcp"/>
+  <File Type="BITSTR-MSK" Name="PCM_Clock_Top.msk"/>
+  <File Type="PWROPT-DCP" Name="PCM_Clock_Top_pwropt.dcp"/>
+  <File Type="BITSTR-RBT" Name="PCM_Clock_Top.rbt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PCM_Clock_Top_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-NKY" Name="PCM_Clock_Top.nky"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PCM_Clock_Top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="PCM_Clock_Top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="PCM_Clock_Top_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="PCM_Clock_Top_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="PCM_Clock_Top_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="PCM_Clock_Top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="PCM_Clock_Top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PCM_Clock_Top_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="PCM_Clock_Top_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="PCM_Clock_Top_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="PCM_Clock_Top_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PCM_Clock_Top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="PCM_Clock_Top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PCM_Clock_Top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="PCM_Clock_Top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="PCM_Clock_Top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="PCM_Clock_Top_bus_skew_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/PCM_Serial_Clock_Div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SR_Clock_Divider_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SR_Clock_Divider_256.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PCM_Clock_Top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PCM_Clock_Top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/CLOCK_TESTER.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 15 22:29:07 2021
+# Process ID: 21389
+# Current directory: /home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/impl_1
+# Command line: vivado -log Zynq_Base_Phased_Array_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Zynq_Base_Phased_Array_wrapper.tcl -notrace
+# Log file: /home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/impl_1/Zynq_Base_Phased_Array_wrapper.vdi
+# Journal file: /home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Zynq_Base_Phased_Array_wrapper.tcl -notrace

@@ -1,0 +1,2 @@
+Triangle_ROM.v,verilog,xil_defaultlib,../../../../../../../../../../opt/Xilinx/Triangle_ROM/sim/Triangle_ROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

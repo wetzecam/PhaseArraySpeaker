@@ -2,8 +2,8 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Tue Oct 19 17:25:14 2021
-# Process ID: 17988
+# Start of session at: Tue Oct 26 10:12:24 2021
+# Process ID: 22036
 # Current directory: /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1
 # Command line: vivado -log DAC_Array_Tester.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DAC_Array_Tester.tcl
 # Log file: /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/DAC_Array_Tester.vds
@@ -21,27 +21,27 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 18018
+INFO: [Synth 8-7075] Helper process launched with PID 22080
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2513.793 ; gain = 0.000 ; free physical = 10190 ; free virtual = 20252
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2502.824 ; gain = 0.000 ; free physical = 11344 ; free virtual = 20315
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'DAC_Array_Tester' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/new/DAC_Array_Tester.v:24]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/clk_wiz_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'Up_Down_Counter' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/new/Up_Down_Counter.v:43]
 INFO: [Synth 8-6157] synthesizing module 'ClockDivider_15bit' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/new/Up_Down_Counter.v:24]
 INFO: [Synth 8-6155] done synthesizing module 'ClockDivider_15bit' (2#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/new/Up_Down_Counter.v:24]
 INFO: [Synth 8-6155] done synthesizing module 'Up_Down_Counter' (3#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/new/Up_Down_Counter.v:43]
 INFO: [Synth 8-6157] synthesizing module 'Address_Counter' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/imports/new/Address_Counter.v:24]
 INFO: [Synth 8-6155] done synthesizing module 'Address_Counter' (4#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/imports/new/Address_Counter.v:24]
-INFO: [Synth 8-6157] synthesizing module 'Sine_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Sine_ROM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'Sine_ROM' (5#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Sine_ROM_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'Saw_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Saw_ROM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'Saw_ROM' (6#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Saw_ROM_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'Triangle_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Triangle_ROM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'Triangle_ROM' (7#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Triangle_ROM_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'Dirac_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Dirac_ROM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'Dirac_ROM' (8#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/Dirac_ROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Sine_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Sine_ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Sine_ROM' (5#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Sine_ROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Saw_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Saw_ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Saw_ROM' (6#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Saw_ROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Triangle_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Triangle_ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Triangle_ROM' (7#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Triangle_ROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Dirac_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Dirac_ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Dirac_ROM' (8#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/Dirac_ROM_stub.v:6]
 INFO: [Synth 8-226] default block is never used [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/new/DAC_Array_Tester.v:94]
 WARNING: [Synth 8-567] referenced signal 'Sig_Sel' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/new/DAC_Array_Tester.v:93]
 WARNING: [Synth 8-567] referenced signal 'Sine_Data' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/new/DAC_Array_Tester.v:93]
@@ -56,30 +56,28 @@ INFO: [Synth 8-6155] done synthesizing module 'Demux_RAM_Parallel_Output' (10#1)
 INFO: [Synth 8-6155] done synthesizing module 'Parallel_Signal_Tap' (11#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/new/Parallel_Signal_Tap.v:24]
 INFO: [Synth 8-6157] synthesizing module 'Signal_Buffer' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/new/Sigal_Buffer.v:24]
 INFO: [Synth 8-6155] done synthesizing module 'Signal_Buffer' (12#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/new/Sigal_Buffer.v:24]
-INFO: [Synth 8-6157] synthesizing module 'PCM_Transmitter_16_0' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/PCM_Transmitter_16_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'PCM_Transmitter_16_0' (13#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-17988-cameron-xps/realtime/PCM_Transmitter_16_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'PCM_Transmitter_16_0' [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/PCM_Transmitter_16_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'PCM_Transmitter_16_0' (13#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/.Xil/Vivado-22036-cameron-xps/realtime/PCM_Transmitter_16_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'OBUF' [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:66298]
 INFO: [Synth 8-6155] done synthesizing module 'OBUF' (14#1) [/opt/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:66298]
 INFO: [Synth 8-6155] done synthesizing module 'DAC_Array_Tester' (15#1) [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/sources_1/imports/sources_1/new/DAC_Array_Tester.v:24]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2513.793 ; gain = 0.000 ; free physical = 9663 ; free virtual = 19726
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2502.824 ; gain = 0.000 ; free physical = 10662 ; free virtual = 19634
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2513.793 ; gain = 0.000 ; free physical = 10263 ; free virtual = 20326
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2502.824 ; gain = 0.000 ; free physical = 10659 ; free virtual = 19632
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2513.793 ; gain = 0.000 ; free physical = 10273 ; free virtual = 20336
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2502.824 ; gain = 0.000 ; free physical = 10659 ; free virtual = 19632
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2513.793 ; gain = 0.000 ; free physical = 10430 ; free virtual = 20492
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2502.824 ; gain = 0.000 ; free physical = 11428 ; free virtual = 20401
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'Clock_Wizard'
-Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'Clock_Wizard'
 Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16_0/PCM_Transmitter_16_0_in_context.xdc] for cell 'PCM_TX'
 Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/PCM_Transmitter_16_0/PCM_Transmitter_16_0/PCM_Transmitter_16_0_in_context.xdc] for cell 'PCM_TX'
 Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/Dirac_ROM/Dirac_ROM/Dirac_ROM_in_context.xdc] for cell 'DiracROM'
@@ -90,45 +88,45 @@ Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Sign
 Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/Sine_ROM/Sine_ROM/Sine_ROM_in_context.xdc] for cell 'SineROM'
 Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/Saw_ROM/Saw_ROM/Saw_ROM_in_context.xdc] for cell 'SawROM'
 Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/Saw_ROM/Saw_ROM/Saw_ROM_in_context.xdc] for cell 'SawROM'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'Clock_Wizard'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'Clock_Wizard'
 Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/constrs_1/imports/new/DAC_Array_Tester.xdc]
 Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/constrs_1/imports/new/DAC_Array_Tester.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.srcs/constrs_1/imports/new/DAC_Array_Tester.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DAC_Array_Tester_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/DAC_Array_Tester_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2577.590 ; gain = 0.000 ; free physical = 10385 ; free virtual = 20448
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2566.621 ; gain = 0.000 ; free physical = 11384 ; free virtual = 20358
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2577.590 ; gain = 0.000 ; free physical = 10385 ; free virtual = 20448
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2566.621 ; gain = 0.000 ; free physical = 11384 ; free virtual = 20358
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10477 ; free virtual = 20540
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11476 ; free virtual = 20449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10477 ; free virtual = 20540
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11476 ; free virtual = 20449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property IO_BUFFER_TYPE = NONE for SCK. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
 Applied set_property CLOCK_BUFFER_TYPE = NONE for SCK. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
-Applied set_property KEEP_HIERARCHY = SOFT for Clock_Wizard. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for PCM_TX. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for DiracROM. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for TriangleROM. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for SineROM. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for SawROM. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Clock_Wizard. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10477 ; free virtual = 20540
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11476 ; free virtual = 20449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10467 ; free virtual = 20531
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11465 ; free virtual = 20440
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -168,7 +166,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10434 ; free virtual = 20504
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11431 ; free virtual = 20417
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -188,19 +186,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10313 ; free virtual = 20384
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11310 ; free virtual = 20297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10304 ; free virtual = 20374
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11327 ; free virtual = 20292
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10302 ; free virtual = 20373
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11324 ; free virtual = 20289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -218,37 +216,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10301 ; free virtual = 20371
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11323 ; free virtual = 20286
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10301 ; free virtual = 20371
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11323 ; free virtual = 20286
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10301 ; free virtual = 20371
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11323 ; free virtual = 20285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10301 ; free virtual = 20371
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11323 ; free virtual = 20285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10300 ; free virtual = 20370
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11322 ; free virtual = 20284
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10300 ; free virtual = 20370
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11322 ; free virtual = 20284
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -292,19 +290,19 @@ Report Cell Usage:
 |20    |OBUF               |    15|
 +------+-------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10300 ; free virtual = 20370
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11322 ; free virtual = 20284
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2577.590 ; gain = 0.000 ; free physical = 10356 ; free virtual = 20427
-Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2577.590 ; gain = 63.797 ; free physical = 10356 ; free virtual = 20427
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2566.621 ; gain = 0.000 ; free physical = 11380 ; free virtual = 20342
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2566.621 ; gain = 63.797 ; free physical = 11380 ; free virtual = 20342
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2577.590 ; gain = 0.000 ; free physical = 10444 ; free virtual = 20514
+Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2566.621 ; gain = 0.000 ; free physical = 11467 ; free virtual = 20429
 INFO: [Netlist 29-17] Analyzing 1243 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Netlist 29-101] Netlist 'DAC_Array_Tester' is not ideal for floorplanning, since the cellview 'Signal_Buffer' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2577.590 ; gain = 0.000 ; free physical = 10378 ; free virtual = 20449
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2566.621 ; gain = 0.000 ; free physical = 11402 ; free virtual = 20363
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -312,7 +310,7 @@ Synth Design complete, checksum: 50097c6e
 INFO: [Common 17-83] Releasing license: Synthesis
 49 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 2577.590 ; gain = 64.031 ; free physical = 10530 ; free virtual = 20601
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 2566.621 ; gain = 64.031 ; free physical = 11556 ; free virtual = 20517
 INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/Phase_Control_v1/Signal_Buffer_PLUS_DAC_Experiment.runs/synth_1/DAC_Array_Tester.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file DAC_Array_Tester_utilization_synth.rpt -pb DAC_Array_Tester_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Oct 19 17:25:49 2021...
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 26 10:13:00 2021...

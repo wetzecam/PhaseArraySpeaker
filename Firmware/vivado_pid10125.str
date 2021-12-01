@@ -1,0 +1,1253 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:07 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 10125
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Oct 16 14:54:51 CDT 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Ubuntu
+OS Version: 5.4.0-87-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: 0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	/opt/Xilinx/Vivado/2021.1/tps/lnx64/jre11.0.2
+Java executable: 	/opt/Xilinx/Vivado/2021.1/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	cameron
+User home directory: /home/cameron
+User working directory: /home/cameron/PhaseArraySpeaker/Firmware
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2021.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: /home/cameron/.Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: /home/cameron/.Xilinx/Vivado/2021.1/
+Vivado layouts directory: /home/cameron/.Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	/opt/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/cameron/PhaseArraySpeaker/Firmware/vivado.log
+Vivado journal file: 	/home/cameron/PhaseArraySpeaker/Firmware/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-10125-cameron-xps
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: /opt/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2021.1
+XILINX_VITIS: 
+XILINX_VIVADO: /opt/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,772 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,724 MB. GUI used memory: 72 MB. Current time: 10/16/21, 2:54:52 PM CDT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.xpr");
+// Opening Vivado Project: /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.xpr. Version: Vivado v2021.1 
+// bz (cs):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+94637kb) [00:01:34]
+// [Engine Memory]: 1,780 MB (+1715231kb) [00:01:34]
+// [GUI Memory]: 107 MB (+10074kb) [00:01:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  2496 ms.
+// Tcl Message: open_project /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2021.1/data/ip'. 
+// Project name: PCM_Transmitter; location: /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter; part: xc7z010clg400-1
+// 'j' command handler elapsed time: 9 seconds
+// [GUI Memory]: 122 MB (+10359kb) [00:01:36]
+// Tcl Message: INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'. 
+dismissDialog("Open Project"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 1,874 MB. GUI used memory: 89 MB. Current time: 10/16/21, 2:56:22 PM CDT
+// [Engine Memory]: 1,883 MB (+14043kb) [00:01:40]
+// [GUI Memory]: 145 MB (+17492kb) [00:01:41]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1676 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 1, true, false, false, false, true, false); // D - Popup Trigger - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 1); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 1); // D
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Elapsed time: 20 seconds
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 128 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Serial_Clock_Divider"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Clock_Div_4"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Clock_Div_256"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 185 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Divider.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Divider.v 
+// Tcl Message: close [ open /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_4.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_4.v 
+// Tcl Message: close [ open /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_256.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_256.v 
+// I (cs): Define Modules: addNotify
+setText(PAResourceAtoD.DefineModulesDialog_ENTITY_NAME, "Serial_Clock_Divider"); // aa
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_in", 0, "Port Name", 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "LRCK_out", 2, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BCK_out", 3, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "LRCK_out ; input ; false ; 0 ; 0", 2, "input", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 2, "Direction", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 3, "Direction", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "BCK_out ; input ; false ; 0 ; 0", 3, "input", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 3, "Direction", 1); // ab
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Clock_Div_4.v", 1); // L
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_in", 0, "Port Name", 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_out", 2, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_out ; input ; false ; 0 ; 0", 2, "input", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Serial_Clock_Divider.v", 0); // L
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Clock_Div_256.v", 2); // L
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_in", 0, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_in ; input ; false ; 0 ; 0", 0, "Clk_in", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_in", 0, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, (String) null, 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out", 2, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out ; input ; false ; 0 ; 0", 2, "input", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Clock_Div_4.v", 1); // L
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_in ; input ; false ; 0 ; 0", 0, "Clk_in", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_in", 0, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_out", 2, "Port Name", 0); // ab
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "Serial_Clock_Divider.v", 0); // L
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out", 2, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "Clk_in ; input ; false ; 0 ; 0", 0, "Clk_in", 0); // ab
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_in", 0, "Port Name", 0); // ab
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 166 MB (+14353kb) [00:06:26]
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Modules"); // I
+// [GUI Memory]: 176 MB (+1683kb) [00:06:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,920 MB. GUI used memory: 119 MB. Current time: 10/16/21, 3:01:12 PM CDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Serial_Clock_Divider (Serial_Clock_Divider.v)]", 13, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Serial_Clock_Divider (Serial_Clock_Divider.v)]", 13, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1632 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Div_4 (Clock_Div_4.v)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Div_4 (Clock_Div_4.v)]", 12, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1629 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Div_256 (Clock_Div_256.v)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Div_256 (Clock_Div_256.v)]", 11, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1631 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,969 MB. GUI used memory: 118 MB. Current time: 10/16/21, 3:01:27 PM CDT
+selectCodeEditor("Clock_Div_256.v", 56, 399); // bP
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Div_256 (Clock_Div_256.v)]", 11, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ak
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_256.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_256.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Div_4 (Clock_Div_4.v)]", 12, false); // D
+// [Engine Memory]: 1,990 MB (+14330kb) [00:07:23]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Div_4 (Clock_Div_4.v)]", 12, false, false, false, false, true, false); // D - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 1,991 MB. GUI used memory: 118 MB. Current time: 10/16/21, 3:02:07 PM CDT
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_4.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Clock_Div_4.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Serial_Clock_Divider (Serial_Clock_Divider.v)]", 13, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Serial_Clock_Divider (Serial_Clock_Divider.v)]", 13, false, false, false, false, false, true); // D - Double Click
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "SR_Clock_Div_4"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "SR_Clock_Div_256"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 21 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_256.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_256.v 
+// Tcl Message: close [ open /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_4.v w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/SR_Clock_Div_4.v 
+// I (cs): Define Modules: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_in", 0, "Port Name", 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out", 2, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out ; input ; false ; 0 ; 0", 2, "input", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab
+selectList(PAResourceAtoD.DefineModulesDialog_NEW_SOURCE_FILES, "SR_Clock_Div_4.v", 1); // L
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_in", 0, "Port Name", 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out", 2, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out ; input ; false ; 0 ; 0", 2, "input", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Modules"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("Serial_Clock_Divider.v", 133, 419); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 133, 419); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 177, 17); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 2,040 MB. GUI used memory: 129 MB. Current time: 10/16/21, 3:03:12 PM CDT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SR_Clock_Div_4 (SR_Clock_Div_4.v)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SR_Clock_Div_4 (SR_Clock_Div_4.v)]", 12, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1622 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SR_Clock_Div_256 (SR_Clock_Div_256.v)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SR_Clock_Div_256 (SR_Clock_Div_256.v)]", 11, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1626 ms.
+selectCodeEditor("SR_Clock_Div_256.v", 150, 13); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SR_Clock_Div_4 (SR_Clock_Div_4.v)]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SR_Clock_Div_4 (SR_Clock_Div_4.v)]", 12, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("SR_Clock_Div_4.v", 199, 15); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SR_Clock_Div_256.v", 4); // m
+// TclEventType: DG_GRAPH_STALE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+// [GUI Memory]: 187 MB (+2457kb) [00:09:07]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,083 MB. GUI used memory: 128 MB. Current time: 10/16/21, 3:03:52 PM CDT
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 2,091 MB (+1451kb) [00:09:09]
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SR_Clock_Div_4.v", 3); // m
+selectCodeEditor("SR_Clock_Div_4.v", 153, 417); // bP
+selectCodeEditor("SR_Clock_Div_4.v", 153, 417); // bP
+typeControlKey((HResource) null, "SR_Clock_Div_4.v", 'v'); // bP
+selectCodeEditor("SR_Clock_Div_4.v", 133, 394); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SR_Clock_Div_256.v", 4); // m
+selectCodeEditor("SR_Clock_Div_256.v", 29, 370); // bP
+typeControlKey((HResource) null, "SR_Clock_Div_256.v", 'v'); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 35, 289); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 2,134 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:05:07 PM CDT
+// Elapsed time: 25 seconds
+selectCodeEditor("Serial_Clock_Divider.v", 29, 370); // bP
+typeControlKey((HResource) null, "Serial_Clock_Divider.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectCodeEditor("Serial_Clock_Divider.v", 161, 348); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,167 MB. GUI used memory: 105 MB. Current time: 10/16/21, 3:05:57 PM CDT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Serial_Clock_Divider (Serial_Clock_Divider.v)]", 11); // D
+selectCodeEditor("Serial_Clock_Divider.v", 138, 355); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 139, 384); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectCodeEditor("PCM_Transmitter_16.v", 307, 382); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 307, 382); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 551, 291); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 846, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 130, 318); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectCodeEditor("PCM_Transmitter_16.v", 310, 325); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 267, 124); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 166, 283); // bP
+// Elapsed time: 40 seconds
+selectCodeEditor("PCM_Transmitter_16.v", 166, 283); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 62, 166); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 153, 219); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 153, 219); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 153, 219); // bP
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v), Clock_Divier : Serial_Clock_Gen (Serial_Clock_Gen.v)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v), Clock_Divier : Serial_Clock_Gen (Serial_Clock_Gen.v)]", 2, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1618 ms.
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCM_Transmitter_16 (PCM_Transmitter_16.v), Serial_FIFO_1 : Serial_FIFO (Serial_FIFO.v)]", 5, false); // D
+// HMemoryUtils.trashcanNow. Engine heap size: 2,187 MB. GUI used memory: 105 MB. Current time: 10/16/21, 3:09:07 PM CDT
+// Elapsed time: 584 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+// Elapsed time: 30 seconds
+selectCodeEditor("PCM_Transmitter_16.v", 499, 351); // bP
+// Elapsed time: 142 seconds
+selectCodeEditor("PCM_Transmitter_16.v", 511, 350); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 339, 254); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 234, 368); // bP
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectCodeEditor("Serial_Clock_Divider.v", 181, 235); // bP
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "FIFO_Latch_Clock"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "C"); // aa
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/FIFO_Latch_Clock.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/FIFO_Latch_Clock.v 
+// I (cs): Define Module: addNotify
+// Elapsed time: 11 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_in", 0, "Port Name", 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "en", 1, "Port Name", 0); // ab
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out", 2, "Port Name", 0); // ab
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "CLK_out ; input ; false ; 0 ; 0", 2, "input", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 2, "Direction", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 3, "Direction", 1); // ab
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // ab
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I
+// [Engine Memory]: 2,203 MB (+7767kb) [00:28:55]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FIFO_Latch_Clock (FIFO_Latch_Clock.v)]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FIFO_Latch_Clock (FIFO_Latch_Clock.v)]", 14, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1618 ms.
+selectCodeEditor("FIFO_Latch_Clock.v", 158, 10); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 2,219 MB. GUI used memory: 142 MB. Current time: 10/16/21, 3:23:47 PM CDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectCodeEditor("Serial_Clock_Divider.v", 553, 382); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 63 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 2,252 MB. GUI used memory: 135 MB. Current time: 10/16/21, 3:24:57 PM CDT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FIFO_Latch_Clock.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SR_Clock_Div_256.v", 4); // m
+selectCodeEditor("SR_Clock_Div_256.v", 28, 293); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 202, 440); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 88, 482); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 88, 482, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "SR_Clock_Div_256.v", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FIFO_Latch_Clock.v", 6); // m
+selectCodeEditor("FIFO_Latch_Clock.v", 28, 363); // bP
+typeControlKey((HResource) null, "FIFO_Latch_Clock.v", 'v'); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 53, 412); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 53, 412); // bP
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "16'hFFFF"); // l
+selectCodeEditor("FIFO_Latch_Clock.v", 187, 20); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 193, 199); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 193, 353); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 193, 353); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 188, 337); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 188, 337); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 189, 365); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 189, 365); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 188, 311); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 188, 311); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 194, 203); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 184, 322); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 215, 324); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 215, 324); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 215, 324); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 167, 244); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("FIFO_Latch_Clock.v", 482, 271); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Gen.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectCodeEditor("PCM_Transmitter_16.v", 86, 198); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 2); // m
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 1); // m
+selectCodeEditor("PCM_Transmitter_16.v", 195, 305); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 178, 364); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 178, 364); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 178, 364); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 489, 257); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("PCM_Transmitter_16.v", 479, 346); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 479, 346); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 479, 346); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 479, 346); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 479, 346); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 184, 150); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("PCM_Transmitter_16.v", 95, 251); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 751, 353); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 637, 260); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 13, 356); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 170, 279); // bP
+// Elapsed time: 28 seconds
+selectCodeEditor("PCM_Transmitter_16.v", 378, 307); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,278 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:29:58 PM CDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SR_Clock_Div_4.v", 2); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 1); // m
+selectCodeEditor("Serial_Clock_Divider.v", 384, 457); // bP
+// Elapsed time: 25 seconds
+selectCodeEditor("Serial_Clock_Divider.v", 146, 201); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 334, 460); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 193, 276); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,318 MB (+4426kb) [00:36:20]
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 2); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // o
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // an
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// a (cs): Critical Messages: addNotify
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.gen/sources_1'.. ]", 2, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 19, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 19, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 19, false, false, false, false, false, true); // ah - Double Click
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK
+selectCodeEditor("PCM_Transmitter_16.v", 668, 411); // bP
+dismissDialog("Critical Messages"); // a
+selectCodeEditor("PCM_Transmitter_16.v", 121, 262); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 111, 264); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'c'); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'v'); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'v'); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'v'); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'v'); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'v'); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'v'); // bP
+typeControlKey((HResource) null, "PCM_Transmitter_16.v", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,323 MB. GUI used memory: 100 MB. Current time: 10/16/21, 3:33:03 PM CDT
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // o
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // an
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 7 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// a (cs): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 1); // m
+selectCodeEditor("Serial_Clock_Divider.v", 169, 198); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 315, 400); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 544, 317); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 2); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 2,347 MB. GUI used memory: 99 MB. Current time: 10/16/21, 3:33:53 PM CDT
+selectCodeEditor("PCM_Transmitter_16.v", 652, 107); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 758, 114); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // o
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // an
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot PCM_Transmitter_16_behav 
+// Tcl Message:  ****** Webtalk v2021.1 (64-bit)   **** SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021   **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021     ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.  source /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/xsim.dir/PCM_Transmitter_16_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim/xsim.dir/PCM_Transmitter_16_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Oct 16 15:34:17 2021. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2021.1/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Sat Oct 16 15:34:17 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "PCM_Transmitter_16_behav -key {Behavioral:sim_1:Functional:PCM_Transmitter_16} -tclbatch {PCM_Transmitter_16.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,380 MB. GUI used memory: 99 MB. Current time: 10/16/21, 3:34:18 PM CDT
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: source PCM_Transmitter_16.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,403 MB. GUI used memory: 105 MB. Current time: 10/16/21, 3:34:20 PM CDT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'PCM_Transmitter_16_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 8150.699 ; gain = 53.824 ; free physical = 18708 ; free virtual = 26385 
+// 'd' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,405 MB. GUI used memory: 105 MB. Current time: 10/16/21, 3:34:23 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,405 MB. GUI used memory: 106 MB. Current time: 10/16/21, 3:34:23 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,405 MB. GUI used memory: 106 MB. Current time: 10/16/21, 3:34:23 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,405 MB. GUI used memory: 105 MB. Current time: 10/16/21, 3:34:23 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,405 MB. GUI used memory: 105 MB. Current time: 10/16/21, 3:34:23 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// HMemoryUtils.trashcanNow. Engine heap size: 2,406 MB. GUI used memory: 115 MB. Current time: 10/16/21, 3:34:26 PM CDT
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,406 MB. GUI used memory: 112 MB. Current time: 10/16/21, 3:34:31 PM CDT
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:33 PM CDT
+// Elapsed time: 11 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 885, -6); // b
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:37 PM CDT
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 109 MB. Current time: 10/16/21, 3:34:37 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 109 MB. Current time: 10/16/21, 3:34:37 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 109 MB. Current time: 10/16/21, 3:34:37 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 109 MB. Current time: 10/16/21, 3:34:37 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:37 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:38 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:38 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:38 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:38 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:39 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:39 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:39 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 109 MB. Current time: 10/16/21, 3:34:39 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 107 MB. Current time: 10/16/21, 3:34:39 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,407 MB. GUI used memory: 106 MB. Current time: 10/16/21, 3:34:47 PM CDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 12 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 72, 492); // b
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,408 MB. GUI used memory: 106 MB. Current time: 10/16/21, 3:34:50 PM CDT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // o - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // o
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 12, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 14); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 15); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 16, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 16, true); // D - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 10, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_TASK
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 72, 492); // bWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 72, 492); // bWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 72, 492); // bWaveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, FIFO_Latch]", 21, false); // j
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 21 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FIFO_Latch_Clock.v", 4); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 16, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Serial_Clock_Gen (Serial_Clock_Gen.v)]", 17, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 16, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, PCM_Transmitter_16 (PCM_Transmitter_16.v)]", 16, true); // D - Node
+selectCodeEditor("PCM_Transmitter_16.v", 242, 325); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 239, 322); // bP
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // af
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // af
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ak
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// O (cs): Create and Package New IP: addNotify
+// Elapsed time: 21 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b
+selectButton("CANCEL", "Cancel"); // JButton
+// 'p' command handler elapsed time: 27 seconds
+dismissDialog("Create and Package New IP"); // O
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Serial_Clock_Gen (Serial_Clock_Gen.v)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Serial_Clock_Gen (Serial_Clock_Gen.v)]", 11, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Gen.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/Serial_Clock_Gen.v 
+// [Engine Memory]: 2,437 MB (+3093kb) [00:42:18]
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+// HMemoryUtils.trashcanNow. Engine heap size: 2,437 MB. GUI used memory: 113 MB. Current time: 10/16/21, 3:37:03 PM CDT
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // an
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // af
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// O (cs): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b
+// bz (O):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton
+dismissDialog("Analyze source files for top modules"); // bz
+selectButton("NEXT", "Next >"); // JButton
+selectButton("OptionPane.button", "Overwrite"); // JButton
+selectButton("FINISH", "Finish"); // JButton
+// 'p' command handler elapsed time: 11 seconds
+dismissDialog("Create and Package New IP"); // O
+// TclEventType: LOAD_FEATURE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PROJECT_ARCHIVE_PRE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// bz (cs):  IP Packager : addNotify
+// Tcl Message: INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'. 
+// Tcl Message: ipx::package_project -root_dir /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new -vendor user.org -library user -taxonomy /UserIP -force -archive_source_project true 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'Clock_In' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [Coretcl 2-137] starting archive... INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-10125-cameron-xps' for archiving project INFO: [Coretcl 2-1211] Creating project copy for archival... 
+// TclEventType: PROJECT_RENAME
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PROJECT_RENAME
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CLOSE
+// TclEventType: PROJECT_ARCHIVE_POST
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [Coretcl 2-1213] Including run results for 'synth_1' INFO: [Coretcl 2-1213] Including run results for 'impl_1' INFO: [Coretcl 2-1209] Adding archive summary file to the project... INFO: [Coretcl 2-1214] Preparing project files for archive... INFO: [Coretcl 2-1210] Compressing project files and data... INFO: [Coretcl 2-1215] Project archived (/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new/ip_project_archive.zip) INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory. 
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment Required is not set for this core. INFO: [IP_Flow 19-2187] The Product Guide file is missing. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog("IP Packager"); // bz
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar
+selectButton(PAResourceOtoP.PackagerStepContentPanel_MESSAGES, "1"); // h
+// HMemoryUtils.trashcanNow. Engine heap size: 2,458 MB. GUI used memory: 118 MB. Current time: 10/16/21, 3:37:28 PM CDT
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::check_integrity [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment Required is not set for this core. INFO: [IP_Flow 19-2187] The Product Guide file is missing. INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed. 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bz (cs):  Package IP : addNotify
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new' 
+// TclEventType: LOAD_FEATURE
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 92 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 1); // m
+// Elapsed time: 300 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCM_Transmitter_16.v", 2); // m
+selectCodeEditor("PCM_Transmitter_16.v", 379, 452); // bP
+// Elapsed time: 218 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 4 seconds
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// Tcl Message: [Sat Oct 16 15:47:58 2021] Launched synth_1... Run output will be captured here: /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.runs/synth_1/runme.log [Sat Oct 16 15:47:58 2021] Launched impl_1... Run output will be captured here: /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.runs/impl_1/runme.log 
+// bz (cs):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 160 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net Clock_Divier/CLK_MOD_Latch has multiple drivers: Clock_Divier/LATCH_BUFF/O, and Clock_Divier/DIV_Latch/SRL16E_inst_7/Q.. ]", 11, false); // ah
+// Elapsed time: 118 seconds
+selectCodeEditor("PCM_Transmitter_16.v", 132, 250); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 132, 250); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 132, 250); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 132, 250); // bP
+// Elapsed time: 62 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CLK_MOD_Latch"); // l
+selectCodeEditor("PCM_Transmitter_16.v", 175, 113); // bP
+selectCodeEditor("PCM_Transmitter_16.v", 319, 233); // bP
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SR_Clock_Div_256.v", 3); // m
+selectCodeEditor("SR_Clock_Div_256.v", 383, 294); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 380, 294); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 380, 294); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 380, 294); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 380, 294); // bP
+selectCodeEditor("SR_Clock_Div_256.v", 380, 294); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FIFO_Latch_Clock.v", 4); // m
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 465, 259); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Serial_Clock_Divider.v", 1); // m
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net Clock_Divier/CLK_MOD_Latch has multiple drivers: Clock_Divier/LATCH_BUFF/O, and Clock_Divier/DIV_Latch/SRL16E_inst_7/Q.. ]", 11, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, DRC, Netlist, Net, [DRC MDRV-1] Multiple Driver Nets: Net Clock_Divier/CLK_MOD_Latch has multiple drivers: Clock_Divier/LATCH_BUFF/O, and Clock_Divier/DIV_Latch/SRL16E_inst_7/Q.. ]", 11, false, false, false, false, false, true); // ah - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("Serial_Clock_Divider.v", 529, 333); // bP
+selectCodeEditor("Serial_Clock_Divider.v", 526, 324); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - PCM_Transmitter_16", 5); // m
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 3 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::check_integrity [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment Required is not set for this core. INFO: [IP_Flow 19-2187] The Product Guide file is missing. INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed. 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new' 
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 731 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FIFO_Latch_Clock.v", 4); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 2,461 MB. GUI used memory: 112 MB. Current time: 10/16/21, 4:07:33 PM CDT
+selectCodeEditor("FIFO_Latch_Clock.v", 172, 328); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 278, 369); // bP
+selectCodeEditor("FIFO_Latch_Clock.v", 183, 281); // bP
+// Elapsed time: 53 seconds
+selectCodeEditor("FIFO_Latch_Clock.v", 171, 278); // bP
+// Elapsed time: 194 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - PCM_Transmitter_16", 5); // m
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 4 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::check_integrity [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment Required is not set for this core. INFO: [IP_Flow 19-2187] The Product Guide file is missing. INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed. 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/cameron/PhaseArraySpeaker/Firmware/PCM_Transmitter/PCM_Transmitter.srcs/sources_1/new' 
+selectButton("OptionPane.button", "OK"); // JButton

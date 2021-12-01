@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/cameron/PhaseArraySpeaker/Firmware/2018.2/FSBL.elf
+	/home/cameron/PhaseArraySpeaker/Firmware/2018.2/Zynq_Base_Phased_Array/Zynq_Base_Phased_Array.runs/impl_1/Zynq_Base_Phased_Array_wrapper.bit
+	/home/cameron/PhaseArraySpeaker/Firmware/2018.2/u-boot.elf
+}

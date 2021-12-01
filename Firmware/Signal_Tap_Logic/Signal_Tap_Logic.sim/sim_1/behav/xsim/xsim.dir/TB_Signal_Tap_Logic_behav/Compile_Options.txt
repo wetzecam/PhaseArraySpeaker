@@ -1,0 +1,1 @@
+-wto "eb18a95509d54f8eb4512571ac9c1320" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "TB_Signal_Tap_Logic_behav" "xil_defaultlib.TB_Signal_Tap_Logic" "xil_defaultlib.glbl" -log "elaborate.log" 

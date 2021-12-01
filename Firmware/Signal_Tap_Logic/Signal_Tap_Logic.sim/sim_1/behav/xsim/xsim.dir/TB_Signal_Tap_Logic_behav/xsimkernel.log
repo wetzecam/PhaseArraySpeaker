@@ -1,0 +1,4 @@
+Running: xsim.dir/TB_Signal_Tap_Logic_behav/xsimk -simmode gui -wdb TB_Signal_Tap_Logic_behav.wdb -simrunnum 0 -socket 52483
+Design successfully loaded
+Design Loading Memory Usage: 45560 KB (Peak: 45680 KB)
+Design Loading CPU Usage: 20 ms
