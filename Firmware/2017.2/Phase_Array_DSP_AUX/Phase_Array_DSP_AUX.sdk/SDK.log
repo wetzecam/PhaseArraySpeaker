@@ -1,0 +1,640 @@
+06:18:44 INFO  : Registering command handlers for SDK TCF services
+06:18:46 INFO  : Launching XSCT server: xsct -n -interactive /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/temp_xsdb_launch_script.tcl
+06:18:47 INFO  : XSCT server has started successfully.
+06:18:47 INFO  : Successfully done setting XSCT server connection channel  
+06:18:48 INFO  : Successfully done setting SDK workspace  
+06:18:48 INFO  : Processing command line option -hwspec /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper.hdf.
+06:29:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:29:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:29:42 INFO  : FPGA configured successfully with bitstream "/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/Zynq_I2C_CODEC_wrapper.bit"
+06:31:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:31:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:31:18 INFO  : FPGA configured successfully with bitstream "/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/Zynq_I2C_CODEC_wrapper.bit"
+06:31:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:31:50 INFO  : 'fpga -state' command is executed.
+06:31:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:31:50 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:32:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:32:06 INFO  : 'jtag frequency' command is executed.
+06:32:06 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:32:06 INFO  : Context for 'APU' is selected.
+06:32:06 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:32:06 INFO  : 'configparams force-mem-access 1' command is executed.
+06:32:06 INFO  : Context for 'APU' is selected.
+06:32:06 INFO  : 'stop' command is executed.
+06:32:06 INFO  : 'ps7_init' command is executed.
+06:32:06 INFO  : 'ps7_post_config' command is executed.
+06:32:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:32:06 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:32:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:32:07 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:32:07 INFO  : 'configparams force-mem-access 0' command is executed.
+06:32:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:32:07 INFO  : Memory regions updated for context APU
+06:32:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:32:07 INFO  : 'con' command is executed.
+06:32:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:32:07 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:33:23 INFO  : Disconnected from the channel tcfchan#1.
+06:33:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:33:24 INFO  : 'fpga -state' command is executed.
+06:33:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:33:24 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:33:28 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:33:28 INFO  : 'jtag frequency' command is executed.
+06:33:28 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:33:28 INFO  : Context for 'APU' is selected.
+06:33:29 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:33:29 INFO  : 'configparams force-mem-access 1' command is executed.
+06:33:29 INFO  : Context for 'APU' is selected.
+06:33:29 INFO  : 'stop' command is executed.
+06:33:29 INFO  : 'ps7_init' command is executed.
+06:33:29 INFO  : 'ps7_post_config' command is executed.
+06:33:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:33:29 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:33:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:33:29 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:33:29 INFO  : 'configparams force-mem-access 0' command is executed.
+06:33:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:33:29 INFO  : Memory regions updated for context APU
+06:33:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:33:29 INFO  : 'con' command is executed.
+06:33:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:33:29 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:40:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:40:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:40:52 INFO  : FPGA configured successfully with bitstream "/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/Zynq_I2C_CODEC_wrapper.bit"
+06:41:03 INFO  : Disconnected from the channel tcfchan#2.
+06:41:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:41:05 INFO  : 'fpga -state' command is executed.
+06:41:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:41:05 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:41:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:41:05 INFO  : 'jtag frequency' command is executed.
+06:41:05 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:41:05 INFO  : Context for 'APU' is selected.
+06:41:06 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:41:06 INFO  : 'configparams force-mem-access 1' command is executed.
+06:41:06 INFO  : Context for 'APU' is selected.
+06:41:06 INFO  : 'stop' command is executed.
+06:41:08 INFO  : 'ps7_init' command is executed.
+06:41:08 INFO  : 'ps7_post_config' command is executed.
+06:41:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:41:08 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:41:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:41:11 ERROR : Memory write error at 0x100000. AP transaction timeout
+06:41:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+----------------End of Script----------------
+
+06:41:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:41:50 INFO  : 'fpga -state' command is executed.
+06:41:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:41:50 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:41:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:41:50 INFO  : 'jtag frequency' command is executed.
+06:41:50 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:41:50 INFO  : Context for 'APU' is selected.
+06:41:50 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:41:50 INFO  : 'configparams force-mem-access 1' command is executed.
+06:41:50 INFO  : Context for 'APU' is selected.
+06:41:50 INFO  : 'stop' command is executed.
+06:41:50 ERROR : AP transaction error, DAP status f0000021
+06:41:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+06:42:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:42:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:42:05 INFO  : FPGA configured successfully with bitstream "/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/Zynq_I2C_CODEC_wrapper.bit"
+06:42:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:42:13 INFO  : 'fpga -state' command is executed.
+06:42:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:42:13 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:42:13 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:42:13 INFO  : 'jtag frequency' command is executed.
+06:42:13 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:42:16 ERROR : no targets found with "name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"". available targets:
+  1  DAP (JTAG port open error. AP transaction error, DAP status 30000021)
+  4* xc7z010
+06:42:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+----------------End of Script----------------
+
+06:42:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:42:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:42:29 INFO  : FPGA configured successfully with bitstream "/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/Zynq_I2C_CODEC_wrapper.bit"
+06:42:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:42:36 INFO  : 'fpga -state' command is executed.
+06:42:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:42:36 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:42:36 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:42:36 INFO  : 'jtag frequency' command is executed.
+06:42:36 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:42:36 INFO  : Context for 'APU' is selected.
+06:42:36 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:42:36 INFO  : 'configparams force-mem-access 1' command is executed.
+06:42:36 INFO  : Context for 'APU' is selected.
+06:42:36 INFO  : 'stop' command is executed.
+06:42:37 INFO  : 'ps7_init' command is executed.
+06:42:37 INFO  : 'ps7_post_config' command is executed.
+06:42:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:42:37 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:42:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:42:37 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:42:37 INFO  : 'configparams force-mem-access 0' command is executed.
+06:42:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:42:37 INFO  : Memory regions updated for context APU
+06:42:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:42:37 INFO  : 'con' command is executed.
+06:42:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:42:37 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:44:21 INFO  : Disconnected from the channel tcfchan#3.
+06:44:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:44:22 INFO  : 'fpga -state' command is executed.
+06:44:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:44:22 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:44:22 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:44:22 INFO  : 'jtag frequency' command is executed.
+06:44:22 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:44:22 INFO  : Context for 'APU' is selected.
+06:44:23 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:44:23 INFO  : 'configparams force-mem-access 1' command is executed.
+06:44:23 INFO  : Context for 'APU' is selected.
+06:44:23 INFO  : 'stop' command is executed.
+06:44:23 INFO  : 'ps7_init' command is executed.
+06:44:23 INFO  : 'ps7_post_config' command is executed.
+06:44:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:44:23 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:44:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:44:23 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:44:23 INFO  : 'configparams force-mem-access 0' command is executed.
+06:44:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:44:23 INFO  : Memory regions updated for context APU
+06:44:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:44:23 INFO  : 'con' command is executed.
+06:44:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:44:23 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:54:24 INFO  : Disconnected from the channel tcfchan#4.
+06:54:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:54:25 INFO  : 'fpga -state' command is executed.
+06:54:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:54:25 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:54:25 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:54:25 INFO  : 'jtag frequency' command is executed.
+06:54:25 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:54:25 INFO  : Context for 'APU' is selected.
+06:54:26 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:54:26 INFO  : 'configparams force-mem-access 1' command is executed.
+06:54:26 INFO  : Context for 'APU' is selected.
+06:54:26 INFO  : 'stop' command is executed.
+06:54:27 INFO  : 'ps7_init' command is executed.
+06:54:27 INFO  : 'ps7_post_config' command is executed.
+06:54:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:54:27 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:54:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:54:27 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:54:27 INFO  : 'configparams force-mem-access 0' command is executed.
+06:54:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:54:27 INFO  : Memory regions updated for context APU
+06:54:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:54:27 INFO  : 'con' command is executed.
+06:54:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:54:27 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:54:53 INFO  : Disconnected from the channel tcfchan#5.
+06:54:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:54:54 INFO  : 'fpga -state' command is executed.
+06:54:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:54:54 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:54:54 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:54:54 INFO  : 'jtag frequency' command is executed.
+06:54:54 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:54:54 INFO  : Context for 'APU' is selected.
+06:54:55 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:54:55 INFO  : 'configparams force-mem-access 1' command is executed.
+06:54:55 INFO  : Context for 'APU' is selected.
+06:54:56 INFO  : 'stop' command is executed.
+06:54:56 INFO  : 'ps7_init' command is executed.
+06:54:56 INFO  : 'ps7_post_config' command is executed.
+06:54:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:54:56 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:54:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:54:56 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:54:56 INFO  : 'configparams force-mem-access 0' command is executed.
+06:54:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:54:56 INFO  : Memory regions updated for context APU
+06:54:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:54:56 INFO  : 'con' command is executed.
+06:54:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:54:56 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:57:00 INFO  : Disconnected from the channel tcfchan#6.
+06:57:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:57:02 INFO  : 'fpga -state' command is executed.
+06:57:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:57:02 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:57:02 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:57:02 INFO  : 'jtag frequency' command is executed.
+06:57:02 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:57:02 INFO  : Context for 'APU' is selected.
+06:57:03 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:57:03 INFO  : 'configparams force-mem-access 1' command is executed.
+06:57:03 INFO  : Context for 'APU' is selected.
+06:57:03 INFO  : 'stop' command is executed.
+06:57:03 INFO  : 'ps7_init' command is executed.
+06:57:03 INFO  : 'ps7_post_config' command is executed.
+06:57:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:57:03 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:57:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:57:03 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:57:03 INFO  : 'configparams force-mem-access 0' command is executed.
+06:57:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:57:03 INFO  : Memory regions updated for context APU
+06:57:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:57:03 INFO  : 'con' command is executed.
+06:57:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:57:03 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:57:26 INFO  : Disconnected from the channel tcfchan#7.
+06:57:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:57:28 INFO  : 'fpga -state' command is executed.
+06:57:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:57:28 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:57:28 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:57:28 INFO  : 'jtag frequency' command is executed.
+06:57:28 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:57:28 INFO  : Context for 'APU' is selected.
+06:57:29 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:57:29 INFO  : 'configparams force-mem-access 1' command is executed.
+06:57:29 INFO  : Context for 'APU' is selected.
+06:57:29 INFO  : 'stop' command is executed.
+06:57:29 INFO  : 'ps7_init' command is executed.
+06:57:29 INFO  : 'ps7_post_config' command is executed.
+06:57:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:57:29 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:57:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:57:29 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:57:29 INFO  : 'configparams force-mem-access 0' command is executed.
+06:57:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:57:30 INFO  : Memory regions updated for context APU
+06:57:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:57:30 INFO  : 'con' command is executed.
+06:57:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:57:30 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+06:58:57 INFO  : Disconnected from the channel tcfchan#8.
+06:58:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+06:58:58 INFO  : 'fpga -state' command is executed.
+06:58:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:58:58 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+06:58:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+06:58:58 INFO  : 'jtag frequency' command is executed.
+06:58:58 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+06:58:58 INFO  : Context for 'APU' is selected.
+06:58:59 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+06:58:59 INFO  : 'configparams force-mem-access 1' command is executed.
+06:58:59 INFO  : Context for 'APU' is selected.
+06:58:59 INFO  : 'stop' command is executed.
+06:58:59 INFO  : 'ps7_init' command is executed.
+06:58:59 INFO  : 'ps7_post_config' command is executed.
+06:58:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:58:59 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+06:58:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:58:59 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:58:59 INFO  : 'configparams force-mem-access 0' command is executed.
+06:58:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:59:00 INFO  : Memory regions updated for context APU
+06:59:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:59:00 INFO  : 'con' command is executed.
+06:59:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+06:59:00 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+07:10:37 INFO  : Disconnected from the channel tcfchan#9.
+07:10:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+07:10:38 INFO  : 'fpga -state' command is executed.
+07:10:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:10:38 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+07:10:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+07:10:38 INFO  : 'jtag frequency' command is executed.
+07:10:38 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+07:10:38 INFO  : Context for 'APU' is selected.
+07:10:39 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+07:10:39 INFO  : 'configparams force-mem-access 1' command is executed.
+07:10:39 INFO  : Context for 'APU' is selected.
+07:10:39 INFO  : 'stop' command is executed.
+07:10:39 INFO  : 'ps7_init' command is executed.
+07:10:39 INFO  : 'ps7_post_config' command is executed.
+07:10:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:10:39 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+07:10:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:10:40 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:10:40 INFO  : 'configparams force-mem-access 0' command is executed.
+07:10:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+07:10:40 INFO  : Memory regions updated for context APU
+07:10:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:10:40 INFO  : 'con' command is executed.
+07:10:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+07:10:40 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'
+07:13:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:13:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+07:13:47 INFO  : FPGA configured successfully with bitstream "/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/Zynq_I2C_CODEC_wrapper.bit"
+07:13:53 INFO  : Disconnected from the channel tcfchan#10.
+07:13:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+07:13:54 INFO  : 'fpga -state' command is executed.
+07:13:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:13:54 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+07:13:54 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+07:13:54 INFO  : 'jtag frequency' command is executed.
+07:13:54 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+07:13:54 INFO  : Context for 'APU' is selected.
+07:13:56 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+07:13:56 INFO  : 'configparams force-mem-access 1' command is executed.
+07:13:56 INFO  : Context for 'APU' is selected.
+07:13:56 INFO  : 'stop' command is executed.
+07:13:58 INFO  : 'ps7_init' command is executed.
+07:13:58 INFO  : 'ps7_post_config' command is executed.
+07:13:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:13:58 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+07:13:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:14:00 ERROR : Memory write error at 0x100000. AP transaction timeout
+07:14:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+----------------End of Script----------------
+
+07:14:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:14:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+07:14:24 INFO  : FPGA configured successfully with bitstream "/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/Zynq_I2C_CODEC_wrapper.bit"
+07:14:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A" && level==0} -index 1' command is executed.
+07:14:29 INFO  : 'fpga -state' command is executed.
+07:14:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+07:14:29 WARN  : SDK version '2017.2' doesn't match hw_server version '2018.2'. Some debug features may not work.
+07:14:29 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FC48A' is selected.
+07:14:29 INFO  : 'jtag frequency' command is executed.
+07:14:29 INFO  : Sourcing of '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl' is done.
+07:14:29 INFO  : Context for 'APU' is selected.
+07:14:29 INFO  : Hardware design information is loaded from '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf'.
+07:14:29 INFO  : 'configparams force-mem-access 1' command is executed.
+07:14:29 INFO  : Context for 'APU' is selected.
+07:14:29 INFO  : 'stop' command is executed.
+07:14:30 INFO  : 'ps7_init' command is executed.
+07:14:30 INFO  : 'ps7_post_config' command is executed.
+07:14:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:14:30 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+07:14:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:14:31 INFO  : The application '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf' is downloaded to processor 'ps7_cortexa9_0'.
+07:14:31 INFO  : 'configparams force-mem-access 0' command is executed.
+07:14:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+loadhw -hw /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/Zynq_I2C_CODEC_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+dow /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/CODEC_Init.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+07:14:31 INFO  : Memory regions updated for context APU
+07:14:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+07:14:31 INFO  : 'con' command is executed.
+07:14:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo Z7 210351B0FC48A"} -index 0
+con
+----------------End of Script----------------
+
+07:14:31 INFO  : Launch script is exported to file '/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_codec_init.elf_on_local.tcl'

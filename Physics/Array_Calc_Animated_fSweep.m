@@ -4,7 +4,7 @@ h = figure;
 %axis tight manual % ensures getfram() has consistent size
 filename = 'LineArray_Fsweep.gif';
 
-frange = logspace(1,4,200);
+frange = logspace(2,4,750);
 for ft = frange
     fprintf('%d',ft);
 %% Defining Physical Constants
@@ -30,7 +30,7 @@ xResolution = 0.0625;
 R = X.^2 + Y.^2;
 
 %% Defining Phase Controls
-dN = 4;   % (integer) Time Delay Channel -- Channel
+dN = 0;   % (integer) Time Delay Channel -- Channel
 Phi = 0;    %
 Delays = zeros(size(Sx));
 for i = 1:length(Sx)

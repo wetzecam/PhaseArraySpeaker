@@ -1,0 +1,5 @@
+1638447679902	Delete resource 'CODEC_Init'
+1638447687385	Delete resource 'CODEC_Init_bsp'
+1638447745326	Delete resource 'CODEC_Init/src/userio'
+1638447751239	Delete resource 'CODEC_Init/src/dma'
+1638448291691	Delete resource 'CODEC_Init/src/helloworld.c'

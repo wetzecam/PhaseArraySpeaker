@@ -1,0 +1,1112 @@
+
+*** Running vivado
+    with args -log system_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source system_wrapper.tcl -notrace
+Command: synth_design -top system_wrapper -part xc7z010clg400-1 -flatten_hierarchy none -directive RuntimeOptimized -fsm_extraction off
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10245 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1337.574 ; gain = 86.766 ; free physical = 19467 ; free virtual = 27358
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_wrapper' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660]
+INFO: [Synth 8-6157] synthesizing module 'system' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1614]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_dma_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_dma_0_0' (2#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_axi_dma_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_dma_0' of module 'system_axi_dma_0_0' requires 64 connections, but only 61 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1944]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_gpio_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_gpio_0_0' (3#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_iic_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_axi_iic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_iic_0_0' (4#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_axi_iic_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_iic_0' of module 'system_axi_iic_0_0' requires 27 connections, but only 26 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:2028]
+INFO: [Synth 8-6157] synthesizing module 'system_axi_mem_intercon_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:2421]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1TEAG88' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:144]
+INFO: [Synth 8-6157] synthesizing module 'system_auto_pc_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_auto_pc_0' (5#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1TEAG88' (6#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:144]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1P403ZT' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1257]
+INFO: [Synth 8-6157] synthesizing module 'system_auto_us_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_us_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_auto_us_0' (7#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_us_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'auto_us' of module 'system_auto_us_0' requires 34 connections, but only 33 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1384]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1P403ZT' (8#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1257]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_VQ497S' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1420]
+INFO: [Synth 8-6157] synthesizing module 'system_auto_us_1' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_us_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_auto_us_1' (9#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_us_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'auto_us' of module 'system_auto_us_1' requires 40 connections, but only 39 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1571]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_VQ497S' (10#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1420]
+INFO: [Synth 8-6157] synthesizing module 'system_xbar_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_xbar_0' (11#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xbar_0_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_arready' does not match port width (2) of module 'system_xbar_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3004]
+WARNING: [Synth 8-689] width (64) of port connection 's_axi_rdata' does not match port width (128) of module 'system_xbar_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3021]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rlast' does not match port width (2) of module 'system_xbar_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3022]
+WARNING: [Synth 8-689] width (2) of port connection 's_axi_rresp' does not match port width (4) of module 'system_xbar_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3024]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rvalid' does not match port width (2) of module 'system_xbar_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3025]
+WARNING: [Synth 8-350] instance 'xbar' of module 'system_xbar_0' requires 78 connections, but only 76 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:2954]
+INFO: [Synth 8-6155] done synthesizing module 'system_axi_mem_intercon_0' (12#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:2421]
+INFO: [Synth 8-6157] synthesizing module 'system_d_axi_i2s_audio_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_d_axi_i2s_audio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_d_axi_i2s_audio_0_0' (13#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_d_axi_i2s_audio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_processing_system7_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_processing_system7_0_0' (14#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'system_processing_system7_0_0' requires 111 connections, but only 105 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:2177]
+INFO: [Synth 8-6157] synthesizing module 'system_ps7_0_axi_periph_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3033]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1H7AUOX' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1H7AUOX' (15#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:12]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_4Y7TYO' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:549]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_4Y7TYO' (16#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:549]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_FKL2TE' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:681]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_FKL2TE' (17#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:681]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_15QZ4LV' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:827]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_15QZ4LV' (18#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:827]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_11SE3QO' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:952]
+INFO: [Synth 8-6157] synthesizing module 'system_auto_pc_1' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_auto_pc_1' (19#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_11SE3QO' (20#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:952]
+INFO: [Synth 8-6157] synthesizing module 'system_xbar_1' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_xbar_1' (21#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xbar_1_stub.v:6]
+WARNING: [Synth 8-689] width (9) of port connection 'm_axi_arprot' does not match port width (12) of module 'system_xbar_1' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3826]
+WARNING: [Synth 8-689] width (9) of port connection 'm_axi_awprot' does not match port width (12) of module 'system_xbar_1' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3830]
+WARNING: [Synth 8-689] width (12) of port connection 'm_axi_wstrb' does not match port width (16) of module 'system_xbar_1' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3842]
+INFO: [Synth 8-6155] done synthesizing module 'system_ps7_0_axi_periph_0' (22#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:3033]
+INFO: [Synth 8-6157] synthesizing module 'system_rst_ps7_0_100M_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_rst_ps7_0_100M_0' (23#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_ps7_0_100M' of module 'system_rst_ps7_0_100M_0' requires 10 connections, but only 7 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:2403]
+INFO: [Synth 8-6157] synthesizing module 'system_xlconcat_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xlconcat_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_xlconcat_0_0' (24#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xlconcat_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system_xlconstant_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xlconstant_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system_xlconstant_0_0' (25#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/system_xlconstant_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'system' (26#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/synth/system.v:1614]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:27275]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (27#1) [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:27275]
+INFO: [Synth 8-6157] synthesizing module 'DAC_Array_Tester' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/new/DAC_Array_Tester.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Address_Counter' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/Address_Counter.v:24]
+WARNING: [Synth 8-5788] Register Addr_reg in module Address_Counter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/Address_Counter.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'Address_Counter' (28#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/imports/new/Address_Counter.v:24]
+INFO: [Synth 8-6157] synthesizing module 'I2S_Rx' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/I2S_Rx.v:24]
+INFO: [Synth 8-6157] synthesizing module 'TwoCycleHigh' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/new/TwoCycleHigh.v:23]
+INFO: [Synth 8-226] default block is never used [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/new/TwoCycleHigh.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'TwoCycleHigh' (29#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/new/TwoCycleHigh.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'I2S_Rx' (30#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/I2S_Rx.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Sine_ROM' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/Sine_ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Sine_ROM' (31#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/.Xil/Vivado-10238-cameron-xps/realtime/Sine_ROM_stub.v:6]
+INFO: [Synth 8-226] default block is never used [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/new/DAC_Array_Tester.v:104]
+WARNING: [Synth 8-567] referenced signal 'Sig_Sel' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/new/DAC_Array_Tester.v:103]
+WARNING: [Synth 8-567] referenced signal 'Sine_Data' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/new/DAC_Array_Tester.v:103]
+WARNING: [Synth 8-567] referenced signal 'CODEC_R' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/new/DAC_Array_Tester.v:103]
+WARNING: [Synth 8-567] referenced signal 'CODEC_L' should be on the sensitivity list [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/new/DAC_Array_Tester.v:103]
+INFO: [Synth 8-6157] synthesizing module 'Parallel_Signal_Tap' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Parallel_Signal_Tap.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Tap_Logic' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Signal_Tap_Logic.v:23]
+	Parameter WAIT bound to: 6'b010000 
+	Parameter DONE bound to: 6'b010001 
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Tap_Logic' (32#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Signal_Tap_Logic.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Demux_RAM_Parallel_Output' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Demux_RAM_Parallel_Output.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Demux_RAM_Parallel_Output' (33#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Demux_RAM_Parallel_Output.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Parallel_Signal_Tap' (34#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Parallel_Signal_Tap.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Buffer' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Sigal_Buffer.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Buffer' (35#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Sigal_Buffer.v:24]
+INFO: [Synth 8-6157] synthesizing module 'PCM_Transmitter_16' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/PCM_Transmitter_16.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Serial_Clock_Divider' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Serial_Clock_Divider.v:24]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (36#1) [/opt/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'Serial_Clock_Divider' (37#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Serial_Clock_Divider.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Serial_FIFO' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Serial_FIFO.v:22]
+WARNING: [Synth 8-5788] Register Data_Out_reg in module Serial_FIFO is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Serial_FIFO.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'Serial_FIFO' (38#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/Serial_FIFO.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'PCM_Transmitter_16' (39#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/new/PCM_Transmitter_16.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'DAC_Array_Tester' (40#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/imports/imports/sources_1/imports/sources_1/new/DAC_Array_Tester.v:24]
+WARNING: [Synth 8-350] instance 'nolabel_line239' of module 'DAC_Array_Tester' requires 19 connections, but only 18 given [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/hdl/system_wrapper.v:239]
+INFO: [Synth 8-6155] done synthesizing module 'system_wrapper' (41#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/hdl/system_wrapper.v:12]
+WARNING: [Synth 8-3331] design Address_Counter has unconnected port MCK
+WARNING: [Synth 8-3331] design DAC_Array_Tester has unconnected port Toggle_L
+WARNING: [Synth 8-3331] design DAC_Array_Tester has unconnected port Toggle_R
+WARNING: [Synth 8-3331] design s00_couplers_imp_11SE3QO has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_11SE3QO has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_15QZ4LV has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_15QZ4LV has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m03_couplers_imp_15QZ4LV has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m03_couplers_imp_15QZ4LV has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_FKL2TE has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_FKL2TE has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_FKL2TE has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_FKL2TE has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_4Y7TYO has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_4Y7TYO has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_4Y7TYO has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_4Y7TYO has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1H7AUOX has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_1H7AUOX has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1H7AUOX has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_1H7AUOX has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design s01_couplers_imp_VQ497S has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s01_couplers_imp_VQ497S has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_1P403ZT has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1P403ZT has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_bid[5]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_bid[4]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_bid[3]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_bid[2]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_bid[1]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_rid[5]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_rid[4]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_rid[3]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_rid[2]
+WARNING: [Synth 8-3331] design m00_couplers_imp_1TEAG88 has unconnected port M_AXI_rid[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1388.199 ; gain = 137.391 ; free physical = 19468 ; free virtual = 27360
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1388.199 ; gain = 137.391 ; free physical = 19472 ; free virtual = 27365
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1388.199 ; gain = 137.391 ; free physical = 19472 ; free virtual = 27365
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/opt/Xilinx/Sine_ROM_2/Sine_ROM/blk_mem_gen_0_in_context.xdc] for cell 'nolabel_line239/SineROM'
+Finished Parsing XDC File [/opt/Xilinx/Sine_ROM_2/Sine_ROM/blk_mem_gen_0_in_context.xdc] for cell 'nolabel_line239/SineROM'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0/system_axi_dma_0_0_in_context.xdc] for cell 'system_i/axi_dma_0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_axi_dma_0_0/system_axi_dma_0_0/system_axi_dma_0_0_in_context.xdc] for cell 'system_i/axi_dma_0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0/system_axi_gpio_0_0_in_context.xdc] for cell 'system_i/axi_gpio_0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0/system_axi_gpio_0_0_in_context.xdc] for cell 'system_i/axi_gpio_0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_axi_iic_0_0/system_axi_iic_0_0/system_axi_iic_0_0_in_context.xdc] for cell 'system_i/axi_iic_0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_axi_iic_0_0/system_axi_iic_0_0/system_axi_iic_0_0_in_context.xdc] for cell 'system_i/axi_iic_0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/system_d_axi_i2s_audio_0_0/system_d_axi_i2s_audio_0_0_in_context.xdc] for cell 'system_i/d_axi_i2s_audio_0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/system_d_axi_i2s_audio_0_0/system_d_axi_i2s_audio_0_0_in_context.xdc] for cell 'system_i/d_axi_i2s_audio_0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc] for cell 'system_i/processing_system7_0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc] for cell 'system_i/processing_system7_0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_in_context.xdc] for cell 'system_i/rst_ps7_0_100M'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0/system_rst_ps7_0_100M_0_in_context.xdc] for cell 'system_i/rst_ps7_0_100M'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xlconcat_0_0/system_xlconcat_0_0/system_xlconcat_0_0_in_context.xdc] for cell 'system_i/xlconcat_0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xlconcat_0_0/system_xlconcat_0_0/system_xlconcat_0_0_in_context.xdc] for cell 'system_i/xlconcat_0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xlconstant_0_0/system_xlconstant_0_0/system_xlconstant_0_0_in_context.xdc] for cell 'system_i/xlconstant_0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xlconstant_0_0/system_xlconstant_0_0/system_xlconstant_0_0_in_context.xdc] for cell 'system_i/xlconstant_0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xbar_1/system_xbar_1/system_xbar_1_in_context.xdc] for cell 'system_i/ps7_0_axi_periph/xbar'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xbar_1/system_xbar_1/system_xbar_1_in_context.xdc] for cell 'system_i/ps7_0_axi_periph/xbar'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0/system_xbar_0_in_context.xdc] for cell 'system_i/axi_mem_intercon/xbar'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_xbar_0/system_xbar_0/system_xbar_0_in_context.xdc] for cell 'system_i/axi_mem_intercon/xbar'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1/system_auto_pc_1_in_context.xdc] for cell 'system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1/system_auto_pc_1_in_context.xdc] for cell 'system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0/system_auto_pc_0_in_context.xdc] for cell 'system_i/axi_mem_intercon/m00_couplers/auto_pc'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0/system_auto_pc_0_in_context.xdc] for cell 'system_i/axi_mem_intercon/m00_couplers/auto_pc'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_us_1/system_auto_us_1/system_auto_us_1_in_context.xdc] for cell 'system_i/axi_mem_intercon/s01_couplers/auto_us'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_us_1/system_auto_us_1/system_auto_us_1_in_context.xdc] for cell 'system_i/axi_mem_intercon/s01_couplers/auto_us'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_us_0/system_auto_us_0/system_auto_us_0_in_context.xdc] for cell 'system_i/axi_mem_intercon/s00_couplers/auto_us'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_auto_us_0/system_auto_us_0/system_auto_us_0_in_context.xdc] for cell 'system_i/axi_mem_intercon/s00_couplers/auto_us'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/constrs_1/imports/constraints/zybo-z7-dma.xdc]
+WARNING: [Vivado 12-584] No ports matched 'nReset'. [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/constrs_1/imports/constraints/zybo-z7-dma.xdc:120]
+WARNING: [Vivado 12-584] No ports matched 'nReset'. [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/constrs_1/imports/constraints/zybo-z7-dma.xdc:121]
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/constrs_1/imports/constraints/zybo-z7-dma.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/constrs_1/imports/constraints/zybo-z7-dma.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/constrs_1/imports/constraints/zybo-z7-dma.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1769.785 ; gain = 0.000 ; free physical = 19168 ; free virtual = 27064
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'nolabel_line239/SineROM' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19271 ; free virtual = 27167
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19271 ; free virtual = 27167
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 2).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 3).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cke. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cke. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 49).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 50).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 51).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 52).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 53).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 54).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 55).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 56).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 57).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 58).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 59).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 60).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 61).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 62).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 63).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 64).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 65).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 66).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 67).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 68).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 69).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 70).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 71).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 72).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 73).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 74).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 75).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 76).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 77).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 78).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 79).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 80).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 81).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 82).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 83).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 84).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 85).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 86).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 87).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 88).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 89).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 90).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 91).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 92).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 93).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 94).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 95).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 96).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 97).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 98).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 99).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 100).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 101).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 102).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 103).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 104).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 105).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 106).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 107).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 108).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 109).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 110).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 111).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 112).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 113).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 114).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 115).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 116).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 117).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 118).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 119).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 120).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 121).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 122).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 123).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 124).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 125).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 126).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 127).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 128).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 129).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 130).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 131).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 132).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 133).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 134).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 135).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 136).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 137).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_odt. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 138).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_odt. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 139).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 140).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 141).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 142).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 143).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 144).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 145).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 146).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 147).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 148).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 149).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 150).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 151).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 152).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 153).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 154).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 155).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 156).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 157).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 158).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 159).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 160).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 161).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 162).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 163).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 164).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 165).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 166).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 167).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 168).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 169).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 170).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 171).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 172).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 173).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 174).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 175).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 176).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 177).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 178).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 179).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 180).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 181).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 182).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 183).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 184).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 185).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 186).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 187).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 188).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 189).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 190).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 191).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 192).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 193).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 194).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 195).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 196).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 197).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 198).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 199).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 200).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 201).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 202).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 203).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 204).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 205).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 206).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 207).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 208).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 209).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 210).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 211).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 212).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 213).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 214).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 215).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 216).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 217).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 218).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 219).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 220).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 221).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 222).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 223).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 224).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 225).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 226).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 227).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 228).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 229).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 230).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 231).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 232).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 233).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 234).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 235).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 236).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 237).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 238).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 239).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 240).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 241).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 242).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 243).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 244).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 245).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 246).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 247).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 248).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 249).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 250).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 251).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 252).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 253).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 254).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 255).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 256).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 257).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 258).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 259).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 260).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0/system_processing_system7_0_0_in_context.xdc, line 261).
+Applied set_property DONT_TOUCH = true for nolabel_line239/SineROM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_dma_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_iic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_mem_intercon. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/d_axi_i2s_audio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/processing_system7_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_mem_intercon/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_mem_intercon/m00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_mem_intercon/s01_couplers/auto_us. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for system_i/axi_mem_intercon/s00_couplers/auto_us. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19273 ; free virtual = 27169
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "Addr" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5587] ROM size for "State" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "Write_En" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DATA_Buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19260 ; free virtual = 27157
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 10    
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 273   
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                  4x4  Multipliers := 7     
+	                  3x4  Multipliers := 3     
+	                  2x4  Multipliers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 16    
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 17    
+	  19 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Address_Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module TwoCycleHigh 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      2 Bit        Muxes := 1     
+Module I2S_Rx 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 2     
+Module Signal_Tap_Logic 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                  4x4  Multipliers := 7     
+	                  3x4  Multipliers := 3     
+	                  2x4  Multipliers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  19 Input      1 Bit        Muxes := 1     
+Module Demux_RAM_Parallel_Output 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 16    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 16    
+Module Signal_Buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 257   
+Module Serial_FIFO 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+Module DAC_Array_Tester 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/nolabel_line154/Tapper/\State_reg[5] )
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[39]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[38]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[37]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[36]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[35]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[34]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[33]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[32]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[7]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[6]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[5]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[4]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[3]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[2]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[1]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (Output_Reg_reg[0]) is unused and will be removed from module I2S_Rx.
+WARNING: [Synth 8-3332] Sequential element (State_reg[5]) is unused and will be removed from module Signal_Tap_Logic.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[0]_P )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[0]_C )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[0]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[1]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[1]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[1]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[2]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[2]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[2]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[3]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[3]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[3]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[4]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[4]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[4]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[5]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[5]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[5]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[6]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[6]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_H/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_H/\Data_Out_reg[7]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_G/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_G/\Data_Out_reg[7]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_F/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_F/\Data_Out_reg[7]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_E/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_E/\Data_Out_reg[7]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_D/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_D/\Data_Out_reg[7]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_C/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_C/\Data_Out_reg[7]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_B/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_B/\Data_Out_reg[7]_P )
+INFO: [Synth 8-3886] merging instance 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[6]_P' (FDP_1) to 'nolabel_line239/PCM_TX/FIFO_A/Data_Out_reg[7]_P'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (nolabel_line239/PCM_TX/FIFO_A/\Data_Out_reg[7]_P )
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[8]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_P) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_LDC) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_C) is unused and will be removed from module Serial_FIFO__1.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[8]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_P) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_LDC) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_C) is unused and will be removed from module Serial_FIFO__2.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[8]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_P) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_LDC) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_C) is unused and will be removed from module Serial_FIFO__3.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[8]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_P) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[2]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[1]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_LDC) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[0]_C) is unused and will be removed from module Serial_FIFO__4.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[8]_C) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_LDC) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_C) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[7]_P) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_LDC) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[6]_C) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_LDC) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[5]_C) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_LDC) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[4]_C) is unused and will be removed from module Serial_FIFO__5.
+WARNING: [Synth 8-3332] Sequential element (Data_Out_reg[3]_LDC) is unused and will be removed from module Serial_FIFO__5.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19227 ; free virtual = 27130
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'system_i/processing_system7_0/FCLK_CLK0' to pin 'system_i/processing_system7_0/bbstub_FCLK_CLK0/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19103 ; free virtual = 27006
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19073 ; free virtual = 26976
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19074 ; free virtual = 26977
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19074 ; free virtual = 26977
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19073 ; free virtual = 26976
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name          | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|I2S_Rx      | Shift_Reg_reg[40] | 9      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|I2S_Rx      | Shift_Reg_reg[8]  | 9      | 1     | NO           | YES                | YES               | 1      | 0       | 
++------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |system_auto_pc_0              |         1|
+|2     |system_auto_us_0              |         1|
+|3     |system_auto_us_1              |         1|
+|4     |system_xbar_0                 |         1|
+|5     |system_auto_pc_1              |         1|
+|6     |system_xbar_1                 |         1|
+|7     |system_axi_dma_0_0            |         1|
+|8     |system_axi_gpio_0_0           |         1|
+|9     |system_axi_iic_0_0            |         1|
+|10    |system_d_axi_i2s_audio_0_0    |         1|
+|11    |system_processing_system7_0_0 |         1|
+|12    |system_rst_ps7_0_100M_0       |         1|
+|13    |system_xlconcat_0_0           |         1|
+|14    |system_xlconstant_0_0         |         1|
+|15    |Sine_ROM                      |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |Sine_ROM                      |     1|
+|2     |system_auto_pc_0              |     1|
+|3     |system_auto_pc_1              |     1|
+|4     |system_auto_us_0              |     1|
+|5     |system_auto_us_1              |     1|
+|6     |system_axi_dma_0_0            |     1|
+|7     |system_axi_gpio_0_0           |     1|
+|8     |system_axi_iic_0_0            |     1|
+|9     |system_d_axi_i2s_audio_0_0    |     1|
+|10    |system_processing_system7_0_0 |     1|
+|11    |system_rst_ps7_0_100M_0       |     1|
+|12    |system_xbar_0                 |     1|
+|13    |system_xbar_1                 |     1|
+|14    |system_xlconcat_0_0           |     1|
+|15    |system_xlconstant_0_0         |     1|
+|16    |BUFG                          |     1|
+|17    |CARRY4                        |    12|
+|18    |LUT1                          |     7|
+|19    |LUT2                          |   785|
+|20    |LUT3                          |   383|
+|21    |LUT4                          |    23|
+|22    |LUT5                          |    95|
+|23    |LUT6                          |  1651|
+|24    |MUXF7                         |   819|
+|25    |MUXF8                         |   408|
+|26    |SRL16E                        |     2|
+|27    |FDCE                          |   440|
+|28    |FDPE                          |   384|
+|29    |FDRE                          |  6702|
+|30    |FDSE                          |     1|
+|31    |LDC                           |   384|
+|32    |IBUF                          |    11|
+|33    |IOBUF                         |     2|
+|34    |OBUF                          |    22|
++------+------------------------------+------+
+
+Report Instance Areas: 
++------+-----------------------+--------------------------+------+
+|      |Instance               |Module                    |Cells |
++------+-----------------------+--------------------------+------+
+|1     |top                    |                          | 14438|
+|2     |  system_i             |system                    |  2274|
+|3     |    axi_mem_intercon   |system_axi_mem_intercon_0 |   861|
+|4     |      m00_couplers     |m00_couplers_imp_1TEAG88  |   265|
+|5     |      s00_couplers     |s00_couplers_imp_1P403ZT  |   100|
+|6     |      s01_couplers     |s01_couplers_imp_VQ497S   |   142|
+|7     |    ps7_0_axi_periph   |system_ps7_0_axi_periph_0 |   662|
+|8     |      s00_couplers     |s00_couplers_imp_11SE3QO  |   177|
+|9     |  nolabel_line239      |DAC_Array_Tester          | 12137|
+|10    |    Address_Logic      |Address_Counter           |    80|
+|11    |    CODEC_Reciever     |I2S_Rx                    |   104|
+|12    |      LATCH2           |TwoCycleHigh__1           |     4|
+|13    |    nolabel_line154    |Parallel_Signal_Tap       |   499|
+|14    |      Tapper           |Signal_Tap_Logic          |    99|
+|15    |      Parallel_RAM     |Demux_RAM_Parallel_Output |   400|
+|16    |    SigBuff            |Signal_Buffer             |  9024|
+|17    |    PCM_TX             |PCM_Transmitter_16        |  2366|
+|18    |      Clock_Divider    |Serial_Clock_Divider      |     6|
+|19    |        nolabel_line47 |TwoCycleHigh              |     4|
+|20    |      FIFO_A           |Serial_FIFO__1            |   295|
+|21    |      FIFO_B           |Serial_FIFO__2            |   295|
+|22    |      FIFO_C           |Serial_FIFO__3            |   295|
+|23    |      FIFO_D           |Serial_FIFO__4            |   295|
+|24    |      FIFO_E           |Serial_FIFO__5            |   295|
+|25    |      FIFO_F           |Serial_FIFO__6            |   295|
+|26    |      FIFO_G           |Serial_FIFO__7            |   295|
+|27    |      FIFO_H           |Serial_FIFO               |   295|
++------+-----------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19073 ; free virtual = 26976
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 225 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1769.785 ; gain = 137.391 ; free physical = 19131 ; free virtual = 27033
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 1769.785 ; gain = 518.977 ; free physical = 19139 ; free virtual = 27042
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1636 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 386 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  LDC => LDCE: 384 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+249 Infos, 163 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:42 . Memory (MB): peak = 1794.801 ; gain = 549.953 ; free physical = 19162 ; free virtual = 27064
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/synth_1/system_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1818.812 ; gain = 0.000 ; free physical = 19159 ; free virtual = 27063
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  5 15:59:33 2021...

@@ -46,11 +46,12 @@
  */
 
 # include "main.h"
-
+#include "AUDIO2.h"
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
-
+#include <string.h>
+#include <stdlib.h>
 
 
 
@@ -70,6 +71,7 @@
 #include "xiic.h"
 
 #include "xtime_l.h"
+#include <stdbool.h>
 
 
 #ifdef XPAR_INTC_0_DEVICE_ID
@@ -147,6 +149,14 @@ int main(void)
 {
 	init_platform();
 
+	u8 Rx_Dat[4];
+	Rx_Dat[0] = 0;
+	Rx_Dat[1] = 0;
+	Rx_Dat[2] = 0;
+	Rx_Dat[3] = 0;
+	char string[32];
+
+
 	int Status;
 
 	Demo.u8Verbose = 1;
@@ -158,6 +168,9 @@ int main(void)
 		xil_printf("Error initializing interrupts");
 		return XST_FAILURE;
 	}
+	else{
+		printf("\r\nInterrupts Enabled\n");
+	}
 
 	// Initialize IIC controller
 	Status = fnInitIic(&sIic);
@@ -165,100 +178,92 @@ int main(void)
 		xil_printf("Error initializing I2C controller");
 		return XST_FAILURE;
 	}
+	else{
+			printf("\r\nIIC Enabled\n");
+		}
 
 	// Enable all interrupts in our interrupt vector table
 	// Make sure all driver instances using interrupts are initialized first
 	fnEnableInterrupts(&sIntc, &ivt[0], sizeof(ivt)/sizeof(ivt[0]));
+	Status = fnInitAudio();
+	if(Status != XST_SUCCESS) {
+			xil_printf("Error initializing I2C controller");
+			return XST_FAILURE;
+		}
+	else{
+			printf("\r\nAudio Initialized\n");
+		}
+
+	// Modulize This //////////////////////
+	Read_ALL_Regs();
+
+
+	printf("\r\n\n\n\n\nStarting SW:\n");
+	printf("\r\nEnter a String:\n");
+	scanf("%31s",string);
+
+
+	Status = fnAudioReadFromReg(R0_LEFT_ADC_VOL, Rx_Dat);
+	if(Status != XST_SUCCESS) {
+			printf("\rError initializing I2C controller");
+			return XST_FAILURE;
+	}
+	printf("Read [Before Write] \n");
+	itoa(Rx_Dat[0],string,2);
+	printf("%s ",string);
+	itoa(Rx_Dat[1],string,2);
+	printf("%s ",string);
+	itoa(Rx_Dat[1],string,2);
+	printf("%s \n",string);
+
+	fnSetLineInput();
+	u16 WriteVALUE = 240;
+	fnAudioWriteToReg(R0_LEFT_ADC_VOL, WriteVALUE);
+	Status = fnAudioReadFromReg(R0_LEFT_ADC_VOL, Rx_Dat);
+		if(Status != XST_SUCCESS) {
+				printf("\rError initializing I2C controller");
+				return XST_FAILURE;
+		}
+		printf("Read [After Write] \n");
+		itoa(Rx_Dat[0],string,2);
+		printf("%s ",string);
+		itoa(Rx_Dat[1],string,2);
+		printf("%s ",string);
+		itoa(Rx_Dat[1],string,2);
+		printf("%s \n",string);
+
+	printf("%x %x %x",Rx_Dat[0], Rx_Dat[1], Rx_Dat[2]);
+	printf("\nEnter to Continue:\n");
+	scanf("%31s",string);
+	char input=0;
+
+	char cmd[256];
+	char singleChar;
+
+
+
+	while(input!='q'){
+
+		input = getchar();
+		xil_printf("\rEntered %c\n",input);
+	}
+
+	xil_printf("\rDONE WITH CHAR INPUT\n\n\n\n");
+
+
+	printf("\nEnter a String\n");
+	scanf("%31s",string);
+	printf("Entered: %s\n",string);
+
+
 
 	//fnAudioStartupConfig();
 	Status = fnInitAudio();
-	xil_printf("\r\n\n\n\n\n\n--- Entering main() --- \r\n\n\n\n\n");
-	//Status = fnAudioWriteToReg(R6_POWER_MGMT, 0b000110000);
-	//fnAudioWriteToReg(R9_ACTIVE, 0b000000001);
-/*
-	u8 ReadData[3];
-	ReadData[0] = 0;
-	Status = fnAudioWriteToReg(0x9, 0b000000001);
-	Status = fnAudioReadFromReg(R0_LEFT_ADC_VOL, ReadData);
-	xil_printf("\r\n--- R0_LEFT_ADC_VOL : \t\t 0x%x --- \r\n", ReadData[0]);
-	xil_printf("\r\n--- R0_LEFT_ADC_VOL : \t\t 0x%x --- \r\n", ReadData[1]);
+	xil_printf("\r\n--- Entering main() --- \r\n\n");
 
-	usleep(1000);
-
-//	ReadData = 0;
-	Status = fnAudioReadFromReg(R1_RIGHT_ADC_VOL, ReadData);
-	xil_printf("\r\n--- R1_RIGHT_ADC_VOL : \t\t 0x%x --- \r\n", ReadData[1]);
-
-	usleep(1000);
-//	ReadData = 0;
-	Status = fnAudioReadFromReg(R2_LEFT_DAC_VOL, ReadData);
-	xil_printf("\r\n--- R2_LEFT_DAC_VOL : \t\t 0x%x --- \r\n", ReadData[1]);
-
-	usleep(1000);
-//	ReadData = 0;
-	Status = fnAudioReadFromReg(0x03, ReadData);
-	xil_printf("\r\n--- R3_RIGHT_DAC_VOL : \t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-//	ReadData = 0;
-	Status = fnAudioReadFromReg(0x04, ReadData);
-	xil_printf("\r\n--- R4_ANALOG_PATH : \t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-//	ReadData = 0;
-	Status = fnAudioReadFromReg(0x05, ReadData);
-	xil_printf("\r\n--- R5_DIGITAL_PATH : \t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-//	ReadData = 0;
-	Status = fnAudioReadFromReg(0x06, ReadData);
-	xil_printf("\r\n--- R6_POWER_MGMT : \t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-	Status = fnAudioReadFromReg(0x07, ReadData);
-	xil_printf("\r\n--- R7_DIGITAL_IF : \t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-	Status = fnAudioReadFromReg(0x08, ReadData);
-	xil_printf("\r\n--- R8_SAMPLE_RATE : \t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-	Status = fnAudioReadFromReg(0x09, ReadData);
-	xil_printf("\r\n--- R9_ACTIVE : \t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-	Status = fnAudioReadFromReg(0x0F, ReadData);
-	xil_printf("\r\n--- R15_SOFTWARE_RESET : \t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-	Status = fnAudioReadFromReg(0x10, ReadData);
-	xil_printf("\r\n--- R16 : \t\t\t 0x%x --- \r\n", *ReadData);
-
-	usleep(1000);
-	Status = fnAudioReadFromReg(0x11, ReadData);
-	xil_printf("\r\n--- R17 : \t\t\t 0x%x --- \r\n", *ReadData);
-
-*/
 	fnSetLineInput();
 
-	/*	R0_LEFT_ADC_VOL									= 0x00,
-		R1_RIGHT_ADC_VOL								= 0x01,
-		R2_LEFT_DAC_VOL						 			= 0x02,
-		R3_RIGHT_DAC_VOL								= 0x03,
-		R4_ANALOG_PATH				 					= 0x04,
-		R5_DIGITAL_PATH				 					= 0x05,
-		R6_POWER_MGMT					 				= 0x06,
-		R7_DIGITAL_IF					 				= 0x07,
-		R8_SAMPLE_RATE							 		= 0x08,
-		R9_ACTIVE								 		= 0x09,
-		R15_SOFTWARE_RESET				 				= 0x0F,
-		R16_ALC_CONTROL_1								= 0x10,
-		R17_ALC_CONTROL_2								= 0x11,
-
-		R18_ALC_CONTROL_2
-*/
-
-//	cleanup_platform();
+	cleanup_platform();
 	return 0;
 }
 
@@ -336,3 +341,87 @@ int main()
     cleanup_platform();
     return 0;
 }*/
+
+void Read_ALL_Regs(){
+		int Status_X;
+		u8 Rx_Dat[4];
+		Rx_Dat[0] = 0;
+		Rx_Dat[1] = 0;
+		Rx_Dat[2] = 0;
+		Rx_Dat[3] = 0;
+
+		u8 ReadReg[4];
+		char Read_BIN[32];
+		ReadReg[0] = 0;
+		ReadReg[1] = 0;
+		ReadReg[2] = 0;
+		ReadReg[3] = 0;
+
+		Status_X = fnAudioReadFromReg(R0_LEFT_ADC_VOL, Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR0_LEFT_ADC_VOL  \t xx %s\n", Read_BIN);
+
+		ReadReg[0] = 0;
+		Status_X = fnAudioReadFromReg( R1_RIGHT_ADC_VOL , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR1_RIGHT_ADC_VOL  \t xx %s\n", Read_BIN);
+
+		ReadReg[0] = 0;
+		Status_X = fnAudioReadFromReg( R2_LEFT_DAC_VOL , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR2_LEFT_DAC_VOL  \t xx %s\n", Read_BIN);
+
+		ReadReg[0] = 0;
+		Status_X = fnAudioReadFromReg( R3_RIGHT_DAC_VOL , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR3_RIGHT_DAC_VOL  \t xx %s\n", Read_BIN);
+
+		ReadReg[0] = 0;
+		Status_X = fnAudioReadFromReg( R4_ANALOG_PATH , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR4_ANALOG_PATH  \t xx %s\n", Read_BIN);
+
+		ReadReg[0] = 0;
+		Status_X = fnAudioReadFromReg( R5_DIGITAL_PATH , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR5_DIGITAL_PATH  \t xx %s\n", Read_BIN);
+
+		ReadReg[0] = 0;
+		Status_X = fnAudioReadFromReg( R6_POWER_MGMT , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR6_POWER_MGMT  \t\t xx %s\n", Read_BIN);
+
+		Status_X = fnAudioReadFromReg( R7_DIGITAL_IF , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR7_DIGITAL_IF  \t\t xx %s\n", Read_BIN);
+
+		Status_X = fnAudioReadFromReg( R8_SAMPLE_RATE , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR8_SAMPLE_RATE  \t xx %s\n", Read_BIN);
+
+		Status_X = fnAudioReadFromReg( R9_ACTIVE , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR9_ACTIVE  \t\t xx %s\n", Read_BIN);
+
+		Status_X = fnAudioReadFromReg( R15_SOFTWARE_RESET , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR15_SOFTWARE_RESET  \t xx %s\n", Read_BIN);
+
+		Status_X = fnAudioReadFromReg( R16_ALC_CONTROL_1 , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR16_ALC_CONTROL_1  \t xx %s\n", Read_BIN);
+
+		Status_X = fnAudioReadFromReg( R17_ALC_CONTROL_2 , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		printf("\rR17_ALC_CONTROL_2  \t xx %s\n", Read_BIN);
+
+		Status_X = fnAudioReadFromReg( R18_ALC_CONTROL_2 , Rx_Dat);
+		itoa(Rx_Dat[0],Read_BIN,2);
+		xil_printf("\rR18_ALC_CONTROL_2  \t xx %s\n", Read_BIN);
+
+		itoa(Rx_Dat[1],Read_BIN,2);
+		xil_printf("\rZERO EMPTY Examp  \t xx %s\n", Read_BIN);
+
+		///////////////////////////////////////
+		return;
+}

@@ -1,0 +1,23 @@
+//include/ "zynq-7000.dtsi"
+//include/ "pl.dtsi"
+
+/*
+&axi_i2s_adi_0 {
+ #sound-dai-cells = <0>;    // only single DAI
+ clock-names = "ref", "axi";
+ clocks = <&misc_clk_0>, <&clkc 15>;
+ compatible = "adi,axi-i2s-1.00.a";
+ dmas = <&dmac_s 0 &dmac_s 1>;
+ dma-names = "tx", "rx";
+};
+*/
+
+&ps7_i2c_0 {
+ status = "okay";
+ ssm2603: ssm2603@1a {
+  #sound-dai-cells = <0>;   // only single DAI
+     compatible = "adi,ssm2603";
+     reg = <0x1a>;
+    };
+};
+

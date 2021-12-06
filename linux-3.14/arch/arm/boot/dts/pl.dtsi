@@ -1,0 +1,44 @@
+/ {
+scratch_mem@10000000 {
+
+#address-cells = <1>;
+
+#size-cells = <1>;
+
+reg = <0x10000000 0x10000000>;
+
+compatible = "generic-uio";
+
+interrupts = < 0 58 0 >;
+
+interrupt-parent = <0x1>;
+
+};
+
+amba_pl: amba_pl {
+
+ranges;
+
+#size-cells = <0x1>;
+
+#address-cells = <0x1>;
+
+compatible = "simple-bus";
+
+dma@40400000 {
+
+#dma-cells = <1>;
+
+compatible = "generic-uio";
+
+interrupt-parent = <0x1>;
+
+interrupts = <0 29 4 0 30 4>;
+
+reg = <0x40400000 0x10000>;
+
+};
+
+};
+
+};

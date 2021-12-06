@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Dec  2 10:10:08 2021
+# Process ID: 24254
+# Current directory: /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.runs/impl_1
+# Command line: vivado -log Zynq_I2C_CODEC_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Zynq_I2C_CODEC_wrapper.tcl -notrace
+# Log file: /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.runs/impl_1/Zynq_I2C_CODEC_wrapper.vdi
+# Journal file: /home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Zynq_I2C_CODEC_wrapper.tcl -notrace

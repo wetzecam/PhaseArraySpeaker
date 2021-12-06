@@ -1,0 +1,2376 @@
+06:20:04 **** Build of project CODEC_Init_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_7/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_7/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:218:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling iic
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project CODEC_Init ****
+
+Nothing to build for project CODEC_Init
+06:21:46 **** Build of project CODEC_Init_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_7/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling qspips
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_7/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scugic
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:218:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_4/src
+make -C ps7_cortexa9_0/libsrc/iic_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling iic
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+06:21:53 **** Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19384	   1148	  22568	  43100	   a85c	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:21:54 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:22:09 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/userio/userio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/userio/userio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/userio/userio.d" -MT"src/userio/userio.o" -o "src/userio/userio.o" "../src/userio/userio.c"
+In file included from ../src/userio/userio.c:55:0:
+../src/userio/userio.h:57:19: fatal error: xgpio.h: No such file or directory
+ #include "xgpio.h"
+                   ^
+compilation terminated.
+src/userio/subdir.mk:18: recipe for target 'src/userio/userio.o' failed
+make: *** [src/userio/userio.o] Error 1
+06:22:25 **** Clean-only build of configuration Debug for project CODEC_Init ****
+make clean 
+rm -rf  ./src/userio/userio.o  ./src/intc/intc.o  ./src/iic/iic.o  ./src/dma/dma.o  ./src/audio/audio.o  ./src/demo.o ./src/helloworld.o ./src/platform.o  ./src/userio/userio.d  ./src/intc/intc.d  ./src/iic/iic.d  ./src/dma/dma.d  ./src/audio/audio.d  ./src/demo.d ./src/helloworld.d ./src/platform.d  CODEC_Init.elf.size  CODEC_Init.elf
+ 
+06:22:25 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building file: ../src/dma/dma.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma/dma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma/dma.d" -MT"src/dma/dma.o" -o "src/dma/dma.o" "../src/dma/dma.c"
+In file included from ../src/dma/dma.c:8:0:
+../src/dma/dma.h:13:21: fatal error: xaxidma.h: No such file or directory
+ #include "xaxidma.h"
+                     ^
+compilation terminated.
+src/dma/subdir.mk:18: recipe for target 'src/dma/dma.o' failed
+make: *** [src/dma/dma.o] Error 1
+06:22:31 **** Clean-only build of configuration Debug for project CODEC_Init ****
+make clean 
+rm -rf  ./src/intc/intc.o  ./src/iic/iic.o  ./src/dma/dma.o  ./src/audio/audio.o  ./src/demo.o ./src/helloworld.o ./src/platform.o  ./src/intc/intc.d  ./src/iic/iic.d  ./src/dma/dma.d  ./src/audio/audio.d  ./src/demo.d ./src/helloworld.d ./src/platform.d  CODEC_Init.elf.size  CODEC_Init.elf
+ 
+06:22:31 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:70:24: fatal error: ../dma/dma.h: No such file or directory
+ #include "../dma/dma.h"
+                        ^
+compilation terminated.
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+06:22:41 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:77:26: error: 'XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR' undeclared here (not in a function)
+ #define AUDIO_CTL_ADDR   XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR
+                          ^
+../src/audio/audio.h:77:26: note: in definition of macro 'AUDIO_CTL_ADDR'
+ #define AUDIO_CTL_ADDR   XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.h:204:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples);
+                    ^~~~~~~
+../src/audio/audio.h:205:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples);
+                  ^~~~~~~
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+../src/audio/audio.c:416:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples)
+                  ^~~~~~~
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+06:22:49 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:161:21: error: 'AUDIO_CTL_ADDR' undeclared here (not in a function)
+  I2S_RESET_REG    = AUDIO_CTL_ADDR,
+                     ^~~~~~~~~~~~~~
+../src/audio/audio.h:203:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples);
+                    ^~~~~~~
+../src/audio/audio.h:204:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples);
+                  ^~~~~~~
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+../src/audio/audio.c:416:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples)
+                  ^~~~~~~
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+06:23:11 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.c:61:0:
+../src/audio/audio.h:203:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples);
+                    ^~~~~~~
+../src/audio/audio.h:204:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples);
+                  ^~~~~~~
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:236:38: error: 'I2S_CLOCK_CONTROL_REG' undeclared (first use in this function)
+  uConfigurationVariable.l = Xil_In32(I2S_CLOCK_CONTROL_REG);
+                                      ^~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c:236:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/audio/audio.c:246:12: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+  Xil_Out32(I2S_TRANSFER_CONTROL_REG, uConfigurationVariable.l);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c: At top level:
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+../src/audio/audio.c:416:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples)
+                  ^~~~~~~
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+06:23:23 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:236:38: error: 'I2S_CLOCK_CONTROL_REG' undeclared (first use in this function)
+  uConfigurationVariable.l = Xil_In32(I2S_CLOCK_CONTROL_REG);
+                                      ^~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c:236:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/audio/audio.c:246:12: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+  Xil_Out32(I2S_TRANSFER_CONTROL_REG, uConfigurationVariable.l);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c: At top level:
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+../src/audio/audio.c:416:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples)
+                  ^~~~~~~
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+06:23:38 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:240:12: error: 'I2S_CLOCK_CONTROL_REG' undeclared (first use in this function)
+  Xil_Out32(I2S_CLOCK_CONTROL_REG, uConfigurationVariable.l);
+            ^~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c:240:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/audio/audio.c:250:12: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+  Xil_Out32(I2S_TRANSFER_CONTROL_REG, uConfigurationVariable.l);
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c: At top level:
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+../src/audio/audio.c:416:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples)
+                  ^~~~~~~
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+06:24:26 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:232:18: warning: variable 'uConfigurationVariable' set but not used [-Wunused-but-set-variable]
+  union ubitField uConfigurationVariable;
+                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c: At top level:
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+../src/audio/audio.c:416:18: error: unknown type name 'XAxiDma'
+ void fnAudioPlay(XAxiDma AxiDma, u32 u32NrSamples)
+                  ^~~~~~~
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+06:24:48 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:232:18: warning: variable 'uConfigurationVariable' set but not used [-Wunused-but-set-variable]
+  union ubitField uConfigurationVariable;
+                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c: At top level:
+../src/audio/audio.c:374:20: error: unknown type name 'XAxiDma'
+ void fnAudioRecord(XAxiDma AxiDma, u32 u32NrSamples)
+                    ^~~~~~~
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+06:25:18 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:232:18: warning: variable 'uConfigurationVariable' set but not used [-Wunused-but-set-variable]
+  union ubitField uConfigurationVariable;
+                  ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/audio/audio.c
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c:34:21: fatal error: dma/dma.h: No such file or directory
+ #include "dma/dma.h"
+                     ^
+compilation terminated.
+make: *** [src/demo.o] Error 1
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+06:25:30 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c:36:27: fatal error: userio/userio.h: No such file or directory
+ #include "userio/userio.h"
+                           ^
+compilation terminated.
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+make: *** [src/demo.o] Error 1
+06:26:24 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c:41:21: fatal error: xaxidma.h: No such file or directory
+ #include "xaxidma.h"
+                     ^
+compilation terminated.
+make: *** [src/demo.o] Error 1
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+06:26:32 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c:101:8: error: unknown type name 'XAxiDma'
+ static XAxiDma sAxiDma;  /* Instance of the XAxiDma */
+        ^~~~~~~
+../src/demo.c:103:8: error: unknown type name 'XGpio'
+ static XGpio sUserIO;
+        ^~~~~
+../src/demo.c:129:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:129:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:131:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:131:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:133:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:133:67: error: 'fnUserIOIsr' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+../src/demo.c: In function 'main':
+../src/demo.c:193:14: warning: implicit declaration of function 'fnInitUserIO' [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+../src/demo.c:201:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/demo.c:229:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:231:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:236:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:244:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:250:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:288:14: error: 'I2S_STREAM_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:288:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/demo.c:288:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:289:14: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:289:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:304:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:305:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:337:43: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                           ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:342:44: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                            ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:346:41: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                         ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:351:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R9_ACTIVE, &Probe9);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:357:42: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R4_ANALOG_PATH, &Probe4);
+                                          ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:364:7: warning: implicit declaration of function 'fnAudioRecord' [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+../src/demo.c:384:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/demo.c:406:49: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                                 ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:411:50: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                                  ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:415:47: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                               ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+make: *** [src/demo.o] Error 1
+06:26:42 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c:129:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:129:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:129:91: error: 'sAxiDma' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                                           ^~~~~~~
+../src/demo.c:131:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:131:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:133:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:133:67: error: 'fnUserIOIsr' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+../src/demo.c:133:81: error: 'sUserIO' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                                 ^~~~~~~
+../src/demo.c: In function 'main':
+../src/demo.c:193:14: warning: implicit declaration of function 'fnInitUserIO' [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+../src/demo.c:201:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/demo.c:229:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:231:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:236:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:244:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:250:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:288:14: error: 'I2S_STREAM_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:288:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/demo.c:288:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:289:14: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:289:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:304:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:305:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:337:43: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                           ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:342:44: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                            ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:346:41: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                         ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:351:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R9_ACTIVE, &Probe9);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:357:42: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R4_ANALOG_PATH, &Probe4);
+                                          ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:364:7: warning: implicit declaration of function 'fnAudioRecord' [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+../src/demo.c:384:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/demo.c:406:49: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                                 ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:411:50: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                                  ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:415:47: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                               ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+make: *** [src/demo.o] Error 1
+06:26:47 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c:127:3: error: 'XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:127:66: error: 'fnS2MMInterruptHandler' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:127:91: error: 'sAxiDma' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_ExceptionHandler)fnS2MMInterruptHandler, &sAxiDma},
+                                                                                           ^~~~~~~
+../src/demo.c:129:3: error: 'XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:129:66: error: 'fnMM2SInterruptHandler' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_DMA_0_MM2S_INTROUT_INTR, (Xil_ExceptionHandler)fnMM2SInterruptHandler, &sAxiDma},
+                                                                  ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:131:3: error: 'XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:131:67: error: 'fnUserIOIsr' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                   ^~~~~~~~~~~
+../src/demo.c:131:81: error: 'sUserIO' undeclared here (not in a function)
+  {XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR, (Xil_ExceptionHandler)fnUserIOIsr, &sUserIO}
+                                                                                 ^~~~~~~
+../src/demo.c: In function 'main':
+../src/demo.c:191:14: warning: implicit declaration of function 'fnInitUserIO' [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+../src/demo.c:199:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/demo.c:227:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:229:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:234:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:242:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:248:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:286:14: error: 'I2S_STREAM_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:286:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/demo.c:286:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:287:14: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:287:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:302:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:303:14: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/demo.h:34:0,
+                 from ../src/demo.c:28:
+../../CODEC_Init_bsp/ps7_cortexa9_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'const ivt_t * {aka const struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/demo.c:335:43: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                           ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:340:44: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                            ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:344:41: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                         ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:349:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R9_ACTIVE, &Probe9);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:355:42: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R4_ANALOG_PATH, &Probe4);
+                                          ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:362:7: warning: implicit declaration of function 'fnAudioRecord' [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+../src/demo.c:382:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/demo.c:404:49: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                                 ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:409:50: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                                  ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:413:47: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                               ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+make: *** [src/demo.o] Error 1
+06:27:06 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:185:14: warning: implicit declaration of function 'fnInitUserIO' [-Wimplicit-function-declaration]
+     Status = fnInitUserIO(&sUserIO);
+              ^~~~~~~~~~~~
+../src/demo.c:185:28: error: 'sUserIO' undeclared (first use in this function)
+     Status = fnInitUserIO(&sUserIO);
+                            ^~~~~~~
+../src/demo.c:185:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/demo.c:193:11: warning: implicit declaration of function 'fnConfigDma' [-Wimplicit-function-declaration]
+  Status = fnConfigDma(&sAxiDma);
+           ^~~~~~~~~~~
+../src/demo.c:193:24: error: 'sAxiDma' undeclared (first use in this function)
+  Status = fnConfigDma(&sAxiDma);
+                        ^~~~~~~
+../src/demo.c:221:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:223:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:228:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:236:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:242:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:280:14: error: 'I2S_STREAM_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:281:14: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:329:43: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                           ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:334:44: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                            ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:338:41: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                         ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:343:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R9_ACTIVE, &Probe9);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:349:42: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R4_ANALOG_PATH, &Probe4);
+                                          ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:356:7: warning: implicit declaration of function 'fnAudioRecord' [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+../src/demo.c:376:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/demo.c:398:49: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                                 ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:403:50: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                                  ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:407:47: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                               ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+make: *** [src/demo.o] Error 1
+06:28:21 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:277:14: error: 'I2S_STREAM_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_STREAM_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:277:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/demo.c:278:14: error: 'I2S_TRANSFER_CONTROL_REG' undeclared (first use in this function)
+    Xil_Out32(I2S_TRANSFER_CONTROL_REG, 0x00000000);
+              ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/demo.c:310:43: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                           ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:315:44: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                            ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:319:41: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                         ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:324:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R9_ACTIVE, &Probe9);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:330:42: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R4_ANALOG_PATH, &Probe4);
+                                          ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:337:7: warning: implicit declaration of function 'fnAudioRecord' [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+../src/demo.c:337:21: error: 'sAxiDma' undeclared (first use in this function)
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+                     ^~~~~~~
+../src/demo.c:357:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/demo.c:379:49: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                                 ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:384:50: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                                  ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:388:47: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                               ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+make: *** [src/demo.o] Error 1
+06:28:33 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:308:43: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+       fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                           ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:313:44: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                            ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:317:41: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                         ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:322:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R9_ACTIVE, &Probe9);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:328:42: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R4_ANALOG_PATH, &Probe4);
+                                          ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:335:7: warning: implicit declaration of function 'fnAudioRecord' [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+../src/demo.c:335:21: error: 'sAxiDma' undeclared (first use in this function)
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+                     ^~~~~~~
+../src/demo.c:335:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/demo.c:355:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/demo.c:377:49: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                                 ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:382:50: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                                  ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:386:47: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                               ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+make: *** [src/demo.o] Error 1
+06:28:42 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:308:43: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                           ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:313:44: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                            ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+src/subdir.mk:27: recipe for target 'src/demo.o' failed
+../src/demo.c:317:41: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                         ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:322:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R9_ACTIVE, &Probe9);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:328:42: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+       fnAudioReadFromReg(R4_ANALOG_PATH, &Probe4);
+                                          ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:355:7: warning: implicit declaration of function 'fnAudioPlay' [-Wimplicit-function-declaration]
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~
+../src/demo.c:355:19: error: 'sAxiDma' undeclared (first use in this function)
+       fnAudioPlay(sAxiDma,NR_AUDIO_SAMPLES);
+                   ^~~~~~~
+../src/demo.c:355:19: note: each undeclared identifier is reported only once for each function it appears in
+../src/demo.c:377:49: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                                 ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:382:50: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                                  ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:386:47: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+             fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                               ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:393:7: warning: implicit declaration of function 'fnAudioRecord' [-Wimplicit-function-declaration]
+       fnAudioRecord(sAxiDma,NR_AUDIO_SAMPLES);
+       ^~~~~~~~~~~~~
+make: *** [src/demo.o] Error 1
+06:29:27 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/../src/helloworld.c:54: multiple definition of `main'
+./src/demo.o:/home/cameron/PhaseArraySpeaker/Firmware/2017.2/Phase_Array_DSP_AUX/Phase_Array_DSP_AUX.sdk/CODEC_Init/Debug/../src/demo.c:155: first defined here
+makefile:42: recipe for target 'CODEC_Init.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [CODEC_Init.elf] Error 1
+06:31:31 **** Clean-only build of configuration Debug for project CODEC_Init ****
+make clean 
+rm -rf  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/helloworld.o ./src/platform.o  ./src/intc/intc.d  ./src/iic/iic.d  ./src/audio/audio.d  ./src/demo.d ./src/helloworld.d ./src/platform.d  CODEC_Init.elf.size  CODEC_Init.elf
+ 
+06:31:32 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/intc/intc.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+Finished building: ../src/intc/intc.c
+ 
+Building file: ../src/iic/iic.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+Finished building: ../src/iic/iic.c
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:232:18: warning: variable 'uConfigurationVariable' set but not used [-Wunused-but-set-variable]
+  union ubitField uConfigurationVariable;
+                  ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/audio/audio.c
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36704	   2772	  22728	  62204	   f2fc	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:31:49 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:33:16 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36728	   2772	  22728	  62228	   f314	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:33:20 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:40:59 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:41:49 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:42:12 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:42:35 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:44:17 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:54:17 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36700	   2772	  22728	  62200	   f2f8	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:54:20 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:54:50 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36700	   2772	  22728	  62200	   f2f8	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:54:52 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:56:58 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:260:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:264:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36856	   2772	  22728	  62356	   f394	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:56:59 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+06:57:25 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:260:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:264:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36856	   2772	  22728	  62356	   f394	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:58:50 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:260:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:264:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:266:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36920	   2772	  22728	  62420	   f3d4	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+06:58:56 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+07:10:34 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:260:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:264:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:266:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36920	   2772	  22728	  62420	   f3d4	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+07:10:36 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+07:13:52 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:260:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:264:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:266:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36920	   2772	  22728	  62420	   f3d4	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 
+07:14:28 **** Incremental Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+07:15:56 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:236:38: error: 'I2S_CLOCK_CONTROL_REG' undeclared (first use in this function)
+  uConfigurationVariable.l = Xil_In32(I2S_CLOCK_CONTROL_REG);
+                                      ^~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c:236:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/audio/audio.c:232:18: warning: variable 'uConfigurationVariable' set but not used [-Wunused-but-set-variable]
+  union ubitField uConfigurationVariable;
+                  ^~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/audio/audio.o] Error 1
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+10:05:02 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:236:38: error: 'I2S_CLOCK_CONTROL_REG' undeclared (first use in this function)
+  uConfigurationVariable.l = Xil_In32(I2S_CLOCK_CONTROL_REG);
+                                      ^~~~~~~~~~~~~~~~~~~~~
+../src/audio/audio.c:236:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/audio/audio.c:232:18: warning: variable 'uConfigurationVariable' set but not used [-Wunused-but-set-variable]
+  union ubitField uConfigurationVariable;
+                  ^~~~~~~~~~~~~~~~~~~~~~
+src/audio/subdir.mk:18: recipe for target 'src/audio/audio.o' failed
+make: *** [src/audio/audio.o] Error 1
+10:05:16 **** Auto Build of configuration Debug for project CODEC_Init ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio/audio.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+../src/audio/audio.c: In function 'fnAudioStartupConfig':
+../src/audio/audio.c:232:18: warning: variable 'uConfigurationVariable' set but not used [-Wunused-but-set-variable]
+  union ubitField uConfigurationVariable;
+                  ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/audio/audio.c
+ 
+Building file: ../src/demo.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../CODEC_Init_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+../src/demo.c: In function 'main':
+../src/demo.c:205:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:207:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe1);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:212:38: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe);
+                                      ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:220:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R1_RIGHT_ADC_VOL, &RegProbe);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:226:36: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+  fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                    ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:260:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:264:39: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R0_LEFT_ADC_VOL, &RegProbe0);
+                                       ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+../src/demo.c:266:37: warning: passing argument 2 of 'fnAudioReadFromReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   fnAudioReadFromReg(R6_POWER_MGMT, &RegProbe);
+                                     ^
+In file included from ../src/demo.c:33:0:
+../src/audio/audio.h:199:9: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'u16 * {aka short unsigned int *}'
+ XStatus fnAudioReadFromReg(u8 u8RegAddr, u8 *u8RxData);
+         ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/demo.c
+ 
+Building target: CODEC_Init.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../CODEC_Init_bsp/ps7_cortexa9_0/lib -o "CODEC_Init.elf"  ./src/intc/intc.o  ./src/iic/iic.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: CODEC_Init.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size CODEC_Init.elf  |tee "CODEC_Init.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  36920	   2772	  22728	  62420	   f3d4	CODEC_Init.elf
+Finished building: CODEC_Init.elf.size
+ 

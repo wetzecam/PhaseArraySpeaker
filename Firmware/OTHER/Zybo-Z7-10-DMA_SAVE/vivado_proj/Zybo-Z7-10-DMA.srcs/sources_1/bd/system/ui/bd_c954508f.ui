@@ -1,0 +1,58 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port ac_reclrc -pg 1 -y 930 -defaultsOSRD
+preplace port btns_4bits -pg 1 -y 350 -defaultsOSRD
+preplace port DDR -pg 1 -y 480 -defaultsOSRD
+preplace port ac_recdat -pg 1 -y 880 -defaultsOSRD
+preplace port ac_pbdat -pg 1 -y 970 -defaultsOSRD
+preplace port IIC -pg 1 -y 200 -defaultsOSRD
+preplace port ac_bclk -pg 1 -y 890 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 500 -defaultsOSRD
+preplace port ac_mclk -pg 1 -y 950 -defaultsOSRD
+preplace port ac_pblrc -pg 1 -y 910 -defaultsOSRD
+preplace portBus ac_muten -pg 1 -y 720 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 5 -y 220 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -y 510 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -y 720 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -y 110 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 5 -y 360 -defaultsOSRD
+preplace inst d_axi_i2s_audio_0 -pg 1 -lvl 5 -y 930 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 430 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 570 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 490 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 530 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 5 1 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 3 700 840 NJ 840 NJ
+preplace netloc axi_iic_0_iic2intc_irpt 1 3 3 1120 20 NJ 20 1930
+preplace netloc ac_recdat_1 1 0 5 NJ 880 NJ 880 NJ 880 NJ 880 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 390 660 NJ 660 NJ 660 1440J 650 1950
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 4 380 650 720 640 1080 890 1450
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 670 NJ 670 NJ 670 NJ 670 1460J 660 1940
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 N
+preplace netloc axi_mem_intercon_M00_AXI 1 4 1 1460
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 3 690 200 NJ 200 NJ
+preplace netloc d_axi_i2s_audio_0_BCLK_O 1 5 1 1940J
+preplace netloc axi_dma_0_s2mm_introut 1 3 1 1090
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 1 1080
+preplace netloc xlconstant_0_dout 1 5 1 NJ
+preplace netloc xlconcat_0_dout 1 4 1 1470
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ
+preplace netloc d_axi_i2s_audio_0_SDATA_O 1 5 1 NJ
+preplace netloc axi_i2s_adi_0_LRCLK_O 1 5 1 1950
+preplace netloc axi_dma_0_mm2s_introut 1 3 1 1070
+preplace netloc axi_gpio_0_GPIO 1 5 1 NJ
+preplace netloc axi_iic_0_IIC 1 5 1 NJ
+preplace netloc d_axi_i2s_audio_0_AXI_S2MM 1 2 4 730 780 NJ 780 NJ 780 1930
+preplace netloc axi_dma_0_M_AXI_S2MM 1 3 1 1100
+preplace netloc axi_gpio_0_ip2intc_irpt 1 3 3 1070 10 NJ 10 1950
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 20 470 360 250 710 630 1120 650 1430 640 1930
+preplace netloc d_axi_i2s_audio_0_MCLK_O 1 5 1 NJ
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 3 700 340 NJ 340 NJ
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 2 1100J 640 1420
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 3 370 640 690J 650 1110
+levelinfo -pg 1 0 190 540 900 1270 1700 1970 -top 0 -bot 1080
+",
+}
+

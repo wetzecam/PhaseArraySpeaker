@@ -1,0 +1,212 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan 14 11:06:24 2019
+# Process ID: 11060
+# Current directory: C:/Users/arthur/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18168
+# Log file: C:/Users/arthur/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/arthur/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/arthur/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+0 Beta devices matching pattern found, 0 enabled.
+Setting up proc digilent_create_release_proc
+Setting up proc digilent_vivado_checkin_proc
+Setting up proc digilent_vivado_checkout_proc
+INFO: [Common 17-1463] Init.tcl in C:/Users/arthur/AppData/Roaming/Xilinx/Vivado/init.tcl is not used. Vivado_init.tcl is already sourced.
+start_gui
+create_project project_1 D:/Playground/project_1 -part xc7a50ticsg324-1L
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 943.758 ; gain = 74.215
+set_property board_part digilentinc.com:nexys-a7-50t:part0:1.0 [current_project]
+create_bd_design "design_1"
+Wrote  : <D:/Playground/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+create_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1010.176 ; gain = 66.418
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  D:/Github/vivado-library [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/vivado-library'.
+update_ip_catalog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1051.371 ; gain = 3.926
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv digilentinc.com:ip:pmod_bridge:1.0 pmod_bridge_0
+endgroup
+WARNING: [IP_Flow 19-465] param 'Component_Name' already exists. Ignoring.
+set_property -dict [list CONFIG.Top_Row_Interface {I2C} CONFIG.Bottom_Row_Interface {Disabled}] [get_bd_cells pmod_bridge_0]
+WARNING: [IP_Flow 19-465] param 'Component_Name' already exists. Ignoring.
+delete_bd_objs [get_bd_cells pmod_bridge_0]
+set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
+WARNING: [Project 1-153] The current project device 'xc7a50ticsg324-1l' does not match with the device on the 'DIGILENTINC.COM:ZYBO-Z7-10:PART0:1.0' board part. A device change to match the device on 'DIGILENTINC.COM:ZYBO-Z7-10:PART0:1.0' board part is being done. Please upgrade the IP in the project via the upgrade_ip command or by selecting Reports => Reports IP Status.
+INFO: [Project 1-152] Project part set to zynq (xc7z010clg400-1)
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv digilentinc.com:IP:PmodHYGRO:1.0 PmodHYGRO_0
+endgroup
+ipx::edit_ip_in_project -upgrade true -name PmodHYGRO_v1_0_project -directory D:/Playground/project_1/project_1.tmp/PmodHYGRO_v1_0_project d:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1236.867 ; gain = 40.762
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/vivado-library'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_iic_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_iic_0_0/PmodHYGRO_axi_iic_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_iic_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_iic_0_0/PmodHYGRO_axi_iic_0_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_timer_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_timer_0_0/PmodHYGRO_axi_timer_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_timer_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_timer_0_0/PmodHYGRO_axi_timer_0_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_pmod_bridge_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_pmod_bridge_0_0/PmodHYGRO_pmod_bridge_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_pmod_bridge_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_pmod_bridge_0_0/PmodHYGRO_pmod_bridge_0_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_xlconstant_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_xlconstant_0_0/PmodHYGRO_xlconstant_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_xlconstant_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_xlconstant_0_0/PmodHYGRO_xlconstant_0_0.veo'. Please regenerate to continue.
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1268.410 ; gain = 72.305
+update_compile_order -fileset sources_1
+startgroup
+current_project project_1
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_iic:2.0 axi_iic_0
+endgroup
+delete_bd_objs [get_bd_cells PmodHYGRO_0]
+current_project PmodHYGRO_v1_0_project
+close_project
+delete_bd_objs [get_bd_cells axi_iic_0]
+startgroup
+create_bd_cell -type ip -vlnv digilentinc.com:IP:PmodHYGRO:1.0 PmodHYGRO_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/PmodHYGRO_0/AXI_LITE_TMR} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins PmodHYGRO_0/AXI_LITE_TMR]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+</PmodHYGRO_0/AXI_LITE_TMR/Reg0> is being mapped into </processing_system7_0/Data> at <0x43C00000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/PmodHYGRO_0/AXI_LITE_IIC} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins PmodHYGRO_0/AXI_LITE_IIC]
+</PmodHYGRO_0/AXI_LITE_IIC/Reg0> is being mapped into </processing_system7_0/Data> at <0x43C10000 [ 64K ]>
+endgroup
+apply_board_connection -board_interface "ja" -ip_intf "/PmodHYGRO_0/Pmod_out" -diagram "design_1" 
+INFO: [board_interface 100-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells -quiet /PmodHYGRO_0]
+INFO: [board_interface 100-100] set_property CONFIG.PMOD ja [get_bd_cells -quiet /PmodHYGRO_0]
+INFO: [board_interface 100-100] create_bd_intf_port -mode Master -vlnv digilentinc.com:interface:pmod_rtl:1.0 ja
+INFO: [board_interface 100-100] connect_bd_intf_net /ja /PmodHYGRO_0/Pmod_out
+regenerate_bd_layout
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+startgroup
+set_property -dict [list CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} CONFIG.PCW_USE_FABRIC_INTERRUPT {1} CONFIG.PCW_IRQ_F2P_INTR {1}] [get_bd_cells processing_system7_0]
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+endgroup
+connect_bd_net [get_bd_pins PmodHYGRO_0/I2C_Interrupt] [get_bd_pins processing_system7_0/IRQ_F2P]
+regenerate_bd_layout
+save_bd_design
+Wrote  : <D:/Playground/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/Playground/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+validate_bd_design
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+validate_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 13digilent_create_release
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'D:/Github/Jan19/Zybo-Z7-10-DMA/proj/temp' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/Jan19/Zybo-Z7-10-DMA/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_auto_pc_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_rst_ps7_0_100M_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_auto_us_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_auto_us_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_xlconcat_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_axi_gpio_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_xlconstant_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_xbar_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_xbar_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_axi_dma_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_axi_iic_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_auto_pc_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_processing_system7_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'system_d_axi_i2s_audio_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'system_auto_pc_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_rst_ps7_0_100M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_auto_us_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_auto_us_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_xlconcat_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_axi_gpio_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_xlconstant_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_xbar_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_axi_dma_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_axi_iic_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_processing_system7_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'system_d_axi_i2s_audio_0_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_auto_pc_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_auto_pc_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_auto_us_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_auto_us_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_auto_us_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_auto_us_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_axi_dma_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_axi_dma_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_axi_gpio_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_axi_gpio_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_axi_iic_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_axi_iic_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_d_axi_i2s_audio_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_d_axi_i2s_audio_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_processing_system7_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_processing_system7_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_rst_ps7_0_100M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_rst_ps7_0_100M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_xbar_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_xbar_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_xlconcat_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_xlconcat_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'system_xlconstant_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'system_xlconstant_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+dHYGRO_v1_0_project d:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1766.484 ; gain = 82.113
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Github/vivado-library'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_iic_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_iic_0_0/PmodHYGRO_axi_iic_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_iic_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_iic_0_0/PmodHYGRO_axi_iic_0_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_timer_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_timer_0_0/PmodHYGRO_axi_timer_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_axi_timer_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_axi_timer_0_0/PmodHYGRO_axi_timer_0_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_pmod_bridge_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_pmod_bridge_0_0/PmodHYGRO_pmod_bridge_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_pmod_bridge_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_pmod_bridge_0_0/PmodHYGRO_pmod_bridge_0_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_xlconstant_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_xlconstant_0_0/PmodHYGRO_xlconstant_0_0.vho'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PmodHYGRO_xlconstant_0_0' generated file not found 'd:/Github/vivado-library/ip/Pmods/PmodHYGRO_v1_0/src/PmodHYGRO_xlconstant_0_0/PmodHYGRO_xlconstant_0_0.veo'. Please regenerate to continue.
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1786.836 ; gain = 102.465
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 14 11:28:56 2019...

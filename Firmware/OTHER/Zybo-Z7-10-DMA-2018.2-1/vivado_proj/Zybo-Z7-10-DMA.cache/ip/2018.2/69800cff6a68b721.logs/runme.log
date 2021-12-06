@@ -1,0 +1,1391 @@
+
+*** Running vivado
+    with args -log system_d_axi_i2s_audio_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_d_axi_i2s_audio_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source system_d_axi_i2s_audio_0_0.tcl -notrace
+Command: synth_design -top system_d_axi_i2s_audio_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25676 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1312.043 ; gain = 84.766 ; free physical = 17081 ; free virtual = 26364
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_d_axi_i2s_audio_0_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/synth/system_d_axi_i2s_audio_0_0.vhd:102]
+WARNING: [Synth 8-5640] Port 'mck_int' is missing in component declaration [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/synth/system_d_axi_i2s_audio_0_0.vhd:105]
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_AXI_STREAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_L_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_L_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'd_axi_i2s_audio_v2_0' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0.vhd:6' bound to instance 'U0' of component 'd_axi_i2s_audio_v2_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/synth/system_d_axi_i2s_audio_0_0.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'd_axi_i2s_audio_v2_0' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0.vhd:74]
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_AXI_STREAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_L_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_L_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_AXI_STREAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'd_axi_i2s_audio_v2_0_AXI_L' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:6' bound to instance 'd_axi_i2s_audio_v2_0_AXI_L_inst' of component 'd_axi_i2s_audio_v2_0_AXI_L' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'd_axi_i2s_audio_v2_0_AXI_L' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:113]
+	Parameter C_AXI_STREAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:254]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:255]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:256]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:257]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:258]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:259]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:260]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:262]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:263]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:264]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:265]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:266]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:267]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:268]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:270]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:271]
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'i2s_rx_tx' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:27' bound to instance 'Inst_I2sCtl' of component 'i2s_rx_tx' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:382]
+INFO: [Synth 8-638] synthesizing module 'i2s_rx_tx' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:102]
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'i2s_ctl' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_ctl.vhd:36' bound to instance 'Inst_I2sRxTx' of component 'i2s_ctl' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'i2s_ctl' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_ctl.vhd:67]
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'i2s_ctl' (1#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_ctl.vhd:67]
+INFO: [Synth 8-3491] module 'fifo_4' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/synth/fifo_4.vhd:59' bound to instance 'Inst_Sampling' of component 'fifo_4' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:276]
+INFO: [Synth 8-638] synthesizing module 'fifo_4' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/synth/fifo_4.vhd:73]
+	Parameter C_COMMON_CLOCK bound to: 0 - type: integer 
+	Parameter C_SELECT_XPM bound to: 0 - type: integer 
+	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
+	Parameter C_DATA_COUNT_WIDTH bound to: 4 - type: integer 
+	Parameter C_DEFAULT_VALUE bound to: BlankString - type: string 
+	Parameter C_DIN_WIDTH bound to: 4 - type: integer 
+	Parameter C_DOUT_RST_VAL bound to: 0 - type: string 
+	Parameter C_DOUT_WIDTH bound to: 4 - type: integer 
+	Parameter C_ENABLE_RLOCS bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
+	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_FULL bound to: 0 - type: integer 
+	Parameter C_HAS_BACKUP bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_INT_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_MEMINIT_FILE bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_RD_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_RD_RST bound to: 0 - type: integer 
+	Parameter C_HAS_RST bound to: 1 - type: integer 
+	Parameter C_HAS_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_VALID bound to: 0 - type: integer 
+	Parameter C_HAS_WR_ACK bound to: 0 - type: integer 
+	Parameter C_HAS_WR_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_WR_RST bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE bound to: 2 - type: integer 
+	Parameter C_INIT_WR_PNTR_VAL bound to: 0 - type: integer 
+	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter C_MIF_FILE_NAME bound to: BlankString - type: string 
+	Parameter C_OPTIMIZATION_MODE bound to: 0 - type: integer 
+	Parameter C_OVERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_PRELOAD_LATENCY bound to: 1 - type: integer 
+	Parameter C_PRELOAD_REGS bound to: 0 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE bound to: 512x36 - type: string 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL bound to: 2 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_NEGATE_VAL bound to: 3 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL bound to: 13 - type: integer 
+	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 12 - type: integer 
+	Parameter C_PROG_FULL_TYPE bound to: 0 - type: integer 
+	Parameter C_RD_DATA_COUNT_WIDTH bound to: 4 - type: integer 
+	Parameter C_RD_DEPTH bound to: 16 - type: integer 
+	Parameter C_RD_FREQ bound to: 1 - type: integer 
+	Parameter C_RD_PNTR_WIDTH bound to: 4 - type: integer 
+	Parameter C_UNDERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_USE_DOUT_RST bound to: 1 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_USE_EMBEDDED_REG bound to: 0 - type: integer 
+	Parameter C_USE_PIPELINE_REG bound to: 0 - type: integer 
+	Parameter C_POWER_SAVING_MODE bound to: 0 - type: integer 
+	Parameter C_USE_FIFO16_FLAGS bound to: 0 - type: integer 
+	Parameter C_USE_FWFT_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_VALID_LOW bound to: 0 - type: integer 
+	Parameter C_WR_ACK_LOW bound to: 0 - type: integer 
+	Parameter C_WR_DATA_COUNT_WIDTH bound to: 4 - type: integer 
+	Parameter C_WR_DEPTH bound to: 16 - type: integer 
+	Parameter C_WR_FREQ bound to: 1 - type: integer 
+	Parameter C_WR_PNTR_WIDTH bound to: 4 - type: integer 
+	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
+	Parameter C_MSGON_VAL bound to: 1 - type: integer 
+	Parameter C_ENABLE_RST_SYNC bound to: 1 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE bound to: 0 - type: integer 
+	Parameter C_SYNCHRONIZER_STAGE bound to: 2 - type: integer 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_WR_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_RD_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_SLAVE_CE bound to: 0 - type: integer 
+	Parameter C_HAS_MASTER_CE bound to: 0 - type: integer 
+	Parameter C_ADD_NGC_CONSTRAINT bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_SETTINGS bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_AXI_LEN_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXI_LOCK_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_AWUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_WUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_BUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_ARUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_RUSER bound to: 0 - type: integer 
+	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TDATA bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TREADY bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TSTRB_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TKEEP_WIDTH bound to: 1 - type: integer 
+	Parameter C_WACH_TYPE bound to: 0 - type: integer 
+	Parameter C_WDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_WRCH_TYPE bound to: 0 - type: integer 
+	Parameter C_RACH_TYPE bound to: 0 - type: integer 
+	Parameter C_RDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_AXIS_TYPE bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WRCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_AXIS bound to: 1 - type: integer 
+	Parameter C_APPLICATION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE_WACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WDCH bound to: 1kx36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WRCH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RDCH bound to: 1kx36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_AXIS bound to: 1kx18 - type: string 
+	Parameter C_USE_ECC_WACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WRCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_AXIS bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_DIN_WIDTH_WACH bound to: 1 - type: integer 
+	Parameter C_DIN_WIDTH_WDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_WRCH bound to: 2 - type: integer 
+	Parameter C_DIN_WIDTH_RACH bound to: 32 - type: integer 
+	Parameter C_DIN_WIDTH_RDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_AXIS bound to: 1 - type: integer 
+	Parameter C_WR_DEPTH_WACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_WDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_WRCH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_AXIS bound to: 1024 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WRCH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_AXIS bound to: 10 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_AXIS bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WRCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_AXIS bound to: 1023 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WRCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_AXIS bound to: 1022 - type: integer 
+	Parameter C_REG_SLICE_MODE_WACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WRCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_generator_v13_2_2' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/7aff/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd:38483' bound to instance 'U0' of component 'fifo_generator_v13_2_2' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/synth/fifo_4.vhd:543]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1171]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1222]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (2#1) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1171]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:205]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (3#1) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:358]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (15#1) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-256] done synthesizing module 'fifo_4' (29#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/synth/fifo_4.vhd:73]
+INFO: [Synth 8-3491] module 'fifo_32' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/synth/fifo_32.vhd:59' bound to instance 'Inst_I2sTxFifo' of component 'fifo_32' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:291]
+INFO: [Synth 8-638] synthesizing module 'fifo_32' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/synth/fifo_32.vhd:73]
+	Parameter C_COMMON_CLOCK bound to: 0 - type: integer 
+	Parameter C_SELECT_XPM bound to: 0 - type: integer 
+	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
+	Parameter C_DATA_COUNT_WIDTH bound to: 12 - type: integer 
+	Parameter C_DEFAULT_VALUE bound to: BlankString - type: string 
+	Parameter C_DIN_WIDTH bound to: 24 - type: integer 
+	Parameter C_DOUT_RST_VAL bound to: 0 - type: string 
+	Parameter C_DOUT_WIDTH bound to: 24 - type: integer 
+	Parameter C_ENABLE_RLOCS bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
+	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_FULL bound to: 0 - type: integer 
+	Parameter C_HAS_BACKUP bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_INT_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_MEMINIT_FILE bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_RD_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_RD_RST bound to: 0 - type: integer 
+	Parameter C_HAS_RST bound to: 1 - type: integer 
+	Parameter C_HAS_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_VALID bound to: 0 - type: integer 
+	Parameter C_HAS_WR_ACK bound to: 0 - type: integer 
+	Parameter C_HAS_WR_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_WR_RST bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE bound to: 2 - type: integer 
+	Parameter C_INIT_WR_PNTR_VAL bound to: 0 - type: integer 
+	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter C_MIF_FILE_NAME bound to: BlankString - type: string 
+	Parameter C_OPTIMIZATION_MODE bound to: 0 - type: integer 
+	Parameter C_OVERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_PRELOAD_LATENCY bound to: 1 - type: integer 
+	Parameter C_PRELOAD_REGS bound to: 0 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE bound to: 4kx9 - type: string 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL bound to: 2 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_NEGATE_VAL bound to: 3 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL bound to: 4093 - type: integer 
+	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 4092 - type: integer 
+	Parameter C_PROG_FULL_TYPE bound to: 0 - type: integer 
+	Parameter C_RD_DATA_COUNT_WIDTH bound to: 12 - type: integer 
+	Parameter C_RD_DEPTH bound to: 4096 - type: integer 
+	Parameter C_RD_FREQ bound to: 1 - type: integer 
+	Parameter C_RD_PNTR_WIDTH bound to: 12 - type: integer 
+	Parameter C_UNDERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_USE_DOUT_RST bound to: 1 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_USE_EMBEDDED_REG bound to: 0 - type: integer 
+	Parameter C_USE_PIPELINE_REG bound to: 0 - type: integer 
+	Parameter C_POWER_SAVING_MODE bound to: 0 - type: integer 
+	Parameter C_USE_FIFO16_FLAGS bound to: 0 - type: integer 
+	Parameter C_USE_FWFT_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_VALID_LOW bound to: 0 - type: integer 
+	Parameter C_WR_ACK_LOW bound to: 0 - type: integer 
+	Parameter C_WR_DATA_COUNT_WIDTH bound to: 12 - type: integer 
+	Parameter C_WR_DEPTH bound to: 4096 - type: integer 
+	Parameter C_WR_FREQ bound to: 1 - type: integer 
+	Parameter C_WR_PNTR_WIDTH bound to: 12 - type: integer 
+	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
+	Parameter C_MSGON_VAL bound to: 1 - type: integer 
+	Parameter C_ENABLE_RST_SYNC bound to: 1 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE bound to: 0 - type: integer 
+	Parameter C_SYNCHRONIZER_STAGE bound to: 2 - type: integer 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_WR_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_RD_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_SLAVE_CE bound to: 0 - type: integer 
+	Parameter C_HAS_MASTER_CE bound to: 0 - type: integer 
+	Parameter C_ADD_NGC_CONSTRAINT bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_SETTINGS bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_AXI_LEN_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXI_LOCK_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_AWUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_WUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_BUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_ARUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_RUSER bound to: 0 - type: integer 
+	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TDATA bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TREADY bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TSTRB_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TKEEP_WIDTH bound to: 1 - type: integer 
+	Parameter C_WACH_TYPE bound to: 0 - type: integer 
+	Parameter C_WDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_WRCH_TYPE bound to: 0 - type: integer 
+	Parameter C_RACH_TYPE bound to: 0 - type: integer 
+	Parameter C_RDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_AXIS_TYPE bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WRCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_AXIS bound to: 1 - type: integer 
+	Parameter C_APPLICATION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE_WACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WDCH bound to: 1kx36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WRCH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RDCH bound to: 1kx36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_AXIS bound to: 1kx18 - type: string 
+	Parameter C_USE_ECC_WACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WRCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_AXIS bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_DIN_WIDTH_WACH bound to: 1 - type: integer 
+	Parameter C_DIN_WIDTH_WDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_WRCH bound to: 2 - type: integer 
+	Parameter C_DIN_WIDTH_RACH bound to: 32 - type: integer 
+	Parameter C_DIN_WIDTH_RDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_AXIS bound to: 1 - type: integer 
+	Parameter C_WR_DEPTH_WACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_WDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_WRCH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_AXIS bound to: 1024 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WRCH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_AXIS bound to: 10 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_AXIS bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WRCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_AXIS bound to: 1023 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WRCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_AXIS bound to: 1022 - type: integer 
+	Parameter C_REG_SLICE_MODE_WACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WRCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_generator_v13_2_2' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/7aff/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd:38483' bound to instance 'U0' of component 'fifo_generator_v13_2_2' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/synth/fifo_32.vhd:543]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized0' [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized0' (29#1) [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-256] done synthesizing module 'fifo_32' (30#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/synth/fifo_32.vhd:73]
+INFO: [Synth 8-3491] module 'fifo_32' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/synth/fifo_32.vhd:59' bound to instance 'Inst_I2sRxFifo' of component 'fifo_32' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:318]
+INFO: [Synth 8-3491] module 'DCM' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/DCM.vhd:74' bound to instance 'Inst_Dcm' of component 'DCM' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:351]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_DCM' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/DCM.vhd:86]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 51 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 83 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 5 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.000000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-113] binding component instance 'plle2_adv_inst' to cell 'PLLE2_ADV' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/DCM.vhd:127]
+INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/DCM.vhd:179]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_DCM' (31#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/DCM.vhd:86]
+INFO: [Synth 8-3491] module 'Sync_ff' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:23' bound to instance 'Inst_SyncBit_RX_RS' of component 'Sync_ff' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:363]
+INFO: [Synth 8-638] synthesizing module 'Sync_ff' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:34]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Sync_ff' (32#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:34]
+INFO: [Synth 8-3491] module 'Sync_ff' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:23' bound to instance 'Inst_SyncBit_TX_RS' of component 'Sync_ff' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:372]
+INFO: [Synth 8-3491] module 'Sync_ff' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:23' bound to instance 'Inst_SyncBit_CTL_MM' of component 'Sync_ff' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:381]
+INFO: [Synth 8-3491] module 'rst_sync' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/rst_sync.vhd:37' bound to instance 'Inst_Rst_Sync_TX_RST' of component 'rst_sync' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'rst_sync' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/rst_sync.vhd:43]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst_1' to cell 'FDPE' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/rst_sync.vhd:50]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst_2' to cell 'FDPE' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/rst_sync.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'rst_sync' (33#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/rst_sync.vhd:43]
+INFO: [Synth 8-3491] module 'rst_sync' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/rst_sync.vhd:37' bound to instance 'Inst_Rst_Sync_RST' of component 'rst_sync' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:399]
+INFO: [Synth 8-3491] module 'Sync_ff' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:23' bound to instance 'Inst_SyncBit_Tx_Empty' of component 'Sync_ff' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:408]
+INFO: [Synth 8-3491] module 'Sync_ff' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/Sync_ff.vhd:23' bound to instance 'Inst_SyncBit_Rx_Full' of component 'Sync_ff' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:417]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'ODDR_inst' to cell 'ODDR' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:426]
+WARNING: [Synth 8-3848] Net DBG_RX_FIFO_FULL_O in module/entity i2s_rx_tx does not have driver. [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'i2s_rx_tx' (34#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_rx_tx.vhd:102]
+	Parameter C_AXI_STREAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'i2s_stream' declared at '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_stream.vhd:30' bound to instance 'Inst_I2sStream' of component 'i2s_stream' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:439]
+INFO: [Synth 8-638] synthesizing module 'i2s_stream' [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_stream.vhd:77]
+	Parameter C_AXI_STREAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'i2s_stream' (35#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/i2s_stream.vhd:77]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:558]
+INFO: [Synth 8-256] done synthesizing module 'd_axi_i2s_audio_v2_0_AXI_L' (36#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0_AXI_L.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'd_axi_i2s_audio_v2_0' (37#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ipshared/e494/src/d_axi_i2s_audio_v2_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'system_d_axi_i2s_audio_0_0' (38#1) [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/synth/system_d_axi_i2s_audio_0_0.vhd:102]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[31]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[30]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[29]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[28]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[27]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[26]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[25]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TDATA_I[24]
+WARNING: [Synth 8-3331] design i2s_stream has unconnected port S_AXIS_MM2S_TLAST_I
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_RST
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port SRST
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port SAFETY_CKT_WR_RST
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[11]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[10]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[9]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[8]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[7]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[6]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[5]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[4]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[3]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[2]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[1]
+WARNING: [Synth 8-3331] design wr_status_flags_as__parameterized0 has unconnected port WR_PNTR_PLUS3[0]
+WARNING: [Synth 8-3331] design wr_bin_cntr__parameterized0 has unconnected port SRST
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port WR_EN_INTO_LOGIC
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port WR_RST_INTO_LOGIC
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port RD_EN
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port SRST_FULL_FF
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port WR_RST_BUSY
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port EMPTY
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port RAM_RD_EN
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port ALMOST_EMPTY
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[11]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[10]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[9]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[8]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[7]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[6]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[5]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[4]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[3]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[2]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[1]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH[0]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[11]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[10]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[9]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[8]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[7]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[6]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[5]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[4]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[3]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[2]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[1]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_ASSERT[0]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[11]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[10]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[9]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[8]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[7]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[6]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[5]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[4]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[3]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[2]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[1]
+WARNING: [Synth 8-3331] design wr_logic__parameterized0 has unconnected port PROG_FULL_THRESH_NEGATE[0]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port SRST
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port SAFETY_CKT_RD_RST
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[11]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[10]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[9]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[8]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[7]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[6]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[5]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[4]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[3]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[2]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[1]
+WARNING: [Synth 8-3331] design rd_status_flags_as__parameterized0 has unconnected port RD_PNTR_PLUS2[0]
+WARNING: [Synth 8-3331] design rd_bin_cntr__parameterized0 has unconnected port SRST
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port RD_EN_INTO_LOGIC
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port RD_RST_INTO_LOGIC
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port RD_RST_BUSY
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port RAM_WR_EN
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port RST_FULL_FF
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port ALMOST_FULL_FB
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port FULL
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[11]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[10]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[9]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[8]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[7]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[6]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[5]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[4]
+WARNING: [Synth 8-3331] design rd_logic__parameterized0 has unconnected port WR_PNTR_PLUS1_RD[3]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:25 ; elapsed = 00:01:34 . Memory (MB): peak = 1595.129 ; gain = 367.852 ; free physical = 17030 ; free virtual = 26314
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:26 ; elapsed = 00:01:35 . Memory (MB): peak = 1595.129 ; gain = 367.852 ; free physical = 17037 ; free virtual = 26321
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:26 ; elapsed = 00:01:35 . Memory (MB): peak = 1595.129 ; gain = 367.852 ; free physical = 17037 ; free virtual = 26321
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/fifo_4.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/fifo_4.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc] for cell 'U0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32_clocks.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32_clocks.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32_clocks.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_32/fifo_32_clocks.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0'
+Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/fifo_4_clocks.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0'
+Finished Parsing XDC File [/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/fifo_4/fifo_4_clocks.xdc] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/opt/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_d_axi_i2s_audio_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1726.113 ; gain = 0.000 ; free physical = 16804 ; free virtual = 26087
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:35 ; elapsed = 00:01:53 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16871 ; free virtual = 26155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:35 ; elapsed = 00:01:53 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16871 ; free virtual = 26155
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property ASYNC_REG = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Rst_Sync_RST. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc, line 4).
+Applied set_property ASYNC_REG = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Rst_Sync_TX_RST. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc, line 4).
+WARNING: set_property ASYNC_REG could not find object (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc, line 4).
+WARNING: set_property ASYNC_REG could not find object (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc, line 4).
+WARNING: set_property ASYNC_REG could not find object (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc, line 4).
+WARNING: set_property ASYNC_REG could not find object (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.srcs/sources_1/bd/system/ip/system_d_axi_i2s_audio_0_0/src/d_axi_i2s_audio.xdc, line 4).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/dont_touch.xdc, line 14).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/dont_touch.xdc, line 14).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/dont_touch.xdc, line 21).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0. (constraint file  /home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/dont_touch.xdc, line 24).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /rd_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /wr_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /rd_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /rd_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /wr_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /wr_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_Sampling/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd . (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:36 ; elapsed = 00:01:53 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16874 ; free virtual = 26157
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "DIV_RATE" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "LRCLK" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:36 ; elapsed = 00:01:54 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16862 ; free virtual = 26147
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input     12 Bit         XORs := 4     
+	   2 Input      4 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 162   
++---Registers : 
+	               32 Bit    Registers := 13    
+	               31 Bit    Registers := 1     
+	               24 Bit    Registers := 3     
+	               21 Bit    Registers := 2     
+	               12 Bit    Registers := 22    
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 22    
+	                2 Bit    Registers := 16    
+	                1 Bit    Registers := 55    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 13    
+	   9 Input     32 Bit        Muxes := 8     
+	   2 Input     24 Bit        Muxes := 2     
+	   2 Input     21 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 2     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module i2s_ctl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               31 Bit    Registers := 1     
+	               24 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 2     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+Module xpm_cdc_async_rst 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module xpm_cdc_single 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module reset_blk_ramfifo__xdcDup__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module xpm_cdc_gray 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                4 Bit    Registers := 4     
+Module rd_bin_cntr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 2     
+Module compare 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module rd_status_flags_as 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module wr_bin_cntr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 3     
+Module wr_status_flags_as 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module reset_blk_ramfifo__xdcDup__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module xpm_cdc_gray__parameterized0 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     12 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 11    
++---Registers : 
+	               12 Bit    Registers := 4     
+Module rd_bin_cntr__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module compare__parameterized0 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
+Module rd_status_flags_as__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module wr_bin_cntr__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+Module wr_status_flags_as__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module reset_blk_ramfifo 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module Sync_ff 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module i2s_rx_tx 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module i2s_stream 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               21 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     21 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
+Module d_axi_i2s_audio_v2_0_AXI_L 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 11    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	   9 Input     32 Bit        Muxes := 8     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[2]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[3]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[4]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[5]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[6]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[7]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[8]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[9]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[10]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[11]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[12]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[13]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[14]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[15]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[18]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[19]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[20]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[21]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[22]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[23]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[24]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[25]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[24] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[25]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[25] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[26]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[27]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[26] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[27]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[28]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[27] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[28]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[28] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[29]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[30]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[29] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[30]' (FDR) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[31] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[0]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[5]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[6]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[7]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[8]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[9]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[10]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[11]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[12]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[13]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[14]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[15]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[16]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[17]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[18]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[19]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[20]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[21]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[22]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[23]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[24]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[25]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[26]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[27]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[28]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[29]' (FD) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[30]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[30] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/axi_rresp_reg[0]' (FDRE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/axi_bresp_reg[0]' (FDRE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[0]' (FDE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[1]' (FDE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[2] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[2]' (FDE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[3] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[3]' (FDE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[4] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[4]' (FDE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[5] )
+INFO: [Synth 8-3886] merging instance 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[5]' (FDE) to 'U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/DIV_RATE_reg[30]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_Out_int_reg[6]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/axi_bresp_reg[1]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/axi_awaddr_reg[1]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/axi_awaddr_reg[0]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[31]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[30]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[29]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[28]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[27]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[26]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[25]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_DATA_OUT_REG_reg[24]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/I2S_STATUS_REG_reg[31]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/axi_araddr_reg[1]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/axi_araddr_reg[0]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+WARNING: [Synth 8-3332] Sequential element (d_axi_i2s_audio_v2_0_AXI_L_inst/axi_rresp_reg[1]) is unused and will be removed from module d_axi_i2s_audio_v2_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:38 ; elapsed = 00:01:56 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16831 ; free virtual = 26133
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:43 ; elapsed = 00:02:03 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16697 ; free virtual = 25999
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:44 ; elapsed = 00:02:03 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16697 ; free virtual = 25999
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:44 ; elapsed = 00:02:03 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16694 ; free virtual = 25996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin d_axi_i2s_audio_v2_0_AXI_L_inst/DBG_RX_FIFO_FULL_O_inferred:in0 to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16694 ; free virtual = 25996
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16694 ; free virtual = 25996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16693 ; free virtual = 25995
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16693 ; free virtual = 25995
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16694 ; free virtual = 25996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16694 ; free virtual = 25996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------------+-----------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name          | RTL Name                                                                    | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------------+-----------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|d_axi_i2s_audio_v2_0 | d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Q3F_reg            | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|d_axi_i2s_audio_v2_0 | d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Q3R_reg            | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|d_axi_i2s_audio_v2_0 | d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxTx/Data_In_int_reg[8] | 9      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++---------------------+-----------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    32|
+|3     |LUT1      |    56|
+|4     |LUT2      |   133|
+|5     |LUT3      |   105|
+|6     |LUT4      |   126|
+|7     |LUT5      |    84|
+|8     |LUT6      |   124|
+|9     |MUXCY     |    48|
+|10    |ODDR      |     1|
+|11    |PLLE2_ADV |     1|
+|12    |RAMB18E1  |     1|
+|13    |RAMB36E1  |     6|
+|14    |SRL16E    |     3|
+|15    |FDCE      |   149|
+|16    |FDPE      |    55|
+|17    |FDRE      |   785|
+|18    |FDSE      |     4|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------------------------------------------------------------------------------------+--------------------------------------------------------+------+
+|      |Instance                                                                                     |Module                                                  |Cells |
++------+---------------------------------------------------------------------------------------------+--------------------------------------------------------+------+
+|1     |top                                                                                          |                                                        |  1714|
+|2     |  U0                                                                                         |d_axi_i2s_audio_v2_0                                    |  1714|
+|3     |    d_axi_i2s_audio_v2_0_AXI_L_inst                                                          |d_axi_i2s_audio_v2_0_AXI_L                              |  1714|
+|4     |      Inst_I2sCtl                                                                            |i2s_rx_tx                                               |   970|
+|5     |        Inst_Sampling                                                                        |fifo_4                                                  |   117|
+|6     |          U0                                                                                 |fifo_generator_v13_2_2                                  |   117|
+|7     |            inst_fifo_gen                                                                    |fifo_generator_v13_2_2_synth                            |   117|
+|8     |              \gconvfifo.rf                                                                  |fifo_generator_top                                      |   117|
+|9     |                \grf.rf                                                                      |fifo_generator_ramfifo                                  |   117|
+|10    |                  \gntv_or_sync_fifo.gcx.clkx                                                |clk_x_pntrs                                             |    45|
+|11    |                    wr_pntr_cdc_inst                                                         |xpm_cdc_gray__1                                         |    22|
+|12    |                    rd_pntr_cdc_inst                                                         |xpm_cdc_gray                                            |    22|
+|13    |                  \gntv_or_sync_fifo.gl0.rd                                                  |rd_logic                                                |    21|
+|14    |                    \gras.rsts                                                               |rd_status_flags_as                                      |     4|
+|15    |                    rpntr                                                                    |rd_bin_cntr                                             |    17|
+|16    |                  \gntv_or_sync_fifo.gl0.wr                                                  |wr_logic                                                |    22|
+|17    |                    \gwas.wsts                                                               |wr_status_flags_as                                      |     4|
+|18    |                    wpntr                                                                    |wr_bin_cntr                                             |    18|
+|19    |                  \gntv_or_sync_fifo.mem                                                     |memory                                                  |     1|
+|20    |                    \gbm.gbmg.gbmga.ngecc.bmg                                                |blk_mem_gen_v8_4_1                                      |     1|
+|21    |                      inst_blk_mem_gen                                                       |blk_mem_gen_v8_4_1_synth                                |     1|
+|22    |                        \gnbram.gnativebmg.native_blk_mem_gen                                |blk_mem_gen_top                                         |     1|
+|23    |                          \valid.cstr                                                        |blk_mem_gen_generic_cstr                                |     1|
+|24    |                            \ramloop[0].ram.r                                                |blk_mem_gen_prim_width                                  |     1|
+|25    |                              \prim_noinit.ram                                               |blk_mem_gen_prim_wrapper                                |     1|
+|26    |                  rstblk                                                                     |reset_blk_ramfifo__xdcDup__1                            |    28|
+|27    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst                     |xpm_cdc_async_rst__3                                    |     2|
+|28    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst             |xpm_cdc_async_rst__4                                    |     2|
+|29    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd  |xpm_cdc_single__3                                       |     4|
+|30    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr  |xpm_cdc_single__4                                       |     4|
+|31    |        Inst_I2sTxFifo                                                                       |fifo_32                                                 |   296|
+|32    |          U0                                                                                 |fifo_generator_v13_2_2__parameterized1__xdcDup__1       |   296|
+|33    |            inst_fifo_gen                                                                    |fifo_generator_v13_2_2_synth__parameterized0__xdcDup__1 |   296|
+|34    |              \gconvfifo.rf                                                                  |fifo_generator_top__parameterized0__xdcDup__1           |   296|
+|35    |                \grf.rf                                                                      |fifo_generator_ramfifo__parameterized0__xdcDup__1       |   296|
+|36    |                  \gntv_or_sync_fifo.gcx.clkx                                                |clk_x_pntrs__parameterized0__xdcDup__1                  |   140|
+|37    |                    wr_pntr_cdc_inst                                                         |xpm_cdc_gray__parameterized0__2                         |    70|
+|38    |                    rd_pntr_cdc_inst                                                         |xpm_cdc_gray__parameterized0__3                         |    70|
+|39    |                  \gntv_or_sync_fifo.gl0.rd                                                  |rd_logic__parameterized0_7                              |    56|
+|40    |                    \gras.rsts                                                               |rd_status_flags_as__parameterized0_24                   |    28|
+|41    |                      c0                                                                     |compare__parameterized0_26                              |    12|
+|42    |                      c1                                                                     |compare__parameterized0_27                              |    12|
+|43    |                    rpntr                                                                    |rd_bin_cntr__parameterized0_25                          |    28|
+|44    |                  \gntv_or_sync_fifo.gl0.wr                                                  |wr_logic__parameterized0_8                              |    68|
+|45    |                    \gwas.wsts                                                               |wr_status_flags_as__parameterized0_20                   |    28|
+|46    |                      c1                                                                     |compare__parameterized0_22                              |    12|
+|47    |                      c2                                                                     |compare__parameterized0_23                              |    12|
+|48    |                    wpntr                                                                    |wr_bin_cntr__parameterized0_21                          |    40|
+|49    |                  \gntv_or_sync_fifo.mem                                                     |memory__parameterized0_9                                |     4|
+|50    |                    \gbm.gbmg.gbmga.ngecc.bmg                                                |blk_mem_gen_v8_4_1__parameterized1_10                   |     3|
+|51    |                      inst_blk_mem_gen                                                       |blk_mem_gen_v8_4_1_synth__parameterized0_11             |     3|
+|52    |                        \gnbram.gnativebmg.native_blk_mem_gen                                |blk_mem_gen_top__parameterized0_12                      |     3|
+|53    |                          \valid.cstr                                                        |blk_mem_gen_generic_cstr__parameterized0_13             |     3|
+|54    |                            \ramloop[0].ram.r                                                |blk_mem_gen_prim_width__parameterized0_14               |     1|
+|55    |                              \prim_noinit.ram                                               |blk_mem_gen_prim_wrapper__parameterized0_19             |     1|
+|56    |                            \ramloop[1].ram.r                                                |blk_mem_gen_prim_width__parameterized1_15               |     1|
+|57    |                              \prim_noinit.ram                                               |blk_mem_gen_prim_wrapper__parameterized1_18             |     1|
+|58    |                            \ramloop[2].ram.r                                                |blk_mem_gen_prim_width__parameterized2_16               |     1|
+|59    |                              \prim_noinit.ram                                               |blk_mem_gen_prim_wrapper__parameterized2_17             |     1|
+|60    |                  rstblk                                                                     |reset_blk_ramfifo__xdcDup__2                            |    28|
+|61    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst                     |xpm_cdc_async_rst__5                                    |     2|
+|62    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst             |xpm_cdc_async_rst__6                                    |     2|
+|63    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd  |xpm_cdc_single__5                                       |     4|
+|64    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr  |xpm_cdc_single__6                                       |     4|
+|65    |        Inst_I2sRxFifo                                                                       |fifo_32__xdcDup__1                                      |   296|
+|66    |          U0                                                                                 |fifo_generator_v13_2_2__parameterized1                  |   296|
+|67    |            inst_fifo_gen                                                                    |fifo_generator_v13_2_2_synth__parameterized0            |   296|
+|68    |              \gconvfifo.rf                                                                  |fifo_generator_top__parameterized0                      |   296|
+|69    |                \grf.rf                                                                      |fifo_generator_ramfifo__parameterized0                  |   296|
+|70    |                  \gntv_or_sync_fifo.gcx.clkx                                                |clk_x_pntrs__parameterized0                             |   140|
+|71    |                    wr_pntr_cdc_inst                                                         |xpm_cdc_gray__parameterized0__4                         |    70|
+|72    |                    rd_pntr_cdc_inst                                                         |xpm_cdc_gray__parameterized0                            |    70|
+|73    |                  \gntv_or_sync_fifo.gl0.rd                                                  |rd_logic__parameterized0                                |    56|
+|74    |                    \gras.rsts                                                               |rd_status_flags_as__parameterized0                      |    28|
+|75    |                      c0                                                                     |compare__parameterized0_5                               |    12|
+|76    |                      c1                                                                     |compare__parameterized0_6                               |    12|
+|77    |                    rpntr                                                                    |rd_bin_cntr__parameterized0                             |    28|
+|78    |                  \gntv_or_sync_fifo.gl0.wr                                                  |wr_logic__parameterized0                                |    68|
+|79    |                    \gwas.wsts                                                               |wr_status_flags_as__parameterized0                      |    28|
+|80    |                      c1                                                                     |compare__parameterized0                                 |    12|
+|81    |                      c2                                                                     |compare__parameterized0_4                               |    12|
+|82    |                    wpntr                                                                    |wr_bin_cntr__parameterized0                             |    40|
+|83    |                  \gntv_or_sync_fifo.mem                                                     |memory__parameterized0                                  |     4|
+|84    |                    \gbm.gbmg.gbmga.ngecc.bmg                                                |blk_mem_gen_v8_4_1__parameterized1                      |     3|
+|85    |                      inst_blk_mem_gen                                                       |blk_mem_gen_v8_4_1_synth__parameterized0                |     3|
+|86    |                        \gnbram.gnativebmg.native_blk_mem_gen                                |blk_mem_gen_top__parameterized0                         |     3|
+|87    |                          \valid.cstr                                                        |blk_mem_gen_generic_cstr__parameterized0                |     3|
+|88    |                            \ramloop[0].ram.r                                                |blk_mem_gen_prim_width__parameterized0                  |     1|
+|89    |                              \prim_noinit.ram                                               |blk_mem_gen_prim_wrapper__parameterized0                |     1|
+|90    |                            \ramloop[1].ram.r                                                |blk_mem_gen_prim_width__parameterized1                  |     1|
+|91    |                              \prim_noinit.ram                                               |blk_mem_gen_prim_wrapper__parameterized1                |     1|
+|92    |                            \ramloop[2].ram.r                                                |blk_mem_gen_prim_width__parameterized2                  |     1|
+|93    |                              \prim_noinit.ram                                               |blk_mem_gen_prim_wrapper__parameterized2                |     1|
+|94    |                  rstblk                                                                     |reset_blk_ramfifo                                       |    28|
+|95    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst                     |xpm_cdc_async_rst__7                                    |     2|
+|96    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst             |xpm_cdc_async_rst                                       |     2|
+|97    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd  |xpm_cdc_single__7                                       |     4|
+|98    |                    \ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr  |xpm_cdc_single                                          |     4|
+|99    |        Inst_Dcm                                                                             |xil_defaultlib_DCM                                      |     3|
+|100   |        Inst_I2sRxTx                                                                         |i2s_ctl                                                 |   230|
+|101   |        Inst_Rst_Sync_RST                                                                    |rst_sync__xdcDup__1                                     |     2|
+|102   |        Inst_Rst_Sync_TX_RST                                                                 |rst_sync                                                |     3|
+|103   |        Inst_SyncBit_CTL_MM                                                                  |Sync_ff                                                 |     4|
+|104   |        Inst_SyncBit_RX_RS                                                                   |Sync_ff_0                                               |     4|
+|105   |        Inst_SyncBit_Rx_Full                                                                 |Sync_ff_1                                               |     3|
+|106   |        Inst_SyncBit_TX_RS                                                                   |Sync_ff_2                                               |     5|
+|107   |        Inst_SyncBit_Tx_Empty                                                                |Sync_ff_3                                               |     3|
+|108   |      Inst_I2sStream                                                                         |i2s_stream                                              |   243|
++------+---------------------------------------------------------------------------------------------+--------------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16694 ; free virtual = 25996
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1448 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:36 ; elapsed = 00:01:48 . Memory (MB): peak = 1726.113 ; gain = 367.852 ; free physical = 16751 ; free virtual = 26053
+Synthesis Optimization Complete : Time (s): cpu = 00:01:45 ; elapsed = 00:02:04 . Memory (MB): peak = 1726.113 ; gain = 498.836 ; free physical = 16751 ; free virtual = 26053
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 89 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+174 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:46 ; elapsed = 00:02:05 . Memory (MB): peak = 1734.121 ; gain = 518.531 ; free physical = 16746 ; free virtual = 26048
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/cameron/PhaseArraySpeaker/Firmware/OTHER/Zybo-Z7-10-DMA-2018.2-1/vivado_proj/Zybo-Z7-10-DMA.runs/system_d_axi_i2s_audio_0_0_synth_1/system_d_axi_i2s_audio_0_0.dcp' has been generated.
